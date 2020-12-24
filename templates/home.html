@@ -1,0 +1,215 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_css %}
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="{% static "plugins/daterangepicker/daterangepicker.css" %}">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="{% static "plugins/select2/css/select2.min.css" %}">
+    <link rel="stylesheet" href="{% static "plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" %}">
+{% endblock %}
+{% block more_script %}
+    <!-- ChartJS -->
+    <script src="{% static "plugins/chart.js/Chart.min.js" %}"></script>
+    <!-- Select2 -->
+    <script src="{% static "plugins/select2/js/select2.full.min.js" %}"></script>
+    <!-- InputMask -->
+    <script src="{% static "plugins/moment/moment.min.js" %}"></script>
+    <script src="{% static "plugins/inputmask/min/jquery.inputmask.bundle.min.js" %}"></script>
+    <!-- date-range-picker -->
+    <script src="{% static "plugins/daterangepicker/daterangepicker.js" %}"></script>
+    <script>
+        //-------------
+        //- DONUT CHART
+        //-------------
+        // Get context with jQuery - using jQuery's .get() method.
+        function report_data(chart_id,period,field,m_name) {
+            $.ajax({
+                url:"{% url 'financial:get_report_data' %}",
+                data:{"period":period,"m_name":m_name,"field":field},
+                dataType:'json',
+                success:function(result) {
+                    var name_list=result["name_list"];
+                    var data_list=result["data_list"];
+                    var donutChartCanvas = $('#'+chart_id).get(0).getContext('2d');
+                    var donutData        = {
+                        labels: name_list,
+                        datasets: [{
+                            data: data_list,
+                            backgroundColor : ['#C60000','#f56954','#C68D00','#f39c12','#00A763','#00B2B4','#00c0ef', '#3c8dbc', '#d2d6de','#000000'],
+                        }]
+                    };
+                    var donutOptions     = {
+                        maintainAspectRatio : false,
+                        responsive : true,
+                        legend:{
+                            position:'right',
+                            onClick:function (e,legendItem) {
+                                var record_id=name_list[legendItem.index];
+                                window.open("/list/"+m_name+"/?"+field+"="+record_id)
+                            },
+                            labels:{
+                                generateLabels: function(chart) {
+                                    var data = chart.data;
+                                    if (data.labels.length && data.datasets.length) {
+                                        return data.labels.map(function(label, i) {
+                                            var meta = chart.getDatasetMeta(0);
+                                            var style = meta.controller.getStyle(i);
+                                            return {
+                                                text: label+':  '+data_list[i],
+                                                fillStyle: style.backgroundColor,
+                                                strokeStyle: style.borderColor,
+                                                lineWidth: style.borderWidth,
+                                                hidden: isNaN(data.datasets[0].data[i]) || meta.data[i].hidden,
+                                                // Extra data used for toggling the correct item
+                                                index: i
+                                            };
+                                        });
+                                    }
+                                    return [];
+                                }
+                            }
+                        }
+                    };
+                    //Create pie or douhnut chart
+                    // You can switch between pie and douhnut using the method below.
+                    var donutChart = new Chart(donutChartCanvas, {
+                        type: 'doughnut',
+                        data: donutData,
+                        options: donutOptions
+                    })
+                }
+            });
+        };
+        if (document.getElementById("chart1")){
+            window.onload=report_data('chart1',30,'name','Account',);
+        };
+    </script>
+    <script>
+        $('.row-link').dblclick(function() {
+            window.location = this.getAttribute("href")
+        });
+    </script>
+    <script>
+        function filter_table(state_id) {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("search_text_"+state_id);
+            filter = input.value.toUpperCase();
+            table = document.getElementById("table_" + state_id);
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        {% if request.user.is_authenticated %}
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card card-success" style="max-height: 500px">
+                        <div class="card-header">
+                            <h3 class="card-title">İşleme Alınacak Tekrarlı Olaylar</h3>
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 250px;">
+                                    <input type="text" name="search_text" class="form-control float-right" placeholder="Arama" id="search_text_1" onkeyup="filter_table(1)">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover text-nowrap" id="table_1">
+                                <tbody>
+                                    {% for rr_object in rr_object_list %}
+                                        <tr class="row-link" href="{% url 'global_update' 'RepetitiveRecord' rr_object.id %}">
+                                            <td style="max-width: 30ch">
+                                                {{ rr_object|safe }}
+                                            </td>
+                                            <td style="max-width: 30ch">
+                                                {{ rr_object.last_date }}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card card-success" style="max-height: 500px">
+                        <div class="card-header">
+                            <h3 class="card-title">Mevcut Hesap Durumu</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="chart1" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card card-success" style="max-height: 500px">
+                        <div class="card-header">
+                            <h3 class="card-title">Sık Görüşülen Kişiler</h3>
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 250px;">
+                                    <input type="text" name="search_text" class="form-control float-right" placeholder="Arama" id="search_text_3" onkeyup="filter_table(3)">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover text-nowrap" id="table_3">
+                                <tbody>
+                                    {% for f_object in f_object_list %}
+                                        <tr class="row-link" href="{% url 'global_detail' 'Person' f_object.0.id %}">
+                                            <td style="max-width: 30ch">
+                                                {% if f_object.1 %}
+                                                    <img src="{{ f_object.1 }}" style="width:30px;height:30px;">
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                <p>{{ f_object.0 }}</p>
+                                            </td>
+                                            <td>
+                                                {% for key,value in f_object.0.remote_attr_dict.items %}
+                                                    {% if key.model.name == "PersonPhone" %}
+                                                        {% for item in value %}
+                                                            <p><a href="tel:{{ item.phone_number }}">{{ item|safe }}</a></p>
+                                                        {% endfor %}
+                                                    {% elif key.model.name == "PersonEmail"%}
+                                                        {% for item in value %}
+                                                            <p><a href="mailto:{{ item.email }}">{{ item|safe }}</a></p>
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                        </div>
+                    </div>
+                <!-- /.card -->
+                </div>
+                <div class="col-lg-6">
+                    {% get_series_list request state %}
+                </div>
+            </div>
+        {% else %}
+        {% endif %}
+    </div>
+{% endblock %}

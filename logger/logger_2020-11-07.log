@@ -1,0 +1,2372 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 16:55:22 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165568
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO [GET] method: 2020-11-07 16:55:23 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO [GET] method: 2020-11-07 16:55:23 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 16:55:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO [GET] method: 2020-11-07 16:55:27 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 95445
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 16:55:59 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 95445
+INFO [GET] method: 2020-11-07 16:56:12 ,ip: 127.0.0.1,	path: /add/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Change/ HTTP/1.1" 200 240387
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:04:50 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165568
+INFO [GET] method: 2020-11-07 17:04:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 17:04:54 ,ip: 127.0.0.1,	path: /list/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:04:54 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/ModelLM/ HTTP/1.1" 200 190835
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 351818
+INFO [GET] method: 2020-11-07 17:05:03 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=change HTTP/1.1" 200 93943
+INFO [GET] method: 2020-11-07 17:05:14 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/ HTTP/1.1" 200 37442
+INFO [POST] method: 2020-11-07 17:06:16 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:06:16 ,ip: 127.0.0.1,	path: /detail/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/330/ HTTP/1.1" 200 39520
+INFO [GET] method: 2020-11-07 17:06:18 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/ HTTP/1.1" 200 37442
+INFO [POST] method: 2020-11-07 17:06:33 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:06:33 ,ip: 127.0.0.1,	path: /detail/FieldLM/331/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/331/ HTTP/1.1" 200 39529
+INFO [GET] method: 2020-11-07 17:06:38 ,ip: 127.0.0.1,	path: /add/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/ModelLM/ HTTP/1.1" 200 33431
+INFO [GET] method: 2020-11-07 17:06:53 ,ip: 127.0.0.1,	path: /list/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/ModelLM/?search=change HTTP/1.1" 200 40663
+INFO [POST] method: 2020-11-07 17:07:46 ,ip: 127.0.0.1,	path: /add/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/ModelLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:07:47 ,ip: 127.0.0.1,	path: /detail/ModelLM/57/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ModelLM/57/ HTTP/1.1" 200 37360
+INFO [GET] method: 2020-11-07 17:08:05 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=57 HTTP/1.1" 200 37858
+INFO [POST] method: 2020-11-07 17:09:10 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=57 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:09:10 ,ip: 127.0.0.1,	path: /detail/FieldLM/332/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/332/ HTTP/1.1" 200 39953
+INFO [GET] method: 2020-11-07 17:09:11 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=57 HTTP/1.1" 200 37858
+INFO [POST] method: 2020-11-07 17:09:50 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=57 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:09:50 ,ip: 127.0.0.1,	path: /detail/FieldLM/333/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/333/ HTTP/1.1" 200 39970
+INFO [GET] method: 2020-11-07 17:09:54 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=57 HTTP/1.1" 200 37858
+INFO [POST] method: 2020-11-07 17:10:08 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=57 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:10:08 ,ip: 127.0.0.1,	path: /detail/FieldLM/334/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/334/ HTTP/1.1" 200 39935
+INFO [GET] method: 2020-11-07 17:10:09 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=57 HTTP/1.1" 200 37858
+INFO [POST] method: 2020-11-07 17:11:12 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=57 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:11:12 ,ip: 127.0.0.1,	path: /detail/FieldLM/335/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/335/ HTTP/1.1" 200 39922
+INFO [GET] method: 2020-11-07 17:11:16 ,ip: 127.0.0.1,	path: /update/FieldLM/331/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/331/ HTTP/1.1" 200 37957
+INFO [POST] method: 2020-11-07 17:11:24 ,ip: 127.0.0.1,	path: /update/FieldLM/331/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/331/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:11:24 ,ip: 127.0.0.1,	path: /detail/FieldLM/331/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/331/ HTTP/1.1" 200 39884
+INFO "GET /detail/FieldLM/330 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:11:25 ,ip: 127.0.0.1,	path: /detail/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/330/ HTTP/1.1" 200 39876
+INFO [GET] method: 2020-11-07 17:11:28 ,ip: 127.0.0.1,	path: /update/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/330/ HTTP/1.1" 200 37948
+INFO [POST] method: 2020-11-07 17:11:32 ,ip: 127.0.0.1,	path: /update/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/330/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:11:32 ,ip: 127.0.0.1,	path: /detail/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/330/ HTTP/1.1" 200 39875
+INFO [GET] method: 2020-11-07 17:11:33 ,ip: 127.0.0.1,	path: /update/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/330/ HTTP/1.1" 200 37960
+INFO [POST] method: 2020-11-07 17:11:37 ,ip: 127.0.0.1,	path: /update/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/330/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:11:38 ,ip: 127.0.0.1,	path: /detail/FieldLM/330/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/330/ HTTP/1.1" 200 39874
+INFO "GET /detail/FieldLM/331 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:11:40 ,ip: 127.0.0.1,	path: /detail/FieldLM/331/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/331/ HTTP/1.1" 200 39884
+INFO [GET] method: 2020-11-07 17:12:28 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=field HTTP/1.1" 200 351881
+INFO [GET] method: 2020-11-07 17:12:34 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=fieldlm HTTP/1.1" 200 157109
+INFO [GET] method: 2020-11-07 17:12:45 ,ip: 127.0.0.1,	path: /detail/FieldLM/186/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/186/ HTTP/1.1" 200 39902
+INFO [GET] method: 2020-11-07 17:12:47 ,ip: 127.0.0.1,	path: /update/FieldLM/186/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/186/ HTTP/1.1" 200 37998
+INFO [POST] method: 2020-11-07 17:12:59 ,ip: 127.0.0.1,	path: /update/FieldLM/186/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/186/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:12:59 ,ip: 127.0.0.1,	path: /detail/FieldLM/186/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/186/ HTTP/1.1" 200 39905
+INFO [GET] method: 2020-11-07 17:13:06 ,ip: 127.0.0.1,	path: /update/FieldLM/186/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/186/ HTTP/1.1" 200 37827
+INFO [GET] method: 2020-11-07 17:13:11 ,ip: 127.0.0.1,	path: /detail/FieldLM/191/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/191/ HTTP/1.1" 200 39900
+INFO [GET] method: 2020-11-07 17:13:12 ,ip: 127.0.0.1,	path: /update/FieldLM/191/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/191/ HTTP/1.1" 200 37831
+INFO [POST] method: 2020-11-07 17:13:23 ,ip: 127.0.0.1,	path: /update/FieldLM/191/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/191/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:13:23 ,ip: 127.0.0.1,	path: /detail/FieldLM/191/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/191/ HTTP/1.1" 200 39907
+INFO [GET] method: 2020-11-07 17:13:26 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\main\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:14:07 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 17:14:08 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 17:14:12 ,ip: 127.0.0.1,	path: /list/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/ChangeTransaction/ HTTP/1.1" 200 33322
+INFO [GET] method: 2020-11-07 17:16:07 ,ip: 127.0.0.1,	path: /list/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/ChangeTransaction/ HTTP/1.1" 200 98109
+INFO [GET] method: 2020-11-07 17:16:14 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 122341
+INFO [GET] method: 2020-11-07 17:16:16 ,ip: 127.0.0.1,	path: /detail/Change/37/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/37/ HTTP/1.1" 200 36506
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:16:44 ,ip: 127.0.0.1,	path: /detail/Change/37/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/Change/37/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\template_funcs.py", line 21, in get_attr_value2
+    attr_dict=obj.attr_dict(ability)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py", line 110, in attr_dict
+    return AttrDict(self).get_attr_dict(data_type)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\model.py", line 17, in get_attr_dict
+    attr_dict[field.name]=getattr(self.object,field.name)
+AttributeError: 'Change' object has no attribute 'transaction'
+ERROR "GET /detail/Change/37/ HTTP/1.1" 500 191917
+INFO [GET] method: 2020-11-07 17:16:50 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 17:16:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 17:16:54 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352182
+INFO [GET] method: 2020-11-07 17:17:00 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=change HTTP/1.1" 200 132110
+INFO [GET] method: 2020-11-07 17:17:04 ,ip: 127.0.0.1,	path: /detail/FieldLM/142/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/142/ HTTP/1.1" 200 39929
+INFO [GET] method: 2020-11-07 17:17:06 ,ip: 127.0.0.1,	path: /delete/FieldLM/142/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /delete/FieldLM/142/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 106, in get
+    self.object = self.get_object()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 30, in get_object
+    queryset = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 170, in get_queryset
+    object_list = self.model.objects.filter(user=self.request.user)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: blank, decimal_places, default, field, form, form_add, form_delete, form_update, id, max_digits, max_length, model, model_id, name, null, on_delete, order, show_detail, show_list, to, verbose_name
+ERROR "GET /delete/FieldLM/142/ HTTP/1.1" 500 133075
+INFO [GET] method: 2020-11-07 17:17:11 ,ip: 127.0.0.1,	path: /detail/FieldLM/142/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/142/ HTTP/1.1" 200 39929
+INFO [GET] method: 2020-11-07 17:20:39 ,ip: 127.0.0.1,	path: /detail/Change/37/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/Change/37/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\template\library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\template_funcs.py", line 21, in get_attr_value2
+    attr_dict=obj.attr_dict(ability)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py", line 110, in attr_dict
+    return AttrDict(self).get_attr_dict(data_type)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\model.py", line 17, in get_attr_dict
+    attr_dict[field.name]=getattr(self.object,field.name)
+AttributeError: 'Change' object has no attribute 'transaction'
+ERROR "GET /detail/Change/37/ HTTP/1.1" 500 191917
+INFO [GET] method: 2020-11-07 17:21:17 ,ip: 127.0.0.1,	path: /detail/Change/37/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/37/ HTTP/1.1" 200 35868
+INFO [GET] method: 2020-11-07 17:21:17 ,ip: 127.0.0.1,	path: /detail/FieldLM/142/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /detail/FieldLM/142/
+WARNING "GET /detail/FieldLM/142/ HTTP/1.1" 404 1767
+INFO [GET] method: 2020-11-07 17:21:22 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 107858
+INFO [GET] method: 2020-11-07 17:21:28 ,ip: 127.0.0.1,	path: /add/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Change/ HTTP/1.1" 200 62551
+INFO [POST] method: 2020-11-07 17:21:55 ,ip: 127.0.0.1,	path: /add/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/Change/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:21:55 ,ip: 127.0.0.1,	path: /detail/Change/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/43/ HTTP/1.1" 200 35686
+INFO [GET] method: 2020-11-07 17:21:58 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/ChangeTransaction/?change=43 HTTP/1.1" 200 213470
+INFO [POST] method: 2020-11-07 17:22:17 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/ChangeTransaction/?change=43 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:22:18 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/ChangeTransaction/43/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 107, in get
+    context = self.get_context_data(object=self.object)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 233, in get_context_data
+    context["title"] = self.model_obj.detail_title % self.object
+ValueError: unsupported format character 'A' (0x41) at index 2
+ERROR "GET /detail/ChangeTransaction/43/ HTTP/1.1" 500 81834
+INFO [GET] method: 2020-11-07 17:22:56 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ChangeTransaction/43/ HTTP/1.1" 200 34192
+INFO [GET] method: 2020-11-07 17:23:01 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/ChangeTransaction/?change=43 HTTP/1.1" 200 213470
+INFO [POST] method: 2020-11-07 17:23:16 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/ChangeTransaction/?change=43 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:23:16 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/44/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ChangeTransaction/44/ HTTP/1.1" 200 34192
+INFO [GET] method: 2020-11-07 17:23:17 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/ChangeTransaction/?change=43 HTTP/1.1" 200 213470
+INFO [POST] method: 2020-11-07 17:23:26 ,ip: 127.0.0.1,	path: /add/ChangeTransaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/ChangeTransaction/?change=43 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:23:26 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/45/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ChangeTransaction/45/ HTTP/1.1" 200 34192
+INFO "GET /detail/Change/43 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:23:30 ,ip: 127.0.0.1,	path: /detail/Change/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/43/ HTTP/1.1" 200 36298
+INFO [GET] method: 2020-11-07 17:24:19 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:24:20 ,ip: 127.0.0.1,	path: /list/Account/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Account/ HTTP/1.1" 200 138017
+INFO "GET /list/Transaction/ HTTP/1.1" 200 174961
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:24:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 329
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 255
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 334
+INFO [GET] method: 2020-11-07 17:24:25 ,ip: 127.0.0.1,	path: /add/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Transaction/ HTTP/1.1" 200 44980
+INFO [GET] method: 2020-11-07 17:24:27 ,ip: 127.0.0.1,	path: /add/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Transaction/ HTTP/1.1" 200 44980
+INFO [GET] method: 2020-11-07 17:24:31 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 90432
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2020-11-07 17:27:03 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:27:03 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-07&time=12:00:00&category=46&corporation=154&desc=&tr_type=2&amount=1400&person=208 HTTP/1.1" 200 90454
+INFO [POST] method: 2020-11-07 17:27:50 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-07&time=12:00:00&category=46&corporation=154&desc=&tr_type=2&amount=1400&person=208 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:27:50 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-11-06&time=23:30:00&category=40&corporation=154&desc=&tr_type=1&amount=3000 HTTP/1.1" 200 90454
+INFO [GET] method: 2020-11-07 17:27:51 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-07&time=12:00:00&category=46&corporation=154&desc=&tr_type=2&amount=1400&person=208 HTTP/1.1" 200 90454
+INFO [GET] method: 2020-11-07 17:27:59 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 90443
+INFO [GET] method: 2020-11-07 17:28:05 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 174981
+INFO [POST] method: 2020-11-07 17:28:44 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:28:44 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-06&time=23:31:00&category=40&corporation=77&desc=&tr_type=2&amount=3000 HTTP/1.1" 200 90454
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:28:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 255
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 329
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 334
+INFO [POST] method: 2020-11-07 17:30:45 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-06&time=23:31:00&category=40&corporation=77&desc=&tr_type=2&amount=3000 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:30:45 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-07&time=14:00:00&category=27&corporation=30&desc=Kapal%C4%B1%20%C3%87ar%C5%9F%C4%B1%20-%20%C4%B0stanbul%20Sarrafiye&tr_type=1&amount=5918 HTTP/1.1" 200 90517
+INFO [POST] method: 2020-11-07 17:31:06 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-07&time=14:00:00&category=27&corporation=30&desc=Kapal%C4%B1%20%C3%87ar%C5%9F%C4%B1%20-%20%C4%B0stanbul%20Sarrafiye&tr_type=1&amount=5918 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:31:06 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=15&date=2020-11-07&time=14:01:00&category=27&corporation=30&desc=Kapal%C4%B1%20%C3%87ar%C5%9F%C4%B1%20-%20%C4%B0stanbul%20Sarrafiye&tr_type=2&amount=11 HTTP/1.1" 200 90523
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:31:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 127
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 335
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 256
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 328
+INFO [GET] method: 2020-11-07 17:32:14 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175021
+INFO [GET] method: 2020-11-07 17:33:05 ,ip: 127.0.0.1,	path: /detail/Transaction/2602/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2602/ HTTP/1.1" 200 37463
+INFO "GET /detail/Transaction/2603 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:33:07 ,ip: 127.0.0.1,	path: /detail/Transaction/2603/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2603/ HTTP/1.1" 200 37463
+INFO "GET /detail/Transaction/2604 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:33:08 ,ip: 127.0.0.1,	path: /detail/Transaction/2604/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2604/ HTTP/1.1" 200 37467
+INFO [GET] method: 2020-11-07 17:33:37 ,ip: 127.0.0.1,	path: /detail/Change/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/43/ HTTP/1.1" 200 36906
+INFO "GET /detail/Transaction/2605 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:34:01 ,ip: 127.0.0.1,	path: /detail/Transaction/2605/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2605/ HTTP/1.1" 200 37482
+INFO "GET /detail/Transaction/2606 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:34:04 ,ip: 127.0.0.1,	path: /detail/Transaction/2606/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2606/ HTTP/1.1" 200 37511
+INFO [GET] method: 2020-11-07 17:34:12 ,ip: 127.0.0.1,	path: /detail/Transaction/2605/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2605/ HTTP/1.1" 200 37482
+INFO [GET] method: 2020-11-07 17:34:13 ,ip: 127.0.0.1,	path: /detail/Transaction/2604/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2604/ HTTP/1.1" 200 37672
+INFO [GET] method: 2020-11-07 17:34:14 ,ip: 127.0.0.1,	path: /detail/Transaction/2603/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2603/ HTTP/1.1" 200 37667
+INFO "GET /detail/Transaction/2602 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 17:34:15 ,ip: 127.0.0.1,	path: /detail/Transaction/2602/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2602/ HTTP/1.1" 200 37662
+INFO [GET] method: 2020-11-07 17:34:26 ,ip: 127.0.0.1,	path: /detail/Change/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/43/ HTTP/1.1" 200 36904
+INFO [GET] method: 2020-11-07 17:34:34 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:34:35 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:34:35 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:34:35 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:34:35 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:34:35 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 127
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 335
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 256
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 328
+INFO [POST] method: 2020-11-07 17:36:16 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /financial/multi_transaction_add/?account=15&date=2020-11-07&time=14:01:00&category=27&corporation=30&desc=Kapal%C4%B1%20%C3%87ar%C5%9F%C4%B1%20-%20%C4%B0stanbul%20Sarrafiye&tr_type=2&amount=11 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 17:36:16 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-07&time=15:01:00&category=9&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 200 90446
+INFO [GET] method: 2020-11-07 17:36:27 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:36:28 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:36:28 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:36:28 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:36:28 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:36:28 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 127
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 328
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 335
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 256
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:39:38 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 109673
+INFO [GET] method: 2020-11-07 17:39:42 ,ip: 127.0.0.1,	path: /detail/Change/37/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/37/ HTTP/1.1" 200 35868
+INFO [GET] method: 2020-11-07 17:39:43 ,ip: 127.0.0.1,	path: /list/Change/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Change/ HTTP/1.1" 200 109673
+INFO [GET] method: 2020-11-07 17:39:45 ,ip: 127.0.0.1,	path: /detail/Change/43/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Change/43/ HTTP/1.1" 200 36904
+INFO [GET] method: 2020-11-07 17:40:00 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352182
+INFO [GET] method: 2020-11-07 17:40:05 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=change HTTP/1.1" 200 125803
+INFO [GET] method: 2020-11-07 17:40:08 ,ip: 127.0.0.1,	path: /detail/FieldLM/141/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/141/ HTTP/1.1" 200 39932
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2020-11-07 17:52:02 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 26, in process_request
+    date
+NameError: name 'date' is not defined
+ERROR "POST /financial/multi_transaction_add/?account=8&date=2020-11-07&time=15:01:00&category=9&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 500 71185
+INFO [GET] method: 2020-11-07 17:52:17 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 26, in process_request
+    date
+NameError: name 'date' is not defined
+ERROR "GET /list/Transaction/ HTTP/1.1" 500 66797
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:52:31 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175021
+INFO [POST] method: 2020-11-07 17:52:37 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\views.py", line 91, in form_valid
+    return self.get_success_url(form=form)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\views.py", line 113, in get_success_url
+    change_purpose = form.cleaned_data["change_purpose"]
+KeyError: 'change_purpose'
+ERROR "POST /financial/multi_transaction_add/?account=8&date=2020-11-07&time=15:01:00&category=9&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 500 90956
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 17:53:01 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175045
+INFO [GET] method: 2020-11-07 17:53:14 ,ip: 127.0.0.1,	path: /detail/Transaction/2608/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Transaction/2608/ HTTP/1.1" 200 37558
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/ HTTP/1.1" 200 39321
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 17:53:22 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 127
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 328
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 256
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 335
+INFO [GET] method: 2020-11-07 17:54:20 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/ HTTP/1.1" 200 738870
+INFO [GET] method: 2020-11-07 17:54:27 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/change_state?series_id=736&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-11-07 17:54:27 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/ HTTP/1.1" 200 738867
+INFO [GET] method: 2020-11-07 17:54:31 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/change_state?series_id=730&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-11-07 17:54:31 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/ HTTP/1.1" 200 738864
+INFO [GET] method: 2020-11-07 17:54:53 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/change_state?series_id=703&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-11-07 17:54:53 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /series/ HTTP/1.1" 200 738861
+INFO [GET] method: 2020-11-07 17:56:01 ,ip: 127.0.0.1,	path: /add/Repetitive/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Repetitive/?change=43 HTTP/1.1" 200 74796
+INFO [GET] method: 2020-11-07 17:56:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 17:56:05 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 18:00:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 18:00:27 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 18:13:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO [GET] method: 2020-11-07 18:13:06 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-07 18:13:06 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 18:13:07 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 18:14:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 18:14:55 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 18:15:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 165924
+INFO [GET] method: 2020-11-07 18:15:06 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\authentication\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\authentication\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\authentication\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 29, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.sessions.backends.db.SessionStore object at 0x000001C363174AF0>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87740
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 29, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<class 'django.contrib.sessions.models.Session'>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87696
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 30, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<class 'django.contrib.sessions.models.Session'>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87668
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 30, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<class 'django.contrib.sessions.models.Session'>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87677
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 30, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.sessions.backends.db.SessionStore object at 0x000001C3F2584910>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87858
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /list/FieldLM/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 31, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.sessions.backends.db.SessionStore object at 0x0000022DCBF5F730>": "HistoryLog.session" must be a "Session" instance.
+ERROR "GET /list/FieldLM/ HTTP/1.1" 500 87836
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\authentication\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 18:29:47 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352182
+INFO [GET] method: 2020-11-07 18:30:00 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=historylog HTTP/1.1" 200 87949
+INFO [GET] method: 2020-11-07 18:30:05 ,ip: 127.0.0.1,	path: /detail/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/310/ HTTP/1.1" 200 39919
+INFO [GET] method: 2020-11-07 18:30:06 ,ip: 127.0.0.1,	path: /update/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/310/ HTTP/1.1" 200 37714
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [POST] method: 2020-11-07 18:30:43 ,ip: 127.0.0.1,	path: /update/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/310/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 18:30:43 ,ip: 127.0.0.1,	path: /detail/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/310/ HTTP/1.1" 200 39914
+INFO [GET] method: 2020-11-07 18:31:02 ,ip: 127.0.0.1,	path: /update/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/310/ HTTP/1.1" 200 37674
+ERROR Internal Server Error: /update/FieldLM/310/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 30, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /update/FieldLM/310/ HTTP/1.1" 500 162041
+INFO [GET] method: 2020-11-07 18:32:17 ,ip: 127.0.0.1,	path: /update/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/310/ HTTP/1.1" 200 37989
+INFO [POST] method: 2020-11-07 18:32:25 ,ip: 127.0.0.1,	path: /update/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/310/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 18:32:25 ,ip: 127.0.0.1,	path: /detail/FieldLM/310/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/310/ HTTP/1.1" 200 39913
+INFO [GET] method: 2020-11-07 18:32:29 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352170
+INFO [GET] method: 2020-11-07 18:32:39 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=historylog HTTP/1.1" 200 87937
+INFO [GET] method: 2020-11-07 18:32:45 ,ip: 127.0.0.1,	path: /detail/FieldLM/311/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/311/ HTTP/1.1" 200 39899
+INFO [GET] method: 2020-11-07 18:32:47 ,ip: 127.0.0.1,	path: /update/FieldLM/311/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/FieldLM/311/ HTTP/1.1" 200 37988
+INFO [POST] method: 2020-11-07 18:33:10 ,ip: 127.0.0.1,	path: /update/FieldLM/311/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /update/FieldLM/311/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 18:33:10 ,ip: 127.0.0.1,	path: /detail/FieldLM/311/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/311/ HTTP/1.1" 200 39925
+INFO [GET] method: 2020-11-07 18:33:44 ,ip: 127.0.0.1,	path: /list/HistoryLog/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/HistoryLog/ HTTP/1.1" 200 105130
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 20:40:22 ,ip: 127.0.0.1,	path: /list/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 20:40:23 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/ModelLM/ HTTP/1.1" 200 191232
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352182
+INFO [GET] method: 2020-11-07 20:40:28 ,ip: 127.0.0.1,	path: /add/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/ModelLM/ HTTP/1.1" 200 33787
+INFO [POST] method: 2020-11-07 20:41:26 ,ip: 127.0.0.1,	path: /add/ModelLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/ModelLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:41:26 ,ip: 127.0.0.1,	path: /detail/ModelLM/58/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ModelLM/58/ HTTP/1.1" 200 37176
+INFO [GET] method: 2020-11-07 20:41:28 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=58 HTTP/1.1" 200 38251
+INFO [POST] method: 2020-11-07 20:42:10 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=58 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:42:11 ,ip: 127.0.0.1,	path: /detail/FieldLM/336/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/336/ HTTP/1.1" 200 40239
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\main\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /detail/ModelLM/54 HTTP/1.1" 301 0
+ERROR Internal Server Error: /detail/ModelLM/54/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 30, in process_request
+    model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_id=user_id,session=session,csrftoken=csrftoken)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /detail/ModelLM/54/ HTTP/1.1" 500 166024
+INFO [GET] method: 2020-11-07 20:44:23 ,ip: 127.0.0.1,	path: /detail/ModelLM/54/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ModelLM/54/ HTTP/1.1" 200 38417
+INFO "GET /detail/ModelLM/57 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 20:44:25 ,ip: 127.0.0.1,	path: /detail/ModelLM/57/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ModelLM/57/ HTTP/1.1" 200 37881
+INFO "GET /detail/ModelLM/58 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-07 20:45:10 ,ip: 127.0.0.1,	path: /detail/ModelLM/58/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/ModelLM/58/ HTTP/1.1" 200 37329
+INFO [GET] method: 2020-11-07 20:45:13 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=58 HTTP/1.1" 200 38241
+INFO [POST] method: 2020-11-07 20:45:54 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=58 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:45:54 ,ip: 127.0.0.1,	path: /detail/FieldLM/337/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/337/ HTTP/1.1" 200 40218
+INFO [GET] method: 2020-11-07 20:45:58 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=58 HTTP/1.1" 200 38241
+INFO [GET] method: 2020-11-07 20:46:30 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/ HTTP/1.1" 200 352504
+INFO [GET] method: 2020-11-07 20:46:50 ,ip: 127.0.0.1,	path: /list/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/FieldLM/?search=userip HTTP/1.1" 200 50508
+INFO [POST] method: 2020-11-07 20:47:34 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=58 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:47:34 ,ip: 127.0.0.1,	path: /detail/FieldLM/338/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/338/ HTTP/1.1" 200 40228
+INFO [GET] method: 2020-11-07 20:47:35 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/FieldLM/?model=58 HTTP/1.1" 200 38241
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\authentication\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2020-11-07 20:48:10 ,ip: 127.0.0.1,	path: /add/FieldLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/FieldLM/?model=58 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:48:11 ,ip: 127.0.0.1,	path: /detail/FieldLM/339/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/339/ HTTP/1.1" 200 40252
+INFO [GET] method: 2020-11-07 20:48:17 ,ip: 127.0.0.1,	path: /list/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/UserIp/ HTTP/1.1" 200 33616
+INFO [GET] method: 2020-11-07 20:48:21 ,ip: 127.0.0.1,	path: /add/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/UserIp/ HTTP/1.1" 200 32898
+INFO [POST] method: 2020-11-07 20:48:30 ,ip: 127.0.0.1,	path: /add/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "POST /add/UserIp/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:48:30 ,ip: 127.0.0.1,	path: /detail/UserIp/1/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/UserIp/1/ HTTP/1.1" 200 34136
+INFO [GET] method: 2020-11-07 20:48:33 ,ip: 127.0.0.1,	path: /add/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/UserIp/ HTTP/1.1" 200 32898
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 20:57:38 ,ip: 127.0.0.1,	path: /detail/FieldLM/339/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/FieldLM/339/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:38 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:39 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:41 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:42 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:46 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:46 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:47 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:48 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:50 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:51 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:51 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:52 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:55 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:58 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:57:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:03 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:04 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:06 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:07 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:08 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 28, in process_request
+    session=request.COOKIES["sessionid"]
+KeyError: 'sessionid'
+ERROR "GET / HTTP/1.1" 500 65717
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 28, in process_request
+    session=request.COOKIES["sessionid"]
+KeyError: 'sessionid'
+ERROR "GET /favicon.ico HTTP/1.1" 500 65759
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:16 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:22 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:27 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:28 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:29 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:30 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:31 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:32 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:58:33 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:04 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:04 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:06 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:07 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:08 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:13 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:14 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:16 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py", line 28, in process_request
+    session=request.COOKIES["sessionid"]
+KeyError: 'sessionid'
+ERROR "GET /favicon.ico HTTP/1.1" 500 65761
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 20:59:53 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:53 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:53 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:53 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:54 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:55 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:56 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:56 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:56 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:57 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:57 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:57 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:58 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 20:59:59 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:00 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:00 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:00 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:00 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:05 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:05 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:05 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:06 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:07 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:08 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:09 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:09 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:09 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:09 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:09 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:10 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:11 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:11 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:11 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:22 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:27 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:28 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:29 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:00:37 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:38 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:39 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:41 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:42 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:46 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:47 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:48 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:00:50 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:01:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:01:10 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 21:01:28 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 8656
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2020-11-07 21:01:28 ,ip: 192.168.1.40,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5121
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:02:31 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:02:36 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:02:37 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:02:38 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 8656
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:03:00 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:05:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:05:55 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:05:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:05:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:05:58 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:05:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:04 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:06:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:06:52 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:55 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:06:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:07:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:07:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:07:27 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:08:13 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:08:14 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:08:14 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2020-11-07 21:08:52 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:08:53 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:08:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:09:10 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 200 5870
+INFO [POST] method: 2020-11-07 21:09:24 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "POST /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:09:24 ,ip: 192.168.1.40,	path: /,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:09:25 ,ip: 192.168.1.40,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 21:10:17 ,ip: 192.168.1.40,	path: /list/ContinentLM/,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET /list/ContinentLM/ HTTP/1.1" 200 40145
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:10:47 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:10:49 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:10:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:12:12 ,ip: 192.168.1.36,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 304 0
+INFO [GET] method: 2020-11-07 21:12:14 ,ip: 192.168.1.36,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5121
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:12:35 ,ip: 127.0.0.1,	path: /list/CountryLM/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/CountryLM/ HTTP/1.1" 200 44103
+INFO [GET] method: 2020-11-07 21:12:44 ,ip: 192.168.1.40,	path: /list/ContinentLM/,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET /list/ContinentLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:12:44 ,ip: 192.168.1.40,	path: /,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:12:45 ,ip: 192.168.1.40,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:12:45 ,ip: 192.168.1.40,	path: /,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 166263
+INFO [GET] method: 2020-11-07 21:13:20 ,ip: 192.168.1.40,	path: /logout,	user_id: 2,	sesion_id: mtko78tblzi8zx5zczf9s55ecanzj44h	 ://Unauthorizated IP
+INFO "GET /logout HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:13:20 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:13:23 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:13:24 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:13:27 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:13:27 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:14:21 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	
+INFO "GET /login HTTP/1.1" 200 5870
+INFO [GET] method: 2020-11-07 21:14:28 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:14:29 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO [GET] method: 2020-11-07 21:14:31 ,ip: 192.168.1.40,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:14:31 ,ip: 192.168.1.40,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET / HTTP/1.1" 200 8656
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:16:35 ,ip: 192.168.1.36,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:16:35 ,ip: 192.168.1.36,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /?warning=unauthorizated_ip HTTP/1.1" 200 8656
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:16:47 ,ip: 192.168.1.36,	path: /login,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-07 21:16:47 ,ip: 192.168.1.36,	path: /,	user_id: None,	sesion_id: None	 ://Unauthorizated IP
+INFO "GET /?error=unauthorizated_ip HTTP/1.1" 200 8656
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:19:00 ,ip: 127.0.0.1,	path: /list/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/UserIp/ HTTP/1.1" 200 35370
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2020-11-07 21:19:03 ,ip: 127.0.0.1,	path: /detail/User/2/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/User/2/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 106, in get
+    self.object = self.get_object()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 30, in get_object
+    queryset = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 224, in get_queryset
+    self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 21, in get_model
+    model_obj = model_model.objects.filter(name=m_name)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /detail/User/2/ HTTP/1.1" 500 91822
+INFO [GET] method: 2020-11-07 21:19:23 ,ip: 127.0.0.1,	path: /list/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/UserIp/ HTTP/1.1" 200 35370
+INFO [GET] method: 2020-11-07 21:20:50 ,ip: 127.0.0.1,	path: /add/UserIp/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/UserIp/ HTTP/1.1" 200 32978
+INFO [GET] method: 2020-11-07 21:20:53 ,ip: 127.0.0.1,	path: /list/Event/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Event/ HTTP/1.1" 200 46823
+INFO [GET] method: 2020-11-07 21:20:54 ,ip: 127.0.0.1,	path: /add/Event/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /add/Event/ HTTP/1.1" 200 33904
+INFO [GET] method: 2020-11-07 21:21:03 ,ip: 127.0.0.1,	path: /detail/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Event/5/ HTTP/1.1" 200 35821
+INFO [GET] method: 2020-11-07 21:21:05 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:26:08 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /people/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 38, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 31, in get_context_data
+    context_data["rt_object_dict"] = self.get_relation_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 23, in get_relation_data
+    return pr.get_relation_data(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 165, in get_relation_data
+    self.get_primal_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 226, in get_primal_relations
+    rel2=self.get_indirect_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 188, in get_indirect_relations
+    indirect_relation_list=RelationTreePerson.objects.filter(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1255, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable Person object
+ERROR "GET /people/ HTTP/1.1" 500 135645
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:26:40 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /people/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 38, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 31, in get_context_data
+    context_data["rt_object_dict"] = self.get_relation_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 23, in get_relation_data
+    return pr.get_relation_data(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 165, in get_relation_data
+    self.get_primal_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 226, in get_primal_relations
+    rel2=self.get_indirect_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 188, in get_indirect_relations
+    indirect_relation_list=RelationTreePerson.objects.filter(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1255, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable Person object
+ERROR "GET /people/ HTTP/1.1" 500 135783
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:27:00 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /people/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 38, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 31, in get_context_data
+    context_data["rt_object_dict"] = self.get_relation_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 23, in get_relation_data
+    return pr.get_relation_data(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 165, in get_relation_data
+    self.get_primal_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 227, in get_primal_relations
+    rel2=self.get_indirect_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 189, in get_indirect_relations
+    indirect_relation_list=RelationTreePerson.objects.filter(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1255, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable Person object
+ERROR "GET /people/ HTTP/1.1" 500 135792
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:27:28 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:28:19 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:28:57 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO [GET] method: 2020-11-07 21:34:43 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:55:48 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /people/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 38, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 31, in get_context_data
+    context_data["rt_object_dict"] = self.get_relation_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 18, in get_relation_data
+    return pr.get_relation_data(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 165, in get_relation_data
+    self.get_primal_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 263, in get_primal_relations
+    rel1=self.get_direct_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 243, in get_direct_relations
+    relation_dict[self.get_basic_relation(rel,pr,person.dateofbirth)]=[pr.person]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 191, in get_basic_relation
+    gender=pr.gender.id
+AttributeError: 'RelationTreePerson' object has no attribute 'gender'
+ERROR "GET /people/?person_id=462 HTTP/1.1" 500 102078
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:56:59 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 21:59:10 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO [GET] method: 2020-11-07 21:59:21 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:04:42 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /people/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 38, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 31, in get_context_data
+    context_data["rt_object_dict"] = self.get_relation_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\people\views.py", line 23, in get_relation_data
+    return pr.get_relation_data(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 165, in get_relation_data
+    self.get_primal_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 264, in get_primal_relations
+    rel1=self.get_direct_relations(person)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\report.py", line 244, in get_direct_relations
+    relation_dict[self.get_basic_relation(rel,pr,pr.dateofbirth>person.bd)]=[pr]
+AttributeError: 'Person' object has no attribute 'bd'
+ERROR "GET /people/ HTTP/1.1" 500 98338
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:04:56 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:05:19 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO [GET] method: 2020-11-07 22:05:28 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:06:51 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:09:23 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO [GET] method: 2020-11-07 22:09:28 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:09:45 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:14:18 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 270833
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:21:48 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 273996
+INFO [GET] method: 2020-11-07 22:21:54 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 273996
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:22:27 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274012
+INFO [GET] method: 2020-11-07 22:22:29 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274012
+INFO [GET] method: 2020-11-07 22:22:32 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274012
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:23:07 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274016
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:23:21 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274020
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:23:43 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274016
+INFO [GET] method: 2020-11-07 22:23:54 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274016
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-11-07 22:23:55 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-07 22:23:55 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO [GET] method: 2020-11-07 22:23:57 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274016
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-11-07 22:23:58 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-07 22:23:58 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO [GET] method: 2020-11-07 22:24:08 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274020
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:25:43 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274084
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:25:55 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274080
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:26:10 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274080
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:26:27 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274084
+INFO [GET] method: 2020-11-07 22:26:32 ,ip: 127.0.0.1,	path: /people/list/person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /people/list/person/
+WARNING "GET /people/list/person/?person_id=462 HTTP/1.1" 404 5222
+INFO [GET] method: 2020-11-07 22:26:37 ,ip: 127.0.0.1,	path: /people/list/person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /people/list/person/
+WARNING "GET /people/list/person/?person=462 HTTP/1.1" 404 5219
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:26:49 ,ip: 127.0.0.1,	path: /people/list/person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /people/list/person/
+WARNING "GET /people/list/person/?person=462 HTTP/1.1" 404 5219
+INFO [GET] method: 2020-11-07 22:26:52 ,ip: 127.0.0.1,	path: /people/list/person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /people/list/person/
+WARNING "GET /people/list/person/?person_id=462 HTTP/1.1" 404 5222
+INFO [GET] method: 2020-11-07 22:26:55 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274076
+INFO [GET] method: 2020-11-07 22:26:57 ,ip: 127.0.0.1,	path: /list/person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/person/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 203, in get_queryset
+    self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 21, in get_model
+    model_obj = model_model.objects.filter(name=m_name)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /list/person/?person=462 HTTP/1.1" 500 88373
+INFO [GET] method: 2020-11-07 22:27:08 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/?person_id=462 HTTP/1.1" 200 274076
+INFO [GET] method: 2020-11-07 22:27:10 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/Person/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 85, in get_queryset2
+    filter_q,exclude_q=get_filter(model_obj,user,perm_model,filter_dict,exclude_dict)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 64, in get_filter
+    field_obj=apps.get_model("main","FieldLM").objects.filter(model=model_obj).filter(name=key2)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /list/Person/?person=462 HTTP/1.1" 500 96180
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:31:20 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/Person/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 90, in get_queryset2
+    filter_q,exclude_q=get_filter(model_obj,user,perm_model,filter_dict,exclude_dict)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 69, in get_filter
+    field_obj=apps.get_model("main","FieldLM").objects.filter(model=model_obj).filter(name=key2)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /list/Person/?id=462 HTTP/1.1" 500 96008
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:32:39 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/Person/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 92, in get_queryset2
+    filter_q,exclude_q=get_filter(model_obj,user,perm_model,filter_dict,exclude_dict)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 69, in get_filter
+    field_obj_list=apps.get_model("main","FieldLM").objects.filter(model=model_obj).filter(name=key2)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /list/Person/?id=462 HTTP/1.1" 500 96040
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:32:49 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Person/?id=462 HTTP/1.1" 200 43973
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:33:15 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 276367
+INFO [GET] method: 2020-11-07 22:33:28 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/Person/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 99, in get_queryset2
+    object_list=model.objects.filter(filter_q).exclude(exclude_q)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'person' into field. Choices are: account, address, change, city, city_id, code, country, country_id, dateofbirth, dateofdeath, desc, education, favorite, first_name, full_name, gender, gender_id, group, group_id, hometown, id, id_number, last_name, middle_name, mypassword, nickname, personemail, personphone, personphoto, personsocial, relationtree, relationtreeperson, repetitive, second_name, title, user, user_id
+ERROR "GET /list/Person/?person=440 HTTP/1.1" 500 146493
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:33:42 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 276354
+INFO [GET] method: 2020-11-07 22:33:43 ,ip: 127.0.0.1,	path: /list/Person/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Person/?id=440 HTTP/1.1" 200 43975
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:34:08 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 276419
+INFO [GET] method: 2020-11-07 22:34:11 ,ip: 127.0.0.1,	path: /list/RElationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/RElationTree/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 203, in get_queryset
+    self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 21, in get_model
+    model_obj = model_model.objects.filter(name=m_name)[0]
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /list/RElationTree/?person_id=440 HTTP/1.1" 500 88488
+INFO [GET] method: 2020-11-07 22:34:16 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/RelationTree/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 99, in get_queryset2
+    object_list=model.objects.filter(filter_q).exclude(exclude_q)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1156, in build_lookup
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookup_name))
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+ERROR "GET /list/RelationTree/?person_id=440 HTTP/1.1" 500 141033
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:34:52 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /list/RelationTree/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 204, in get_queryset
+    object_list = af.get_queryset2(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 100, in get_queryset2
+    object_list=model.objects.filter(filter_q).exclude(exclude_q)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1156, in build_lookup
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookup_name))
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+ERROR "GET /list/RelationTree/?person_id=440 HTTP/1.1" 500 141107
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:35:09 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/RelationTree/?person_id=440 HTTP/1.1" 200 37214
+INFO [GET] method: 2020-11-07 22:35:13 ,ip: 127.0.0.1,	path: /detail/RelationTree/2/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/RelationTree/2/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 107, in get
+    context = self.get_context_data(object=self.object)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 233, in get_context_data
+    context["title"] = self.model_obj.detail_title % self.object
+TypeError: not enough arguments for format string
+ERROR "GET /detail/RelationTree/2/ HTTP/1.1" 500 81361
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:36:00 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/RelationTree/?person_id=440 HTTP/1.1" 200 37214
+INFO [GET] method: 2020-11-07 22:36:02 ,ip: 127.0.0.1,	path: /people/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /people/ HTTP/1.1" 200 276510
+INFO [GET] method: 2020-11-07 22:36:04 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/RelationTree/?person_id=440&relation_id=1 HTTP/1.1" 200 37214
+INFO [GET] method: 2020-11-07 22:36:09 ,ip: 127.0.0.1,	path: /list/RelationTree/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/RelationTree/?person_id=440&relation_id=11 HTTP/1.1" 200 37214
+INFO [GET] method: 2020-11-07 22:36:14 ,ip: 127.0.0.1,	path: /detail/RelationTree/2/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /detail/RelationTree/2/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\detail.py", line 107, in get
+    context = self.get_context_data(object=self.object)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 233, in get_context_data
+    context["title"] = self.model_obj.detail_title % self.object
+TypeError: not enough arguments for format string
+ERROR "GET /detail/RelationTree/2/ HTTP/1.1" 500 81380
+INFO [GET] method: 2020-11-07 22:37:40 ,ip: 127.0.0.1,	path: /detail/RelationTree/2/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/RelationTree/2/ HTTP/1.1" 200 36652
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:40:24 ,ip: 127.0.0.1,	path: /list/Event/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Event/ HTTP/1.1" 200 46823
+INFO [GET] method: 2020-11-07 22:40:25 ,ip: 127.0.0.1,	path: /detail/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Event/5/ HTTP/1.1" 200 35821
+INFO [GET] method: 2020-11-07 22:40:27 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+ERROR Internal Server Error: /update/Event/5/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 190, in get
+    return super().get(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 127, in get_context_data
+    context = super(GlobalUpdateView, self).get_context_data()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 66, in get_context_data
+    kwargs['form'] = self.get_form()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 157, in get_form
+    form_field.widget.attrs["value"]+="2020-01-01"
+KeyError: 'value'
+ERROR "GET /update/Event/5/ HTTP/1.1" 500 94643
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:40:42 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:41:40 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 33998
+INFO [GET] method: 2020-11-07 22:41:43 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 33998
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:42:48 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO [GET] method: 2020-11-07 22:42:49 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO [GET] method: 2020-11-07 22:42:51 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-11-07 22:42:51 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-07 22:42:52 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO [GET] method: 2020-11-07 22:42:59 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:45:13 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92900
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:46:49 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92895
+INFO [GET] method: 2020-11-07 22:47:08 ,ip: 127.0.0.1,	path: /list/Event/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Event/ HTTP/1.1" 200 46823
+INFO [GET] method: 2020-11-07 22:47:10 ,ip: 127.0.0.1,	path: /detail/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Event/5/ HTTP/1.1" 200 35821
+INFO [GET] method: 2020-11-07 22:47:11 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:49:04 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92997
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:49:34 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92999
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:49:49 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92999
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:52:17 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 92999
+INFO [GET] method: 2020-11-07 22:54:27 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:54:41 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:56:13 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO [GET] method: 2020-11-07 22:56:15 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:57:07 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 22:57:28 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 23:01:28 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET / HTTP/1.1" 200 166343
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO [GET] method: 2020-11-07 23:01:29 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-11-07 23:01:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO [GET] method: 2020-11-07 23:01:30 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5118
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-11-07 23:01:32 ,ip: 127.0.0.1,	path: /list/Event/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /list/Event/ HTTP/1.1" 200 46823
+INFO [GET] method: 2020-11-07 23:01:33 ,ip: 127.0.0.1,	path: /detail/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /detail/Event/5/ HTTP/1.1" 200 35821
+INFO [GET] method: 2020-11-07 23:01:34 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-07 23:02:40 ,ip: 127.0.0.1,	path: /update/Event/5/,	user_id: 2,	sesion_id: d8nurvrfgbno0pe2ek94mmfdeb8ufvth	
+INFO "GET /update/Event/5/ HTTP/1.1" 200 34027

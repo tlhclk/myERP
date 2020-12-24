@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+    <script>
+        $('.row-link').dblclick(function() {
+            window.location = this.getAttribute("href")
+        });
+    </script>
+    <script>
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>{{ rr_title }}</h2>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap">
+                            <tbody>
+                                {% for rr_object in rr_object_list %}
+                                    <tr class="row-link" href="{% url 'global_update' 'RepetitiveRecord' rr_object.id %}">
+                                        <td style="max-width: 30ch">
+                                            {{ rr_object }}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                    </div>
+                </div>
+            <!-- /.card -->
+            </div><div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>{{ er_title }}</h2>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap">
+                            <tbody>
+                                {% for er_object in er_object_list %}
+                                    <tr class="row-link" href="{% url 'global_update' 'Event' er_object.id %}">
+                                        <td style="max-width: 30ch">
+                                            {{ er_object }}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                    </div>
+                </div>
+            <!-- /.card -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

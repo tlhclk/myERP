@@ -1,0 +1,195 @@
+{% extends "base.html" %}
+{% load static %}
+{% block more_css %}
+    <!-- Select2 -->
+    <link rel="stylesheet" href="{% static "plugins/select2/css/select2.min.css" %}">
+    <link rel="stylesheet" href="{% static "plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" %}">
+    <!-- Tempusdominus Bbootstrap 4 -->
+    <link rel="stylesheet" href="{% static "plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" %}">
+{% endblock %}
+{% block more_script %}
+    <!-- Select2 -->
+    <script src="{% static "plugins/select2/js/select2.full.min.js" %}"></script>
+    <!-- InputMask -->
+    <script src="{% static "plugins/moment/moment.min.js" %}"></script>
+    <script src="{% static "plugins/inputmask/min/jquery.inputmask.bundle.min.js" %}"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="{% static "plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js" %}"></script>
+    <script>
+        $(function () {
+            $('.date').datetimepicker({
+                locale:'tr',
+                format:  "YYYY-MM-DD",
+                todayHighlight:true,
+                pickTime:false,
+                pickDate: true,
+            });
+            $('.time').datetimepicker({
+                locale :'tr',
+                format:  "HH:mm",
+                pickDate: false,
+                use24hours: true,
+             });
+            $('select').select2({
+                theme: 'bootstrap4'
+            });
+        });
+    </script>
+{% endblock %}
+{% block header %}
+    <a href="{% url "global_list" m_name %}" class="btn  btn-block btn-outline-secondary">{{ list_title }}</a>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-secondary">
+                    <div class="card-header">
+                        <h3 class="card-title">{{ form_title }}</h3>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" class="form" id="form_transaction">
+                            {% csrf_token %}
+                            <p>
+                                <label for="id_account">Hesap:</label>
+                                <select name="account" class="form-control" id="id_account">
+                                    <option value="" >-----------</option>
+                                    {% for account in account_list %}
+                                        <option value="{{ account.id }}">{{ account|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_date">Tarih:</label>
+                                <input type="text" name="date" value="{{ today }}" class="form-control datetimepicker-input date" data-toggle="datetimepicker" data-target="#id_date" id="id_date">
+                            </p>
+                            <p>
+                                <label for="id_time">Saat:</label>
+                                <input type="text" name="time" value="{{ now }}" class="form-control datetimepicker-input time" data-toggle="datetimepicker" data-target="#id_time" id="id_time">
+                            </p>
+                            <p>
+                                <label for="id_category">İşlem Kategorisi:</label>
+                                <select name="category" class="form-control" id="id_category">
+                                    <option value="" >-----------</option>
+                                    {% for category in category_list %}
+                                        <option value="{{ category.id }}">{{ category|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_corporation">İşlem Yeri:</label>
+                                <select name="corporation" class="form-control" id="id_corporation">
+                                    <option value="" >-----------</option>
+                                    {% for corporation in corporation_list %}
+                                        <option value="{{ corporation.id }}">{{ corporation|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_desc">Açıklaması:</label>
+                                <input type="text" name="desc" maxlength="200" class="form-control" id="id_desc">
+                            </p>
+                            <p>
+                                <label for="id_type">İşlem Tipi:</label>
+                                <select name="type" class="form-control" id="id_type">
+                                    <option value="" >-----------</option>
+                                    {% for type in type_list %}
+                                        <option value="{{ type.id }}" >{{ type|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_amount">Miktar:</label> <input type="number" name="amount" step="0.001" class="form-control" id="id_amount">
+                            </p>
+                            <p>
+                                <label for="id_person">Kişi:</label>
+                                <select name="person" class="form-control" id="id_person">
+                                    <option value="" >-----------</option>
+                                    {% for person in people_list %}
+                                        <option value="{{ person.id }}">{{ person|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_change_purpose">Aldım - Verdim Amacı:</label>
+                                <select name="change_purpose" class="form-control" id="id_change_purpose">
+                                    <option value="" >-----------</option>
+                                    {% for change_purpose in change_purpose_list %}
+                                        <option value="{{ change_purpose.id }}">{{ change_purpose|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <p>
+                                <label for="id_repetitive_record">Tekrarlı İşlem Kaydı:</label>
+                                <select name="repetitive_record" class="form-control" id="id_repetitive_record">
+                                    <option value="" >-----------</option>
+                                    {% for repetitive_record in repetitive_record_list %}
+                                        <option value="{{ repetitive_record.id }}">{{ repetitive_record|safe }}</option>
+                                    {% endfor %}
+                                </select>
+                            </p>
+                            <div class="row justify-content-end">
+                                <button class="btn btn-secondary btn-icon-split" type="submit">
+                                    <span class="text">Kaydet</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card card-secondary">
+                    <div class="card-header">
+                        <h3 class="card-title">{{ detail_title }}</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row" style="display: flex" id="account">
+                            <span style="flex: 1"><strong>Hesap:</strong> </span>
+                            <span style="flex: 1"><a href="/detail/Account/{{ last_object.account.id }}">{{ last_object.account|safe }}</a></span>
+                        </div>
+                        <div class="row" style="display: flex" id="date">
+                            <span style="flex: 1"><strong>Tarih:</strong> </span>
+                            <span style="flex: 1">{{ last_object.date|safe }}</span>
+                        </div>
+                        <div class="row" style="display: flex" id="time">
+                            <span style="flex: 1"><strong>Saat:</strong> </span>
+                            <span style="flex: 1">{{ last_object.time|safe }}</span>
+                        </div>
+                        <div class="row" style="display: flex" id="category">
+                            <span style="flex: 1"><strong>İşlem Kategorisi:</strong> </span>
+                            <span style="flex: 1"><a href="/detail/TransactionCategoryLM/{{ last_object.category.id }}">{{ last_object.category|safe }}</a></span>
+                        </div>
+                        <div class="row" style="display: flex" id="corporation">
+                            <span style="flex: 1"><strong>İşlem Yeri:</strong> </span>
+                            <span style="flex: 1"><a href="/detail/CorporationLM/{{ last_object.corporation.id }}">{{ last_object.corporation|safe }}</a></span>
+                        </div>
+                        <div class="row" style="display: flex" id="desc">
+                            <span style="flex: 1"><strong>Açıklaması:</strong> </span>
+                            <span style="flex: 1">{{ last_object.desc }}</span>
+                        </div>
+                        <div class="row" style="display: flex" id="type">
+                            <span style="flex: 1"><strong>İşlem Tipi:</strong> </span>
+                            <span style="flex: 1"><a href="/detail/TransactionTypeLM/{{ last_object.type.id }}">{{ last_object.type|safe }}</a></span>
+                        </div>
+                        <div class="row" style="display: flex" id="amount">
+                            <span style="flex: 1"><strong>Miktar:</strong> </span>
+                            <span style="flex: 1">{{ last_object.amount }}</span>
+                        </div>
+                        {% for field,object_list in last_object.remote_attr_dict.items %}
+                            <div class="row" id="{{ field.model.name }}">
+                                <strong>{{ field.model.list_title }}</strong>
+                                <a href="{% url 'global_add' field.model.name  %}?{{ field.name }}={{ object.id }}" id="add_{{ field.model.name }}" class="add_item"><i class="fa fa-plus"></i></a>
+                                <ul>
+                                    {% for obj in object_list %}
+                                        <a href="{% url 'global_detail' field.model.name obj.id %}"><li>{{ obj }}</li></a>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,276 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-12-15 15:55:22 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: w5rztwsctazsz9oyrrq0r2lrfu1sh1uo	
+INFO "GET / HTTP/1.1" 200 8672
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-12-15 15:55:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5260
+INFO [GET] method: 2020-12-15 15:55:24 ,ip: 127.0.0.1,	path: /login,	user_id: None,	sesion_id: None	
+INFO "GET /login HTTP/1.1" 200 5886
+INFO [POST] method: 2020-12-15 15:55:25 ,ip: 127.0.0.1,	path: /login,	user_id: None,	sesion_id: None	
+INFO "POST /login HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 15:55:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET / HTTP/1.1" 200 169125
+INFO [GET] method: 2020-12-15 15:55:27 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-12-15 15:55:27 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO [GET] method: 2020-12-15 15:55:32 ,ip: 127.0.0.1,	path: /list/Account/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Account/ HTTP/1.1" 200 145154
+INFO [GET] method: 2020-12-15 15:55:37 ,ip: 127.0.0.1,	path: /detail/Account/2/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Account/2/ HTTP/1.1" 200 43730
+INFO [GET] method: 2020-12-15 16:39:56 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/ HTTP/1.1" 200 227669
+INFO [GET] method: 2020-12-15 16:40:02 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/?search=github HTTP/1.1" 200 227813
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2020-12-15 16:40:38 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/?web_address=github HTTP/1.1" 200 36917
+INFO [GET] method: 2020-12-15 16:40:44 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/?search=github HTTP/1.1" 200 227813
+INFO [GET] method: 2020-12-15 16:50:59 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/?page=3&search=github HTTP/1.1" 200 227848
+INFO [GET] method: 2020-12-15 16:51:04 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/MyPassword/?page=2&search=github HTTP/1.1" 200 227447
+INFO [GET] method: 2020-12-15 16:51:09 ,ip: 127.0.0.1,	path: /detail/MyPassword/52/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/MyPassword/52/ HTTP/1.1" 200 38239
+INFO [GET] method: 2020-12-15 16:51:10 ,ip: 127.0.0.1,	path: /update/MyPassword/52/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /update/MyPassword/52/ HTTP/1.1" 200 74210
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [POST] method: 2020-12-15 16:51:27 ,ip: 127.0.0.1,	path: /update/MyPassword/52/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /update/MyPassword/52/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 16:51:27 ,ip: 127.0.0.1,	path: /detail/MyPassword/52/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/MyPassword/52/ HTTP/1.1" 200 38275
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-12-15 20:23:48 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET / HTTP/1.1" 200 169125
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO [GET] method: 2020-12-15 20:23:49 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO [GET] method: 2020-12-15 20:23:49 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 473
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-12-15 20:23:50 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5260
+INFO [GET] method: 2020-12-15 20:24:02 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/ HTTP/1.1" 200 40452
+INFO [GET] method: 2020-12-15 20:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO [GET] method: 2020-12-15 20:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 181
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 222
+INFO [GET] method: 2020-12-15 20:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 473
+INFO [GET] method: 2020-12-15 20:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 79
+INFO [GET] method: 2020-12-15 20:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 192
+INFO [GET] method: 2020-12-15 20:24:04 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 176038
+INFO [GET] method: 2020-12-15 20:24:07 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+ERROR Internal Server Error: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Python\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\views.py", line 72, in get_context_data
+    context["form"]=self.get_form(self.get_form_class())
+  File "C:\Python\lib\site-packages\django\views\generic\edit.py", line 33, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\forms.py", line 15, in __init__
+    self.set_new_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\forms.py", line 24, in set_new_queryset
+    qs = af.get_queryset(self.request.user,field_dict[field],"List")
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 132, in get_queryset
+    filter_q_and,filter_q_or,exclude_q=get_filter(model_obj,model,user,filter_dict,exclude_dict)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 122, in get_filter
+    for key2,value2 in filter_dict.items():
+AttributeError: 'str' object has no attribute 'items'
+ERROR "GET /financial/multi_transaction_add/ HTTP/1.1" 500 104456
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-12-15 20:25:14 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 81372
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [POST] method: 2020-12-15 20:26:35 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:26:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-12-12&time=07:25:00&category=34&corporation=30&desc=&tr_type=1&amount=5 HTTP/1.1" 200 81368
+INFO [GET] method: 2020-12-15 20:48:22 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 176040
+INFO [POST] method: 2020-12-15 20:48:34 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-12-12&time=07:25:00&category=34&corporation=30&desc=&tr_type=1&amount=5 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:48:34 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-12-11&time=07:25:00&category=29&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 200 81384
+INFO [POST] method: 2020-12-15 20:49:13 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-12-11&time=07:25:00&category=29&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:49:13 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-12-14&time=20:50:00&category=29&corporation=53&desc=&tr_type=1&amount=24.5 HTTP/1.1" 200 81378
+INFO [POST] method: 2020-12-15 20:53:04 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-12-14&time=20:50:00&category=29&corporation=53&desc=&tr_type=1&amount=24.5 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:53:05 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-12-15&time=16:00:00&category=40&corporation=77&desc=&tr_type=1&amount=1400 HTTP/1.1" 200 81379
+INFO [POST] method: 2020-12-15 20:53:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-12-15&time=16:00:00&category=40&corporation=77&desc=&tr_type=1&amount=1400 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:53:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:01:00&category=40&corporation=154&desc=&tr_type=2&amount=1400 HTTP/1.1" 200 81381
+INFO [POST] method: 2020-12-15 20:57:39 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:01:00&category=40&corporation=154&desc=&tr_type=2&amount=1400 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:57:40 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:15:00&category=16&corporation=23&desc=&tr_type=1&amount=1400&repetitive_record=156 HTTP/1.1" 200 81475
+INFO [POST] method: 2020-12-15 20:59:18 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:15:00&category=16&corporation=23&desc=&tr_type=1&amount=1400&repetitive_record=156 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 20:59:19 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:16:00&category=16&corporation=64&desc=&tr_type=1&amount=95 HTTP/1.1" 200 81289
+INFO [POST] method: 2020-12-15 21:00:03 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:16:00&category=16&corporation=64&desc=&tr_type=1&amount=95 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:00:03 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:17:00&category=16&corporation=66&desc=&tr_type=1&amount=74 HTTP/1.1" 200 81288
+INFO [POST] method: 2020-12-15 21:00:24 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:17:00&category=16&corporation=66&desc=&tr_type=1&amount=74 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:00:25 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:17:00&category=16&corporation=130&desc=&tr_type=1&amount=112&repetitive_record=157 HTTP/1.1" 200 81193
+INFO [POST] method: 2020-12-15 21:01:09 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:17:00&category=16&corporation=130&desc=&tr_type=1&amount=112&repetitive_record=157 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:01:09 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:18:00&category=16&corporation=130&desc=&tr_type=1&amount=51.75&person=462 HTTP/1.1" 200 81225
+INFO [POST] method: 2020-12-15 21:01:28 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:18:00&category=16&corporation=130&desc=&tr_type=1&amount=51.75&person=462 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:01:28 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:19:00&category=16&corporation=130&desc=&tr_type=1&amount=52&person=462 HTTP/1.1" 200 81222
+INFO [POST] method: 2020-12-15 21:01:40 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:19:00&category=16&corporation=130&desc=&tr_type=1&amount=52&person=462 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:01:41 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:20:00&category=16&corporation=130&desc=&tr_type=1&amount=50.25&person=208 HTTP/1.1" 200 81223
+INFO [POST] method: 2020-12-15 21:01:54 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:20:00&category=16&corporation=130&desc=&tr_type=1&amount=50.25&person=208 HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-15 21:01:54 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-12-15&time=16:21:00&category=16&corporation=130&desc=&tr_type=1&amount=52.25&person=208 HTTP/1.1" 200 81223
+INFO [GET] method: 2020-12-15 21:02:34 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 176096
+INFO [GET] method: 2020-12-15 23:56:06 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/ HTTP/1.1" 200 294922
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-12-15 23:56:15 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750732
+INFO [GET] method: 2020-12-15 23:56:26 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=816&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:56:27 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750729
+INFO [GET] method: 2020-12-15 23:56:31 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=817&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:56:31 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750726
+INFO [GET] method: 2020-12-15 23:56:42 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=539&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:56:42 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750724
+INFO [GET] method: 2020-12-15 23:56:49 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=470&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:56:49 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750722
+INFO [GET] method: 2020-12-15 23:56:53 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=811&state_id=1 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:56:53 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750719
+INFO [GET] method: 2020-12-15 23:57:14 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=613&state_id=3 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:57:14 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750719
+INFO [GET] method: 2020-12-15 23:57:29 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=599&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:57:29 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750717
+INFO [GET] method: 2020-12-15 23:58:42 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=634&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:58:42 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750715
+INFO [GET] method: 2020-12-15 23:58:50 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=604&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:58:50 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750713
+INFO [GET] method: 2020-12-15 23:58:55 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=617&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:58:55 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750711
+INFO [GET] method: 2020-12-15 23:59:06 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=725&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:59:06 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750709
+INFO [GET] method: 2020-12-15 23:59:19 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=530&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:59:19 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750707
+INFO [GET] method: 2020-12-15 23:59:26 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/change_state?series_id=721&state_id=2 HTTP/1.1" 200 16
+INFO [GET] method: 2020-12-15 23:59:26 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /series/ HTTP/1.1" 200 750705
+INFO [GET] method: 2020-12-15 23:59:39 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /add/Series/ HTTP/1.1" 200 36396
+INFO [GET] method: 2020-12-15 23:59:42 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/ HTTP/1.1" 200 294922
+INFO [GET] method: 2020-12-15 23:59:47 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/?search=radiant HTTP/1.1" 200 295074
+INFO [GET] method: 2020-12-15 23:59:53 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/?page=3&search=radiant HTTP/1.1" 200 295630
+INFO [GET] method: 2020-12-15 23:59:59 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/?page=5&search=radiant HTTP/1.1" 200 296104
+INFO [GET] method: 2020-12-16 00:00:06 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/?page=8&search=radiant HTTP/1.1" 200 296339
+INFO [GET] method: 2020-12-16 00:00:13 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /list/Series/?page=7&search=radiant HTTP/1.1" 200 296438
+INFO [GET] method: 2020-12-16 00:00:32 ,ip: 127.0.0.1,	path: /detail/Series/599/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Series/599/ HTTP/1.1" 200 41336
+INFO [POST] method: 2020-12-16 00:01:55 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-12-16 00:01:56 ,ip: 127.0.0.1,	path: /detail/Series/817/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Series/817/ HTTP/1.1" 200 40562
+INFO "GET /detail/Series/817 HTTP/1.1" 301 0
+INFO [GET] method: 2020-12-16 00:02:52 ,ip: 127.0.0.1,	path: /detail/Series/817/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Series/817/ HTTP/1.1" 200 40562
+INFO [GET] method: 2020-12-16 00:02:53 ,ip: 127.0.0.1,	path: /detail/Series/817/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Series/817/ HTTP/1.1" 200 40562
+INFO "GET /detail/Series/818 HTTP/1.1" 301 0
+INFO [GET] method: 2020-12-16 00:02:57 ,ip: 127.0.0.1,	path: /detail/Series/818/,	user_id: 2,	sesion_id: nk3hw8hkbkpxhw19a6q7i36zo3k7dx4j	
+INFO "GET /detail/Series/818/ HTTP/1.1" 200 40460

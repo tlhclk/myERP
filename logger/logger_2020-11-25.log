@@ -1,0 +1,1387 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 18:46:29 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET / HTTP/1.1" 200 169062
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO [GET] method: 2020-11-25 18:46:30 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 483
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-25 18:46:31 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:46:32 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:46:33 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 80664
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO [GET] method: 2020-11-25 18:46:34 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:35 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO "GET /financial/ HTTP/1.1" 200 39793
+INFO [GET] method: 2020-11-25 18:46:35 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 153
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 483
+INFO [GET] method: 2020-11-25 18:46:37 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 340
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 338
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 209
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:46:37 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:46:38 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175597
+INFO [GET] method: 2020-11-25 18:46:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:46:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:47:56 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:47:56 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-11-24&time=13:00:00&category=29&corporation=121&desc=&tr_type=1&amount=14.8 HTTP/1.1" 200 80665
+INFO [GET] method: 2020-11-25 18:47:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:47:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:48:14 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-11-24&time=13:00:00&category=29&corporation=121&desc=&tr_type=1&amount=14.8 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:14 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-11-25&time=13:00:00&category=40&corporation=180&desc=&tr_type=2&amount=500 HTTP/1.1" 200 80680
+INFO [GET] method: 2020-11-25 18:48:15 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:48:44 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-11-25&time=13:00:00&category=40&corporation=180&desc=&tr_type=2&amount=500 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:44 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-11-25&time=17:00:00&category=29&corporation=164&desc=&tr_type=1&amount=40.37 HTTP/1.1" 200 80671
+INFO [GET] method: 2020-11-25 18:48:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:48:58 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-11-25&time=17:00:00&category=29&corporation=164&desc=&tr_type=1&amount=40.37 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:58 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2020-11-25&time=18:00:00&category=43&corporation=111&desc=&tr_type=1&amount=100 HTTP/1.1" 200 80667
+INFO [GET] method: 2020-11-25 18:48:59 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:48:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:49:37 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2020-11-25&time=18:00:00&category=43&corporation=111&desc=&tr_type=1&amount=100 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:49:37 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-22&time=18:00:00&category=29&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 200 80681
+INFO [GET] method: 2020-11-25 18:49:38 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:49:38 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:49:59 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-22&time=18:00:00&category=29&corporation=30&desc=Sigara&tr_type=1&amount=17 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:49:59 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-23&time=07:00:00&category=34&corporation=30&desc=&tr_type=1&amount=4.5 HTTP/1.1" 200 80667
+INFO [GET] method: 2020-11-25 18:49:59 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:49:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:51:08 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-23&time=07:00:00&category=34&corporation=30&desc=&tr_type=1&amount=4.5 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:08 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-23&time=19:00:00&category=46&corporation=154&desc=&tr_type=2&amount=1000&person=208&change=39 HTTP/1.1" 200 80668
+INFO [GET] method: 2020-11-25 18:51:09 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:51:10 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175513
+INFO [GET] method: 2020-11-25 18:51:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:51:13 ,ip: 127.0.0.1,	path: /detail/Transaction/2659/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Transaction/2659/ HTTP/1.1" 200 38094
+INFO [GET] method: 2020-11-25 18:51:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:14 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:51:15 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/76/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/ChangeTransaction/76/ HTTP/1.1" 200 34595
+INFO [GET] method: 2020-11-25 18:51:16 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:16 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO "GET /detail/Change/39 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-25 18:51:32 ,ip: 127.0.0.1,	path: /detail/Change/39/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Change/39/ HTTP/1.1" 200 38260
+INFO [GET] method: 2020-11-25 18:51:32 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:51:32 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 18:52:40 ,ip: 127.0.0.1,	path: /detail/Transaction/2659/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Transaction/2659/ HTTP/1.1" 200 38122
+INFO [GET] method: 2020-11-25 18:52:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:52:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [GET] method: 2020-11-25 18:52:52 ,ip: 127.0.0.1,	path: /detail/Change/39/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Change/39/ HTTP/1.1" 200 38288
+INFO [GET] method: 2020-11-25 18:52:53 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:52:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169062
+INFO [POST] method: 2020-11-25 18:53:51 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-23&time=19:00:00&category=46&corporation=154&desc=&tr_type=2&amount=1000&person=208&change=39 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:53:52 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2020-11-24&time=12:00:00&category=46&corporation=164&desc=&tr_type=1&amount=3500&change=39&repetitive_record=151 HTTP/1.1" 200 80581
+INFO [GET] method: 2020-11-25 18:53:52 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:53:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:53:56 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175494
+INFO [GET] method: 2020-11-25 18:53:58 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:53:58 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:54:04 ,ip: 127.0.0.1,	path: /detail/Transaction/2660/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Transaction/2660/ HTTP/1.1" 200 38279
+INFO [GET] method: 2020-11-25 18:54:04 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:05 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:54:08 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/151/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/151/ HTTP/1.1" 200 36171
+INFO [GET] method: 2020-11-25 18:54:09 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:54:10 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/77/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/ChangeTransaction/77/ HTTP/1.1" 200 34607
+INFO [GET] method: 2020-11-25 18:54:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:54:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:54:11 ,ip: 127.0.0.1,	path: /detail/Change/39/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Change/39/ HTTP/1.1" 200 38487
+INFO [GET] method: 2020-11-25 18:54:11 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO "GET /detail/Repetitive/16 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-25 18:54:23 ,ip: 127.0.0.1,	path: /detail/Repetitive/16/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Repetitive/16/ HTTP/1.1" 200 38975
+INFO [GET] method: 2020-11-25 18:54:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:54:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:54:42 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145507
+INFO [GET] method: 2020-11-25 18:54:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:54:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [GET] method: 2020-11-25 18:55:06 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/RepetitiveRecord/ HTTP/1.1" 200 219445
+INFO [GET] method: 2020-11-25 18:55:11 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 168477
+INFO [POST] method: 2020-11-25 18:55:36 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/RepetitiveRecord/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:36 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/164/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/164/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:55:37 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:37 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 18:55:38 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145438
+INFO [GET] method: 2020-11-25 18:55:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 18:55:56 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/164/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/164/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:55:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 18:55:58 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/164/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/164/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 18:55:58 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:58 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 18:55:58 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/164/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/164/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:59 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/165/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/165/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:55:59 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:55:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:56:00 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145437
+INFO [GET] method: 2020-11-25 18:56:02 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:56:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:56:17 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/163/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/163/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:56:17 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:56:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 18:56:18 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/163/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO "GET /update/RepetitiveRecord/163/ HTTP/1.1" 200 219625
+INFO [GET] method: 2020-11-25 18:56:24 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:56:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 18:59:00 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:59:03 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:03 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:59:05 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145437
+INFO [GET] method: 2020-11-25 18:59:06 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:06 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:59:09 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/165/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/165/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:59:09 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [GET] method: 2020-11-25 18:59:10 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/165/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/165/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 18:59:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [POST] method: 2020-11-25 18:59:12 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/165/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/165/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:12 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/166/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/166/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 18:59:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 18:59:23 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145434
+INFO [GET] method: 2020-11-25 18:59:24 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 18:59:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:00:45 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/ HTTP/1.1" 200 39793
+INFO [GET] method: 2020-11-25 19:00:45 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:00:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:00:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:00:45 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:00:46 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:00:46 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 483
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 210
+INFO [GET] method: 2020-11-25 19:00:46 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 153
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 352
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 338
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:01:49 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/166/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/166/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:01:50 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:01:50 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:01:51 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/166/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/RepetitiveRecord/166/ HTTP/1.1" 200 219625
+INFO [GET] method: 2020-11-25 19:01:57 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:01:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [POST] method: 2020-11-25 19:02:00 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/166/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/RepetitiveRecord/166/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:02:00 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/167/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/167/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:02:01 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:02:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:03:31 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145410
+INFO [GET] method: 2020-11-25 19:03:33 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:03:33 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:03:37 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 175494
+INFO [GET] method: 2020-11-25 19:03:39 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:03:39 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [POST] method: 2020-11-25 19:04:22 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2020-11-24&time=12:00:00&category=46&corporation=164&desc=&tr_type=1&amount=3500&change=39&repetitive_record=151 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:04:23 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=16&date=2020-11-25&time=13:05:00&category=40&corporation=77&desc=&tr_type=1&amount=500 HTTP/1.1" 200 80745
+INFO [GET] method: 2020-11-25 19:04:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:04:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/ HTTP/1.1" 200 39793
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 472
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:04:29 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 153
+INFO [GET] method: 2020-11-25 19:04:30 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 338
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 210
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 352
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:05:10 ,ip: 127.0.0.1,	path: /list/Account/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Account/?name=HGS%20-%20Kuveytt%C3%BCrk HTTP/1.1" 200 36649
+INFO [GET] method: 2020-11-25 19:05:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:05:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:05:16 ,ip: 127.0.0.1,	path: /list/Account/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Account/ HTTP/1.1" 200 138521
+INFO [GET] method: 2020-11-25 19:05:17 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:05:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:05:21 ,ip: 127.0.0.1,	path: /detail/Account/17/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Account/17/ HTTP/1.1" 200 43209
+INFO [GET] method: 2020-11-25 19:05:21 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:05:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:05:27 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Transaction/?account=17 HTTP/1.1" 200 176571
+INFO [GET] method: 2020-11-25 19:05:29 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:05:29 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:05:48 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145410
+INFO [GET] method: 2020-11-25 19:05:49 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:05:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [GET] method: 2020-11-25 19:06:20 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/167/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/RepetitiveRecord/167/ HTTP/1.1" 200 219706
+INFO [GET] method: 2020-11-25 19:06:26 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:06:27 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170230
+INFO [POST] method: 2020-11-25 19:06:32 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/167/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/RepetitiveRecord/167/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:06:32 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/168/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/168/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:06:32 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:06:33 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170815
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:07:04 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/168/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:07:10 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/168/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/RepetitiveRecord/168/ HTTP/1.1" 200 219706
+INFO [GET] method: 2020-11-25 19:07:18 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:07:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 170815
+INFO [POST] method: 2020-11-25 19:07:42 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/168/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/RepetitiveRecord/168/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:07:42 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/169/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/169/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:07:42 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:07:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 171401
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:09:21 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/169/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/169/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:09:21 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:09:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 19:09:22 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/169/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/169/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:09:22 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/170/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/170/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:09:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:09:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 171400
+INFO [GET] method: 2020-11-25 19:10:12 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145465
+INFO [GET] method: 2020-11-25 19:10:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:10:15 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145465
+INFO [GET] method: 2020-11-25 19:10:17 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:10:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:10:19 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/163/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/163/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:10:19 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:10:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:10:24 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/163/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/RepetitiveRecord/163/ HTTP/1.1" 200 219706
+INFO [GET] method: 2020-11-25 19:10:30 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:10:30 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:12:01 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/163/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/RepetitiveRecord/163/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:12:02 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/171/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/171/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:12:02 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:12:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:12:07 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145438
+INFO [GET] method: 2020-11-25 19:12:08 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:12:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:13:35 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145439
+INFO [GET] method: 2020-11-25 19:13:36 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:13:36 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:13:51 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/171/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/171/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:13:52 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:13:52 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:13:54 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/171/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/171/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:13:54 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:13:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [POST] method: 2020-11-25 19:13:59 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/171/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/171/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:13:59 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/172/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/172/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:14:00 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:14:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:15:17 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/172/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/172/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:15:18 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:15:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO [POST] method: 2020-11-25 19:15:21 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/172/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/172/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:15:21 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/173/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/173/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:15:22 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:15:22 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO [GET] method: 2020-11-25 19:15:29 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145437
+INFO [GET] method: 2020-11-25 19:15:30 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:15:30 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:16:07 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/173/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/173/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:16:08 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:08 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 19:16:09 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/173/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/173/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:09 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/174/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169646
+INFO "GET /detail/RepetitiveRecord/174/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:16:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169647
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:16:22 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/174/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/174/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:16:22 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 19:16:23 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/174/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/174/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:23 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/175/ HTTP/1.1" 200 36138
+INFO [GET] method: 2020-11-25 19:16:25 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:16:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:17:17 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/RepetitiveRecord/175/ HTTP/1.1" 200 31828
+INFO [GET] method: 2020-11-25 19:17:18 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:17:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 19:17:18 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+ERROR Internal Server Error: /delete/RepetitiveRecord/175/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 218, in post
+    return self.delete(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 212, in delete
+    success_url = self.get_success_url()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 183, in get_success_url
+    return form_redirection(self.request).url
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 24, in form_redirection
+    return fa.get_direction()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\form_after.py", line 152, in get_direction
+    last_obj=self.reprec_model.objects.filter(repetitive=self.object.repetitive).ordering("last_date").last()
+AttributeError: 'QuerySet' object has no attribute 'ordering'
+ERROR "POST /delete/RepetitiveRecord/175/ HTTP/1.1" 500 94358
+INFO [GET] method: 2020-11-25 19:17:19 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:17:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2020-11-25 19:17:32 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+ERROR Internal Server Error: /delete/RepetitiveRecord/175/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 218, in post
+    return self.delete(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\edit.py", line 212, in delete
+    success_url = self.get_success_url()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 183, in get_success_url
+    return form_redirection(self.request).url
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 24, in form_redirection
+    return fa.get_direction()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\form_after.py", line 152, in get_direction
+    last_obj=self.reprec_model.objects.filter(repetitive=self.object.repetitive).order("last_date").last()
+AttributeError: 'QuerySet' object has no attribute 'order'
+ERROR "POST /delete/RepetitiveRecord/175/ HTTP/1.1" 500 94340
+INFO [GET] method: 2020-11-25 19:17:32 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:17:32 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169648
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2020-11-25 19:18:11 ,ip: 127.0.0.1,	path: /delete/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/RepetitiveRecord/175/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:18:12 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/175/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+WARNING Not Found: /detail/RepetitiveRecord/175/
+WARNING "GET /detail/RepetitiveRecord/175/ HTTP/1.1" 404 1794
+INFO [GET] method: 2020-11-25 19:18:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:18:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:18:59 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145466
+INFO [GET] method: 2020-11-25 19:19:01 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:19:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:20:11 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/157/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/RepetitiveRecord/157/ HTTP/1.1" 200 36173
+INFO [GET] method: 2020-11-25 19:20:15 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:20:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO "GET /detail/Repetitive/5 HTTP/1.1" 301 0
+INFO [GET] method: 2020-11-25 19:20:17 ,ip: 127.0.0.1,	path: /detail/Repetitive/5/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Repetitive/5/ HTTP/1.1" 200 40208
+INFO [GET] method: 2020-11-25 19:20:17 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:20:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:20:19 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:20:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:20:21 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145469
+INFO [GET] method: 2020-11-25 19:20:22 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:20:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:20:54 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 145471
+INFO [GET] method: 2020-11-25 19:20:55 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:20:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:24:42 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=16&date=2020-11-25&time=13:05:00&category=40&corporation=77&desc=&tr_type=1&amount=500 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:24:42 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=17&date=2020-11-12&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=4.25 HTTP/1.1" 200 80668
+INFO [GET] method: 2020-11-25 19:24:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:24:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:24:47 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=17&date=2020-11-12&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=4.25 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:24:47 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=17&date=2020-11-14&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=4.25 HTTP/1.1" 200 80668
+INFO [GET] method: 2020-11-25 19:24:47 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:24:48 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:25:00 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=17&date=2020-11-14&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=4.25 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:01 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=17&date=2020-11-14&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=10.25 HTTP/1.1" 200 80669
+INFO [GET] method: 2020-11-25 19:25:01 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:25:10 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=17&date=2020-11-14&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=10.25 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:11 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=17&date=2020-11-15&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=10.25 HTTP/1.1" 200 80669
+INFO [GET] method: 2020-11-25 19:25:11 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:25:14 ,ip: 127.0.0.1,	path: /detail/Account/17/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Account/17/ HTTP/1.1" 200 43209
+INFO [GET] method: 2020-11-25 19:25:15 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 19:25:38 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /financial/multi_transaction_add/?account=17&date=2020-11-15&time=07:05:00&category=41&corporation=188&desc=&tr_type=1&amount=10.25 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:38 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/multi_transaction_add/?account=17&date=2020-11-11&time=07:05:00&category=41&corporation=77&desc=&tr_type=2&amount=50 HTTP/1.1" 200 80666
+INFO [GET] method: 2020-11-25 19:25:39 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:39 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:25:43 ,ip: 127.0.0.1,	path: /detail/Account/17/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Account/17/ HTTP/1.1" 200 43209
+INFO [GET] method: 2020-11-25 19:25:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:25:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:26:29 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/ HTTP/1.1" 200 39793
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 182
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 346
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 210
+INFO [GET] method: 2020-11-25 19:26:30 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 472
+INFO [GET] method: 2020-11-25 19:26:31 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 352
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:27:16 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET / HTTP/1.1" 200 169063
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 8063
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 67268
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO [GET] method: 2020-11-25 19:27:17 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 19:27:18 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 472
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-25 19:27:18 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:27:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:27:20 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/ HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:27:23 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:27:23 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:27:30 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+ERROR Internal Server Error: /list/Series/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 206, in get_queryset
+    object_list = af.get_queryset(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 129, in get_queryset
+    object_list=model.objects.filter(filter_q_and).filter(filter_q_or).exclude(exclude_q)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search' into field. Choices are: country, country_id, current_eps, desc, director, download, download_id, id, main_name, name, rate, season, second_name, series_type, series_type_id, seriesgenre, start_date, state, state_id, total_eps, user, user_id, web_address
+ERROR "GET /list/Series/?search=greenland HTTP/1.1" 500 148056
+INFO [GET] method: 2020-11-25 19:27:30 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:27:30 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:28:10 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+ERROR Internal Server Error: /list/Series/
+Traceback (most recent call last):
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py", line 206, in get_queryset
+    object_list = af.get_queryset(self.request.user, self.model_obj.name, self.ability,filter_dict=self.get_filter())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py", line 130, in get_queryset
+    object_list=model.objects.filter(filter_q_and).filter(filter_q_or).exclude(exclude_q)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Talha\Masaüstü\Masaüstü\Kodlama\venv\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search' into field. Choices are: country, country_id, current_eps, desc, director, download, download_id, id, main_name, name, rate, season, second_name, series_type, series_type_id, seriesgenre, start_date, state, state_id, total_eps, user, user_id, web_address
+ERROR "GET /list/Series/?search=greenland HTTP/1.1" 500 148131
+INFO [GET] method: 2020-11-25 19:28:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:28:10 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:28:41 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:28:44 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:28:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:28:57 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:29:00 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:29:00 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:30:33 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:30:36 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:30:36 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 19:30:39 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:30:42 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:30:42 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:33:03 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:33:06 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:33:06 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:33:51 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:33:54 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:33:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:34:21 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:34:24 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:34:24 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:35:04 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:35:07 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:35:07 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:36:10 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 294430
+INFO [GET] method: 2020-11-25 19:36:13 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:36:13 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\form_after.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:38:54 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:38:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:38:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:39:50 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:39:53 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:39:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:40:29 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:40:33 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:40:33 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:41:09 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:41:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:41:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:41:54 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:41:57 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:41:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:43:14 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:43:17 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:43:17 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:44:12 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:49:37 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:49:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:49:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\model.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:49:53 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51293
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2020-11-25 19:49:56 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2020-11-25 19:49:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:49:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:50:40 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:50:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:50:43 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:51:15 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:51:19 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:51:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:51:35 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:51:39 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:51:39 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:52:18 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:52:21 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:52:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:52:42 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:52:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:52:46 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:53:49 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:53:52 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:53:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 19:56:11 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 19:56:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 19:56:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 20:26:42 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 20:26:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:26:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 20:31:36 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 293334
+INFO [GET] method: 2020-11-25 20:31:40 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:31:40 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 20:32:19 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 36058
+INFO [GET] method: 2020-11-25 20:32:20 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:32:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2020-11-25 20:32:41 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?name=greenland HTTP/1.1" 200 36986
+INFO [GET] method: 2020-11-25 20:32:42 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:32:42 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:32:49 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=greenland HTTP/1.1" 200 37154
+INFO [GET] method: 2020-11-25 20:32:49 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:32:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:32:53 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=sora HTTP/1.1" 200 57754
+INFO [GET] method: 2020-11-25 20:32:53 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:32:54 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:33:00 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [GET] method: 2020-11-25 20:33:01 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:33:01 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:34:08 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:09 ,ip: 127.0.0.1,	path: /detail/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/811/ HTTP/1.1" 200 39726
+INFO [GET] method: 2020-11-25 20:34:09 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:09 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:34:16 ,ip: 127.0.0.1,	path: /update/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/811/ HTTP/1.1" 200 35837
+INFO [GET] method: 2020-11-25 20:34:16 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:16 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:34:24 ,ip: 127.0.0.1,	path: /update/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/811/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:25 ,ip: 127.0.0.1,	path: /detail/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/811/ HTTP/1.1" 200 39737
+INFO [GET] method: 2020-11-25 20:34:25 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:34:27 ,ip: 127.0.0.1,	path: /update/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/811/ HTTP/1.1" 200 35861
+INFO [GET] method: 2020-11-25 20:34:28 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:28 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:34:36 ,ip: 127.0.0.1,	path: /update/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/811/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:36 ,ip: 127.0.0.1,	path: /detail/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/811/ HTTP/1.1" 200 39737
+INFO [GET] method: 2020-11-25 20:34:37 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:37 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:34:43 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 20:34:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:34:50 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=dune HTTP/1.1" 200 37114
+INFO [GET] method: 2020-11-25 20:34:51 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:34:51 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:36:55 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:36:55 ,ip: 127.0.0.1,	path: /detail/Series/812/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/812/ HTTP/1.1" 200 39714
+INFO [GET] method: 2020-11-25 20:36:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:36:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:36:57 ,ip: 127.0.0.1,	path: /update/Series/812/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/812/ HTTP/1.1" 200 35825
+INFO [GET] method: 2020-11-25 20:36:57 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:36:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:37:12 ,ip: 127.0.0.1,	path: /update/Series/812/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/812/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:37:12 ,ip: 127.0.0.1,	path: /detail/Series/812/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/812/ HTTP/1.1" 200 39714
+INFO [GET] method: 2020-11-25 20:37:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:37:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:37:33 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/?search=top%20gun HTTP/1.1" 200 42239
+INFO [GET] method: 2020-11-25 20:37:34 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:37:34 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:37:41 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 20:37:41 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:37:42 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:38:01 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/ HTTP/1.1" 200 294262
+INFO [GET] method: 2020-11-25 20:38:03 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:38:04 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:38:10 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /series/ HTTP/1.1" 200 743846
+INFO [GET] method: 2020-11-25 20:38:12 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:38:12 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:38:44 ,ip: 127.0.0.1,	path: /series/change_state,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /series/change_state?series_id=717&state_id=1 HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:38:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:38:56 ,ip: 127.0.0.1,	path: /detail/Series/718/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/718/ HTTP/1.1" 200 39732
+INFO [GET] method: 2020-11-25 20:38:57 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:38:57 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:38:59 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:38:59 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:39:02 ,ip: 127.0.0.1,	path: /detail/Series/811/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/811/ HTTP/1.1" 200 39737
+INFO [GET] method: 2020-11-25 20:39:02 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:39:06 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:06 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:39:12 ,ip: 127.0.0.1,	path: /detail/Series/718/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/718/ HTTP/1.1" 200 39732
+INFO [GET] method: 2020-11-25 20:39:13 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:13 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:39:14 ,ip: 127.0.0.1,	path: /delete/Series/718/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /delete/Series/718/ HTTP/1.1" 200 31636
+INFO [GET] method: 2020-11-25 20:39:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [POST] method: 2020-11-25 20:39:15 ,ip: 127.0.0.1,	path: /delete/Series/718/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /delete/Series/718/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:15 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO "GET /list/Series/ HTTP/1.1" 200 294263
+INFO [GET] method: 2020-11-25 20:39:19 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:39:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:40:17 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:18 ,ip: 127.0.0.1,	path: /detail/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/813/ HTTP/1.1" 200 39692
+INFO [GET] method: 2020-11-25 20:40:18 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:18 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:40:25 ,ip: 127.0.0.1,	path: /update/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/813/ HTTP/1.1" 200 35836
+INFO [GET] method: 2020-11-25 20:40:26 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:26 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:40:52 ,ip: 127.0.0.1,	path: /update/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/813/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:52 ,ip: 127.0.0.1,	path: /detail/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/813/ HTTP/1.1" 200 39659
+INFO [GET] method: 2020-11-25 20:40:53 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:40:55 ,ip: 127.0.0.1,	path: /update/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/813/ HTTP/1.1" 200 35803
+INFO [GET] method: 2020-11-25 20:40:55 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:40:55 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:41:01 ,ip: 127.0.0.1,	path: /update/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/813/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:02 ,ip: 127.0.0.1,	path: /detail/Series/813/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/813/ HTTP/1.1" 200 39698
+INFO [GET] method: 2020-11-25 20:41:02 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:02 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:11 ,ip: 127.0.0.1,	path: /detail/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/730/ HTTP/1.1" 200 40335
+INFO [GET] method: 2020-11-25 20:41:11 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:14 ,ip: 127.0.0.1,	path: /update/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/730/ HTTP/1.1" 200 35934
+INFO [GET] method: 2020-11-25 20:41:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:41:21 ,ip: 127.0.0.1,	path: /update/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/730/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:21 ,ip: 127.0.0.1,	path: /detail/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/730/ HTTP/1.1" 200 40335
+INFO [GET] method: 2020-11-25 20:41:21 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:21 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:26 ,ip: 127.0.0.1,	path: /update/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /update/Series/730/ HTTP/1.1" 200 35934
+INFO [GET] method: 2020-11-25 20:41:26 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:27 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:41:37 ,ip: 127.0.0.1,	path: /update/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /update/Series/730/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:37 ,ip: 127.0.0.1,	path: /detail/Series/730/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/730/ HTTP/1.1" 200 40335
+INFO [GET] method: 2020-11-25 20:41:37 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:37 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:45 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 20:41:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:46 ,ip: 127.0.0.1,	path: /list/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /list/Series/ HTTP/1.1" 200 294263
+INFO [GET] method: 2020-11-25 20:41:49 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:49 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:41:52 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /series/ HTTP/1.1" 200 743820
+INFO [GET] method: 2020-11-25 20:41:53 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:41:53 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:44:24 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:44:25 ,ip: 127.0.0.1,	path: /detail/Series/814/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/814/ HTTP/1.1" 200 40192
+INFO [GET] method: 2020-11-25 20:44:25 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:44:25 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:44:37 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 20:44:38 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:44:38 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:46:44 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:46:44 ,ip: 127.0.0.1,	path: /detail/Series/815/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/815/ HTTP/1.1" 200 39753
+INFO [GET] method: 2020-11-25 20:46:45 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:46:45 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 20:47:48 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 20:47:48 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:47:48 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 20:48:55 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:48:56 ,ip: 127.0.0.1,	path: /detail/Series/816/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/816/ HTTP/1.1" 200 40072
+INFO [GET] method: 2020-11-25 20:48:56 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 20:48:56 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 21:11:54 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /add/Series/ HTTP/1.1" 200 35737
+INFO [GET] method: 2020-11-25 21:11:55 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 21:11:55 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [POST] method: 2020-11-25 21:26:14 ,ip: 127.0.0.1,	path: /add/Series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "POST /add/Series/ HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 21:26:15 ,ip: 127.0.0.1,	path: /detail/Series/817/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /detail/Series/817/ HTTP/1.1" 200 39902
+INFO [GET] method: 2020-11-25 21:26:15 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 21:26:15 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 21:26:19 ,ip: 127.0.0.1,	path: /series/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /series/ HTTP/1.1" 200 750073
+INFO [GET] method: 2020-11-25 21:26:20 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 21:26:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 21:27:19 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET / HTTP/1.1" 200 169063
+INFO [GET] method: 2020-11-25 21:27:20 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO [GET] method: 2020-11-25 21:27:20 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2020-11-25 21:27:20 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 42v8btfluwy85so8khv0mqmdogs3is7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 472
+INFO "GET /?warning=unauthorizated_user HTTP/1.1" 200 169063

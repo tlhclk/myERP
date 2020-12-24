@@ -1,0 +1,58 @@
+<div class="card card-success" style="max-height: 500px">
+    <div class="card-header">
+        <div class="card-tools float-left">
+            <h2 class="card-title"><a href="{% url "global_list" "Series" %}?state={{ state|safe }}" target="_blank" style="color: white">{{ state }}</a></h2>
+        </div>
+        <div class="card-tools">
+            <div class="input-group input-group-sm" style="width: 250px;">
+                <input type="text" name="search_text" class="form-control float-right" placeholder="Arama" id="search_text_{{ state.id }}" onkeyup="filter_table({{ state.id }})">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body table-responsive p-0" style="max-height: 500px;">
+        <table class="table table-hover text-nowrap" id="table_{{ state.id }}">
+            <tbody >
+                {% for s_object in s_object_list %}
+                    <tr class="row-link" href="{% url 'global_detail' 'Series' s_object.id %}">
+                        <td style="max-width: 20ch">
+                            {{ s_object.series_type|safe }}
+                        </td>
+                        <td style="max-width: 30ch">
+                            <a href="{{ s_object.web_address|safe }}" target="_blank" style="color: black">{{ s_object|safe|slice:"0:40" }}</a>
+                        </td>
+                        {% if s_object.state.id != 1 %}
+                            <td onclick="change_state({{ s_object.id }},1)" style="max-width: 5ch" title="İzlemeyi Tamamladıklarım">
+                                <i class="fa fa-check"></i>
+                            </td>
+                        {% endif %}
+                        {% if s_object.state.id != 2 %}
+                            <td onclick="change_state({{ s_object.id }},2)" style="max-width: 5ch" title="İzlemeyi Sürdürdüklerim">
+                                <i class="fa fa-play"></i>
+                            </td>
+                        {% endif %}
+                        {% if s_object.state.id != 3 %}
+                            <td onclick="change_state({{ s_object.id }},3)" style="max-width: 5ch" title="İzlemeyi Bıraktıklarım">
+                                <i class="fa fa-ban"></i>
+                            </td>
+                        {% endif %}
+                        {% if s_object.state.id != 4 %}
+                            <td onclick="change_state({{ s_object.id }},4)" style="max-width: 5ch" title="İzlemeyi Planladıklarım">
+                                <i class="fa fa-tag"></i>
+                            </td>
+                        {% endif %}
+                        {% if s_object.state.id != 5 %}
+                            <td onclick="change_state({{ s_object.id }},5)" style="max-width: 5ch" title="Beklemeye Aldıklarım">
+                                <i class="fa fa-pause"></i>
+                            </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer">
+    </div>
+</div>

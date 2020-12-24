@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+    <script>
+        $('.row-link').dblclick(function() {
+            window.location = this.getAttribute("href")
+        });
+    </script>
+    <script>
+    function change_state(series_id,state_id) {
+        $.ajax({
+            url:"{% url 'series:change_state' %}",
+            data:{"series_id":series_id,"state_id":state_id},
+            dataType:'json',
+            success:function(result) {
+                console.log(result);
+                var status = result["status"];
+                if (status) {
+                    window.location.reload()
+                }
+            }
+        });
+    }
+    </script>
+    <script>
+        function filter_table(state_id) {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("search_text_"+state_id);
+            filter = input.value.toUpperCase();
+            table = document.getElementById("table_" + state_id);
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            {% for state in state_list %}
+                <div class="col-6">
+                    {% get_series_list request state %}
+                <!-- /.card -->
+                </div>
+            {% endfor %}
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

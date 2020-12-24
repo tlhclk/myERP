@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block header %}
+    <div class="col-lg-3"><a href="{% url "global_add" m_name %}" class="btn btn-block btn-outline-secondary">Yeni Ekle</a></div>
+    <div class="col-lg-3"><a href="{% url "global_update" m_name object.id %}" class="btn btn-block btn-outline-secondary">Bilgiyi Düzenle</a></div>
+    <div class="col-lg-3"><a href="{% url "global_delete" m_name object.id %}" class="btn btn-block btn-outline-secondary">Bilgiyi Sil</a></div>
+    <div class="col-lg-3"><a href="{% url "global_list" m_name %}" class="btn btn-block btn-outline-secondary">{{ list_title }}</a></div>
+{% endblock %}
+{% block more_css %}
+    <!-- Select2 -->
+    <link rel="stylesheet" href="{% static "plugins/select2/css/select2.min.css" %}">
+    <link rel="stylesheet" href="{% static "plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" %}">
+{% endblock %}
+{% block more_script %}
+    <!-- Select2 -->
+    <script src="{% static "plugins/select2/js/select2.full.min.js" %}"></script>
+    <!-- InputMask -->
+    <script src="{% static "plugins/moment/moment.min.js" %}"></script>
+    <script src="{% static "plugins/inputmask/min/jquery.inputmask.bundle.min.js" %}"></script>
+    <script>
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-xl-12 col-lg-12">
+            <div class="card card-secondary">
+                <div class="card-header d-flex p-0">
+                    <h3 class="card-title p-3">{{ title }}</h3>
+                    {% get_page_list request %}
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="column col-xl-8" style="column-count: 2">
+                            {% for field in fields %}
+                                {% if field.name == "web_address" %}
+                                    <div class="row" style="display: flex" id="{{ field.name }}">
+                                        <span style="flex: 1"><strong>{{ field.verbose_name }}:</strong> </span>
+                                        <span style="flex: 1"><a href="{% get_attr_value2 object field "Detail" %}">{% get_attr_value2 object field "Detail" %}</a></span>
+                                    </div>
+                                {% elif field.to == None %}
+                                    <div class="row" style="display: flex" id="{{ field.name }}">
+                                        <span style="flex: 1"><strong>{{ field.verbose_name }}:</strong> </span>
+                                        <span style="flex: 1">{% get_attr_value2 object field "Detail" %}</span>
+                                    </div>
+                                {% else %}
+                                    <div class="row" style="display: flex" id="{{ field.name }}">
+                                        <span style="flex: 1"><strong>{{ field.verbose_name }}:</strong> </span>
+                                        <span style="flex: 1"><a href="/detail/{{ field.to }}/{% get_attr_value2 object field "Detail" key="id" %}">{% get_attr_value2 object field "Detail" %}</a></span>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="column col-xl-4">
+                            {% for field,object_list in object.remote_attr_dict.items %}
+                                <div class="row" id="{{ field.model.name }}">
+                                    <strong>{{ field.model.list_title }}</strong>
+                                    <a href="{% url 'global_add' field.model.name  %}?{{ field.name }}={{ object.id }}" id="add_{{ field.model.name }}" class="add_item"><i class="fa fa-plus"></i></a>
+                                    <ul>
+                                        {% for obj in object_list %}
+                                            <a href="{% url 'global_detail' field.model.name obj.id %}"><li>{{ obj }}</li></a>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

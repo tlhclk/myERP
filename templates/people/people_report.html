@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+    <script>
+        $('.row-link').dblclick(function() {
+            window.location = this.getAttribute("href")
+        });
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>{{ f_title }}</h2>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap">
+                            <tbody>
+                                {% for f_object in f_object_list %}
+                                    <tr class="row-link" href="{% url 'global_detail' 'Person' f_object.0.id %}">
+                                        <td style="max-width: 30ch">
+                                            {% if f_object.1 %}
+                                                <img src="{{ f_object.1 }}" style="width:30px;height:30px;">
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            <p>{{ f_object.0 }}</p>
+                                        </td>
+                                        <td>
+                                            {% for key,value in f_object.0.remote_attr_dict.items %}
+                                                {% if key.model.name == "PersonPhone" %}
+                                                    {% for item in value %}
+                                                        <p><a href="tel:{{ item.phone_number }}">{{ item|safe }}</a></p>
+                                                    {% endfor %}
+                                                {% elif key.model.name == "PersonEmail"%}
+                                                    {% for item in value %}
+                                                        <p><a href="mailto:{{ item.email }}">{{ item|safe }}</a></p>
+                                                    {% endfor %}
+                                                {% endif %}
+                                            {% endfor %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                    </div>
+                </div>
+            <!-- /.card -->
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header" style="display: flex;justify-content: space-between;">
+                        <h2>{{ rt_title }}</h2>
+                        <h4>
+                            <form action="GET" id="person_retalion_form">
+                                <select name="people_list" id="people_list_id" onChange='window.location = "/people/?person_id=" + this.value'>
+                                    {% for person in people_list %}
+                                        {{ rt_id }} - {{ person.id }}
+                                        {% if rt_id == person.id %}
+                                            <option value="{{ person.id }}" selected>{{ person }}</option>
+                                        {% else %}
+                                            <option value="{{ person.id }}">{{ person }}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </form>
+                        </h4>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap" id="rt_table">
+                            <tbody>
+                                {% for relation,people in rt_object_dict.items %}
+                                    <tr class="row-link" href="#" onclick='this.setAttribute("href", "/list/RelationTree/?person_id=" + document.getElementById("people_list_id").value+"&relation_id="+{{ relation.id }})'>
+                                        <td style="max-width: 30ch">
+                                            {{ relation }}
+                                        </td>
+                                        <td style="max-width: 30ch">
+                                            <ul>
+                                                {% for person in people %}
+                                                    <li>{{ person }}</li>
+                                                {% endfor %}
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                    </div>
+                </div>
+            <!-- /.card -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

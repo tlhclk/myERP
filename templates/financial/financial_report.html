@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load static %}
+{% block action_url %}
+{% endblock %}
+{% block content %}
+    <div class="row">
+        {% for item in report_data %}
+            <div class="col-lg-6">
+                <div class="card card-success">
+                    <div class="card-header">
+                        <h3 class="card-title">{{ item.2 }}</h3>
+                        <div class="card-tools">
+                            {% if item.0 %}
+                                <button type="button" class="btn btn-tool" onclick="report_data('{{ item.1 }}',30,'{{ item.3 }}','{{ item.4 }}','{{ item.5 }}')" ><i class="fas fa-calendar-day"> Ay</i></button>
+                                <button type="button" class="btn btn-tool" onclick="report_data('{{ item.1 }}',365,'{{ item.3 }}','{{ item.4 }}','{{ item.5 }}')"><i class="fas fa-calendar-alt"> Yıl</i></button>
+                            {% endif %}
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+                  <div class="card-body">
+                    <canvas id="{{ item.1 }}" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+{% block more_css %}
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="{% static "plugins/daterangepicker/daterangepicker.css" %}">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="{% static "plugins/select2/css/select2.min.css" %}">
+  <link rel="stylesheet" href="{% static "plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" %}">
+{% endblock %}
+{% block more_script %}
+<!-- ChartJS -->
+<script src="{% static "plugins/chart.js/Chart.min.js" %}"></script>
+<!-- Select2 -->
+<script src="{% static "plugins/select2/js/select2.full.min.js" %}"></script>
+<!-- InputMask -->
+<script src="{% static "plugins/moment/moment.min.js" %}"></script>
+<script src="{% static "plugins/inputmask/min/jquery.inputmask.bundle.min.js" %}"></script>
+<!-- date-range-picker -->
+<script src="{% static "plugins/daterangepicker/daterangepicker.js" %}"></script>
+
+
+<script>
+    //-------------
+    //- DONUT CHART
+    //-------------
+    // Get context with jQuery - using jQuery's .get() method.
+    function report_data(chart_id,period,field,m_name,type_id) {
+        $.ajax({
+            url:"{% url 'financial:get_report_data' %}",
+            data:{"period":period,"m_name":m_name,"field":field,"type_id":type_id},
+            dataType:'json',
+            success:function(result) {
+                var name_list=result["name_list"];
+                var data_list=result["data_list"];
+                var donutChartCanvas = $('#'+chart_id).get(0).getContext('2d');
+                var donutData        = {
+                    labels: name_list,
+                    datasets: [{
+                        data: data_list,
+                        backgroundColor : ['#C60000','#f56954','#C68D00','#f39c12','#00A763','#00B2B4','#00c0ef', '#3c8dbc', '#d2d6de','#000000'],
+                    }]
+                };
+                var donutOptions     = {
+                    maintainAspectRatio : false,
+                    responsive : true,
+                    legend:{
+                        position:'right',
+                        onClick:function (e,legendItem) {
+                            var record_id=name_list[legendItem.index];
+                            window.open("/list/"+m_name+"/?"+field+"="+record_id)
+                        },
+                        labels:{
+                            generateLabels: function(chart) {
+                                var data = chart.data;
+                                if (data.labels.length && data.datasets.length) {
+                                    return data.labels.map(function(label, i) {
+                                        var meta = chart.getDatasetMeta(0);
+                                        var style = meta.controller.getStyle(i);
+                                        return {
+                                            text: label+':  '+data_list[i],
+                                            fillStyle: style.backgroundColor,
+                                            strokeStyle: style.borderColor,
+                                            lineWidth: style.borderWidth,
+                                            hidden: isNaN(data.datasets[0].data[i]) || meta.data[i].hidden,
+                                            // Extra data used for toggling the correct item
+                                            index: i
+                                        };
+                                    });
+                                }
+                                return [];
+                            }
+                        }
+                    }
+                };
+                //Create pie or douhnut chart
+                // You can switch between pie and douhnut using the method below.
+                var donutChart = new Chart(donutChartCanvas, {
+                    type: 'doughnut',
+                    data: donutData,
+                    options: donutOptions
+                });
+                console.log("lol");
+            }
+        });
+    }
+    {% for item in report_data %}
+        window.onload=report_data('{{ item.1 }}',30,'{{ item.3 }}','{{ item.4 }}','{{ item.5 }}');
+    {% endfor %}
+</script>
+{% endblock %}

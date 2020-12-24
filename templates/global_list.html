@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+    <script>
+        var input = document.getElementById("search_text");
+        input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                if (input.value  === "") {
+                    window.location = window.location.href.split("?")[0];
+                }
+                else {
+                    window.location = window.location.href.split("?")[0]+"?search=" + input.value;
+                }
+            }
+        }
+        );
+    </script>
+    <script>
+        $('.row-link').dblclick(function() {
+            window.location = this.getAttribute("href")
+        });
+    </script>
+    <script>
+    </script>
+{% endblock %}
+{% block header %}
+    <a href="{% url "global_add" m_name %}" class="btn  btn-block btn-outline-secondary">Yeni Ekle</a>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-tools float-left">
+                            <ul class="pagination pagination-sm m-0 float-right">
+                                {% get_page_list request %}
+                            </ul>
+                        </div>
+                        <div class="card-tools">
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" name="search_text" class="form-control float-right" placeholder="Arama" id="search_text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-hover text-nowrap">
+                            <thead>
+                                <tr>
+                                    {% for field in fields %}
+                                        <th>{{ field.verbose_name }}</th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    {% for field in fields %}
+                                        <th>{{ field.verbose_name }}</th>
+                                    {% endfor %}
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                {% for object in object_list %}
+                                    <tr class="row-link" href="{% url 'global_detail' m_name object.id %}">
+                                        {% for field in fields %}
+                                            {% if field.name == "web_address" %}
+                                                <td style="max-width: 30ch">
+                                                    <a href="{{ object|get_attr_value:field }}">{{ object|get_attr_value:field|slice:"0:30" }}</a>
+                                                </td>
+                                            {% else %}
+                                                <td style="max-width: 30ch">
+                                                    {{ object|get_attr_value:field|slice:"0:30" }}
+                                                </td>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <div class="card-tools float-left">
+                            <ul class="pagination pagination-sm m-0 float-right">
+                                {% get_page_list request %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <!-- /.card -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

@@ -1,0 +1,66 @@
+{% load template_funcs %}
+<nav class="mt-2">
+    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
+    <!-- Add icons to the links using the .nav-icon class
+    with font-awesome or any other icon font library -->
+        {% for panel,model_list in sidebar_dict.items %}
+            <li class="nav-item has-treeview">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-university"></i>
+                    <p>
+                        {{ panel.title }}
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    {% for model in model_list %}
+                        <li class="nav-item">
+                            <a href="{% url "global_list" model.name %}" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>{{ model.list_title }}</p>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-toolbox"></i>
+                <p>
+                    Fonksiyonlar
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+            </a>
+            <ul class="nav nav-treeview">
+                {% for func in func_list %}
+                    <li class="nav-item">
+                        <a href="{{ func.location  }}" class="nav-link">
+                            <i class="nav-icon fas fa-tools"></i>
+                            <p>{{ func.title }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-chart-pie"></i>
+                <p>
+                    Raporlar
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+            </a>
+            <ul class="nav nav-treeview">
+                {% for rep in rep_list %}
+                    <li class="nav-item">
+                        <a href="{{ rep.location }}" class="nav-link">
+                            <i class="nav-icon fas fa-chart-area"></i>
+                            <p>{{ rep.title }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</nav>
