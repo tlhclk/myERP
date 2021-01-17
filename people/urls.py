@@ -7,5 +7,5 @@ from . import views
 ### path_part
 app_name='people'
 urlpatterns = [
-	path('',views.PeopleHome.as_view(),name='peoplehome')
+	path('',views.PeopleHome.as_view(),name='peoplehome_report')
 ]

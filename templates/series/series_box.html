@@ -16,11 +16,14 @@
             <tbody >
                 {% for s_object in s_object_list %}
                     <tr class="row-link" href="{% url 'global_detail' 'Series' s_object.id %}">
-                        <td style="max-width: 20ch">
+                        <td style="max-width: 10ch">
                             {{ s_object.series_type|safe }}
                         </td>
-                        <td style="max-width: 30ch">
-                            <a href="{{ s_object.web_address|safe }}" target="_blank" style="color: black">{{ s_object|safe|slice:"0:40" }}</a>
+                        <td style="max-width: 40ch">
+                            <a href="{{ s_object.web_address|safe }}" target="_blank" style="color: black">{{ s_object|safe|slice:"0:50" }}</a>
+                        </td>
+                        <td style="max-width: 10ch">
+                            {{ s_object.start_date|safe }}
                         </td>
                         {% if s_object.state.id != 1 %}
                             <td onclick="change_state({{ s_object.id }},1)" style="max-width: 5ch" title="İzlemeyi Tamamladıklarım">

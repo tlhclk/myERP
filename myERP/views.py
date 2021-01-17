@@ -1,41 +1,32 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render,redirect,reverse
+from django.shortcuts import render
 from functions.general import HomeData
 from django.views.generic import *
 from functions.form_after import *
 import functions.auth_func as af
-import functions.model as mdl
-from operator import attrgetter as atg
 from functions.report import CalendarrReport,PeopleReport
 from constant.models import SeriesStateLM
-from django.contrib.auth.views import LoginView
-import datetime as dt
+from django.contrib.auth.views import LoginView,LogoutView
+from authentication.forms import RegisterForm
+from authentication.models import UserIp
 
 
-def form_redirection(request):
-    previous_url=request.META["HTTP_REFERER"]
-    url_parts=previous_url.split("/")
-    m_name=url_parts[4]
-    if m_name=="Transaction":
-        fa=TransactionFormAfter(request)
-        return fa.get_direction()
-    elif m_name=="RepetitiveRecord":
-        fa = RepetitiveRecordFormAfter(request)
-        return fa.get_direction()
-    else:
-        if url_parts[3]=="add":
-            last=sorted(af.get_queryset(request.user,m_name),key=atg("id"))[-1]
-            return redirect("global_detail",m_name=m_name,pk=last.id)
-        if url_parts[3]=="update":
-            return redirect("global_detail",m_name=m_name,pk=url_parts[5])
-        else:
-            return redirect("global_list",m_name=m_name)
+class Index(View):
+    template_name = "index.html"
 
+    def get_context_data(self):
+        context_data = {}
+        context_data["title"]="Hoş Geldiniz"
+        return context_data
+
+    def get(self, request):
+        return render(request, self.template_name, context=self.get_context_data())
+    
 class Home(View):
     template_name = "home.html"
 
     def get_context_data(self):
-        context_data = HomeData().get_context_data()
+        context_data = HomeData(self.request).get_context_data()
         if self.request.user.is_authenticated:
             report_data=[]
             report_data.append((1,1,1,"name","Account"))
@@ -88,7 +79,7 @@ class GlobalAddView(CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return form_redirection(self.request).url
+        return redirect("global_detail",m_name=self.model_obj.name,pk=self.object.id).url
 
     def get_initial(self):
         initial_dict = super(GlobalAddView, self).get_initial()
@@ -148,7 +139,7 @@ class GlobalUpdateView(UpdateView):
             return super().form_valid(form)
 
     def get_success_url(self):
-        return form_redirection(self.request).url
+        return redirect("global_detail",m_name=self.model_obj.name,pk=self.object.id).url
     
     def get_form(self, form_class=None):
         form = super(GlobalUpdateView, self).get_form(form_class)
@@ -182,7 +173,7 @@ class GlobalDeleteView(DeleteView):
         return context
 
     def get_success_url(self):
-        return form_redirection(self.request).url
+        return redirect("global_list",m_name=self.model_obj.name).url
 
 class GlobalListView(ListView):
     template_name = "global_list.html"
@@ -243,9 +234,47 @@ class GlobalDetailView(DetailView):
 class MyLoginView(LoginView):
     def form_valid(self, form):
         ip=self.request.META["REMOTE_ADDR"]
-        model_obj,model=af.get_model("UserIp")
-        obj_list=model.objects.filter(ip=ip)
-        if len(obj_list)>0:
-            return super(MyLoginView, self).form_valid(form)
-        else:
-            return redirect("/?warning=unauthorizated_ip_login")
+        self.request.session.set_expiry(14400)
+        if self.request.method== "POST":
+            login_form = self.request.POST
+            if "remember_me" in login_form:
+                if login_form["remember_me"]=="on":
+                    self.request.session.set_expiry(3600*24*30)
+        return super(MyLoginView, self).form_valid(form)
+    
+    def get_success_url(self):
+        return redirect("home").url
+
+class MyLogOutView(LogoutView):
+    def get_success_url_allowed_hosts(self):
+        return redirect("/")
+
+class MyRegisterView(FormView):
+    template_name = "registration/register.html"
+    success_url = "/"
+    form_class = RegisterForm
+
+    def form_valid(self, form):
+        ip=self.request.META["REMOTE_ADDR"]
+        if self.request.method == "POST":
+            form.save(ip)
+        return super(MyRegisterView, self).form_valid(form)
+        
+class RegisterValidationView(View):
+    def grant_permission(self,user_ip):
+        user_ip.permission=True
+        user_ip.save()
+        user=user_ip.user_name
+        user.is_active=True
+        user.is_staff=True
+        user.save()
+        
+    def get(self,request):
+        if "validation_code" in request.GET:
+            auth_key=request.GET["validation_code"]
+            user_ip_list=UserIp.objects.filter(permission=False)
+            for user_ip in user_ip_list:
+                if user_ip.auth_key==auth_key:
+                    self.grant_permission(user_ip)
+                    return redirect("login")
+        return redirect("/home")

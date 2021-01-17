@@ -6,7 +6,7 @@ from .models import *
 
 
 ### admin_part
-admin.site.register(PersonalPermission)
+admin.site.register(ModelPermission)
 admin.site.register(MyUserProfile)
 admin.site.register(MyGroup)
 admin.site.register(UserGroup)

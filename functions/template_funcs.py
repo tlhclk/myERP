@@ -24,10 +24,11 @@ def get_attr_value2(obj,field,ability,key=""):
     return attr_dict[field.name]
 
 @register.inclusion_tag("sidebar.html")
-def get_sidebar():
-    sidebar_dict=HomeData().get_model_list_path()
-    func_list=HomeData().get_func_list_path()
-    rep_list=HomeData().get_report_list_path()
+def get_sidebar(request):
+    hd=HomeData(request)
+    sidebar_dict=hd.get_model_list_path()
+    func_list=hd.get_func_list_path()
+    rep_list=hd.get_report_list_path()
     return {"sidebar_dict":sidebar_dict,"func_list":func_list,"rep_list":rep_list}
 
 @register.inclusion_tag("page_list.html")

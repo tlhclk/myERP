@@ -7,5 +7,5 @@ from . import views
 ### path_part
 app_name='calendarr'
 urlpatterns = [
-	path('',views.CalendarrHome.as_view(),name='calendarrhome'),
+	path('',views.CalendarrHome.as_view(),name='calendarrhome_report'),
 ]

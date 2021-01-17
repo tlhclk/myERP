@@ -12,7 +12,7 @@ class CalendarrHome(View):
 	template_name = "calendarr/calendarr_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData().get_context_data()
+		context_data = HomeData(self.request).get_context_data()
 		cr = CalendarrReport(self.request)
 		context_data["title"] = "Takvim Raporu"
 		context_data["rr_title"] = "İşleme Alınacak Tekrarlı Olaylar"

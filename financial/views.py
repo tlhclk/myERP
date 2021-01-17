@@ -32,7 +32,7 @@ class FinancialHome(View):
 	template_name = "financial/financial_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData().get_context_data()
+		context_data = HomeData(self.request).get_context_data()
 		context_data["title"] = "Finans Raporu"
 		report_data=[]
 		report_data.append((False,"chart1","Mevcut Hesap Durumu","name","Account"))
@@ -109,7 +109,7 @@ class MultiTransactionAdd(FormView):
 		repetitive_record = form.cleaned_data["repetitive_record"]
 		if repetitive_record!=None:
 			new_kwargs["repetitive_record"]=repetitive_record.id
-		redirect_url=redirect("financial:multi_transaction_add").url+"?"+"&".join(["%s=%s" % (key,value) for key,value in new_kwargs.items()])
+		redirect_url=redirect("financial:multi_transaction_add_function").url+"?"+"&".join(["%s=%s" % (key,value) for key,value in new_kwargs.items()])
 		return redirect(redirect_url)
 	
 	

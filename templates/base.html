@@ -75,7 +75,7 @@
             </a>
             {% if request.user.is_authenticated  %}
                 <!-- Sidebar Menu -->
-                {% get_sidebar %}
+                {% get_sidebar request %}
                 <!-- /.sidebar-menu -->
             {% endif %}
         <!-- /.sidebar -->

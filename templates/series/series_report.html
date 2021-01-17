@@ -9,7 +9,7 @@
     <script>
     function change_state(series_id,state_id) {
         $.ajax({
-            url:"{% url 'series:change_state' %}",
+            url:"{% url 'series:change_state_ajax' %}",
             data:{"series_id":series_id,"state_id":state_id},
             dataType:'json',
             success:function(result) {
@@ -24,21 +24,24 @@
     </script>
     <script>
         function filter_table(state_id) {
-            var input, filter, table, tr, td, i, txtValue;
+            var input, filter, table, tr, td, i, txtValue,k,td_list;
             input = document.getElementById("search_text_"+state_id);
-            filter = input.value.toUpperCase();
+            filter = input.value.toLowerCase();
             table = document.getElementById("table_" + state_id);
             tr = table.getElementsByTagName("tr");
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
-                if (td) {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        tr[i].style.display = "";
-                    } else {
-                        tr[i].style.display = "none";
+                td_list = tr[i].getElementsByTagName("td");
+                var result="none"
+                for (k = 0; k< 5;k++){
+                    td=td_list[k]
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                            result = "";
+                        }
                     }
                 }
+                tr[i].style.display = result
             }
         }
     </script>

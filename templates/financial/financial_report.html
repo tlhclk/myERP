@@ -52,7 +52,7 @@
     // Get context with jQuery - using jQuery's .get() method.
     function report_data(chart_id,period,field,m_name,type_id) {
         $.ajax({
-            url:"{% url 'financial:get_report_data' %}",
+            url:"{% url 'financial:get_report_data_ajax' %}",
             data:{"period":period,"m_name":m_name,"field":field,"type_id":type_id},
             dataType:'json',
             success:function(result) {
