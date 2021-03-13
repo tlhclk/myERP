@@ -33,14 +33,14 @@ class MyGroup(models.Model):
 class UserGroup(models.Model):
 	## fields
 	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
 	## class
 	class Meta:
 		db_table='user_group'
-		ordering=["group","user"]
+		ordering=["group","user_name"]
 	## def 1
 	def __str__(self):
-		return str(self.group) + " - " + str(self.user)
+		return str(self.group) + " - " + str(self.user_name)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -50,20 +50,21 @@ class UserGroup(models.Model):
 
 class PanelPermission(models.Model):
 	## fields
-	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=UserGroup,verbose_name='Grup')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
+	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
 	panel = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=PanelLM,verbose_name='Panel Adı')
+	permission = models.BooleanField(null=True,blank=True,default=False,verbose_name='Yetki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:
 		db_table='panel_permission'
-		ordering=["user","panel"]
+		ordering=["user_name","panel"]
 	## def 1
 	def __str__(self):
 		if self.group:
 			return str(self.group) + " - " + str(self.panel)
 		else:
-			return str(self.user) + " - " + str(self.panel)
+			return str(self.user_name) + " - " + str(self.panel)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -73,20 +74,21 @@ class PanelPermission(models.Model):
 	
 class ModelPermission(models.Model):
 	## fields
-	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=UserGroup,verbose_name='Grup')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
+	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
 	model = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=ModelLM,verbose_name='Model Adı')
+	permission = models.BooleanField(null=True,blank=True,default=False,verbose_name='Yetki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:
 		db_table='model_permission'
-		ordering=["user","model"]
+		ordering=["user_name","model"]
 	## def 1
 	def __str__(self):
 		if self.group:
 			return str(self.group) + " - " + str(self.model)
 		else:
-			return str(self.user) + " - " + str(self.model)
+			return str(self.user_name) + " - " + str(self.model)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -96,20 +98,21 @@ class ModelPermission(models.Model):
 	
 class FieldPermission(models.Model):
 	## fields
-	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=UserGroup,verbose_name='Grup')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
-	field = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=ModelLM,verbose_name='Model Alanı Adı')
+	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
+	field = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=FieldLM,verbose_name='Model Alanı Adı')
+	permission = models.BooleanField(null=True,blank=True,default=False,verbose_name='Yetki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:
 		db_table='field_permission'
-		ordering=["user","field"]
+		ordering=["user_name","field"]
 	## def 1
 	def __str__(self):
 		if self.group:
 			return str(self.group) + " - " + str(self.field)
 		else:
-			return str(self.user) + " - " + str(self.field)
+			return str(self.user_name) + " - " + str(self.field)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -119,20 +122,21 @@ class FieldPermission(models.Model):
 	
 class PathPermission(models.Model):
 	## fields
-	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=UserGroup,verbose_name='Grup')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
+	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
 	path = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=PathLM,verbose_name='Güzergah Adı')
+	permission = models.BooleanField(null=True,blank=True,default=False,verbose_name='Yetki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:
 		db_table='path_permission'
-		ordering=["user","path"]
+		ordering=["user_name","path"]
 	## def 1
 	def __str__(self):
 		if self.group:
 			return str(self.group) + " - " + str(self.path)
 		else:
-			return str(self.user) + " - " + str(self.path)
+			return str(self.user_name) + " - " + str(self.path)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -142,17 +146,18 @@ class PathPermission(models.Model):
 
 class UserPermission(models.Model):
 	## fields
-	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=UserGroup,verbose_name='Grup')
-	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
-	personal_permission = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=ModelPermission,verbose_name='Kişisel İzinler')
+	group = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MyGroup,verbose_name='Grup')
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
+	model_permission = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=ModelPermission,verbose_name='Kişisel İzinler')
+	permission = models.BooleanField(null=True,blank=True,default=False,verbose_name='Yetki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:
 		db_table='user_permission'
-		ordering=["user_name","personal_permission"]
+		ordering=["user_name","model_permission"]
 	## def 1
 	def __str__(self):
-		return str(self.user_name) + " - " + str(self.personal_permission)
+		return str(self.user_name) + " - " + str(self.model_permission)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)
@@ -162,10 +167,12 @@ class UserPermission(models.Model):
 
 class MyUserProfile(models.Model):
 	## fields
+	user_name = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı*')
 	profile_pic = models.CharField(null=True,blank=True,max_length=200,verbose_name='Profil Fotoğrafı')
+	corporation = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=CorporationLM,verbose_name='Firma')
 	## def 1
 	def __str__(self):
-		return 
+		return str(self.user_name) + " - " + str(self.corporation)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)

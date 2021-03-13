@@ -53,13 +53,17 @@
                         <div class="column col-xl-4">
                             {% for field,object_list in object.remote_attr_dict.items %}
                                 <div class="row" id="{{ field.model.name }}">
-                                    <strong>{{ field.model.list_title }}</strong>
-                                    <a href="{% url 'global_add' field.model.name  %}?{{ field.name }}={{ object.id }}" id="add_{{ field.model.name }}" class="add_item"><i class="fa fa-plus"></i></a>
-                                    <ul>
-                                        {% for obj in object_list %}
-                                            <a href="{% url 'global_detail' field.model.name obj.id %}"><li>{{ obj }}</li></a>
-                                        {% endfor %}
-                                    </ul>
+									<div class="col-xl-12">
+										<strong><a href="{% url 'global_list' field.model.name %}?{{ field.name }}_id={{ object.id }}" class="show_all">{{ field.model.list_title }}</a></strong>
+										<a href="{% url 'global_add' field.model.name  %}?{{ field.name }}={{ object.id }}" id="add_{{ field.model.name }}" class="add_item"><i class="fa fa-plus"></i></a>
+									</div>
+									<div class="col-xl-12">
+										<ul>
+											{% for obj in object_list %}
+												<a href="{% url 'global_detail' field.model.name obj.id %}"><li>{{ obj }}</li></a>
+											{% endfor %}
+										</ul>
+									</div>
                                 </div>
                             {% endfor %}
                         </div>

@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 import datetime as dt
 from django.db.models import *
-import functions.model as mdl
 from django.http import JsonResponse
 from calendarr.models import *
 from people.models import *
 from series.models import *
-import functions.auth_func as af
-from operator import attrgetter as atg
+from django.utils.safestring import SafeString
+from functions.auth_func import ModelQueryset
 
 
 class SeriesReport:
@@ -32,13 +31,18 @@ class SeriesReport:
         else:
             status_value=None
         return status_value
+    
+    def get_object_list(self,m_name):
+        mq=ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
             
     def get_series_list(self):
         state=self.get_state()
+        object_list=self.get_object_list("Series")
         if state is not None:
-            series_list=Series.objects.filter(user=self.request.user).filter(state=state)
+            series_list=object_list.filter(state=state)
         else:
-            series_list=Series.objects.filter(user=self.request.user)
+            series_list=object_list
         return series_list
         
     def get_related_series(self,series):
@@ -50,19 +54,24 @@ class CalendarrReport:
         self.request=request
         self.args=args
         self.kwargs=kwargs
+    
+    def get_object_list(self,m_name):
+        mq=ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
 
     def get_repetitiverecord_data(self):
-        repetitiverecord_list=RepetitiveRecord.objects.filter(user=self.request.user).filter(transaction__isnull=True).filter(repetitive__is_active=True)
+        repetitiverecord_list=self.get_object_list("RepetitiveRecord").filter(transaction__isnull=True).filter(repetitive__is_active=True)
         return repetitiverecord_list
         
     def get_comingevent_data(self):
-        comingevent_list=Event.objects.filter(user=self.request.user).filter(date__gte=dt.datetime.today())
+        comingevent_list=self.get_object_list("Event").filter(date__gte=dt.datetime.today())
         return comingevent_list
 
 class TransactionReport:
     ability="List"
     data="amount"
     def __init__(self,request,**kwargs):
+        self.request=request
         self.user=request.user
         self.exclude_dict={"corporation_id__in":[],"category_id__in":[40]}
         self.filter_dict = {}
@@ -87,7 +96,7 @@ class TransactionReport:
             return date
         
     def get_filter_data(self):
-        self.filter_dict={"user":self.user,"date__gte":self.get_date(),"type_id":int(self.param_dict["type_id"])}
+        self.filter_dict={"date__gte":self.get_date(),"type_id":int(self.param_dict["type_id"])}
         filter_data=Q()
         for key1,value1 in self.filter_dict.items():
             filter_data&=Q(("%s" % key1 ,value1))
@@ -96,13 +105,13 @@ class TransactionReport:
             exclude_data |= Q(("%s" % key ,value))  # dahil olmayamn idler
         return filter_data,exclude_data
     
-    def get_object_list(self):
-        filter_data,exclude_data=self.get_filter_data()
-        object_list=Transaction.objects.filter(filter_data).exclude(exclude_data)
-        return object_list
+    def get_object_list(self,m_name):
+        mq=ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
     
     def group_info(self):
-        object_list=self.get_object_list()
+        filter_data,exclude_data=self.get_filter_data()
+        object_list=self.get_object_list("Transaction").filter(filter_data).exclude(exclude_data)
         info_dict={}
         for obj in object_list:
             gr=getattr(obj,self.param_dict["field"])
@@ -140,12 +149,13 @@ class AccountReport:
     def __init__(self,request,**kwargs):
         self.request=request
         self.kwargs=kwargs
-        
-    def get_object_list(self):
-        return Account.objects.filter(user=self.request.user).filter(is_active=True)
 
+    def get_object_list(self, m_name):
+        mq = ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
+    
     def gather_info(self):
-        object_list = self.get_object_list()
+        object_list = self.get_object_list("Account").filter(is_active=True)
         result_list=[]
         for obj in object_list:
             result_list.append((obj.id,str(obj),obj.amount))
@@ -168,8 +178,12 @@ class PeopleReport:
         self.related_list=[]
         self.people_relation_dict={}
 
+    def get_object_list(self, m_name):
+        mq = ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
+
     def get_favorites_data(self):
-        people_list=Person.objects.filter(user=self.request.user).filter(favorite=True)
+        people_list=self.get_object_list("Person").filter(favorite=True)
         fav_list=[]
         for person in people_list:
             photo_url=PersonPhoto.objects.filter(person=person)
@@ -291,3 +305,89 @@ class PeopleReport:
         result_dict={}
         p_rel=self.get_primal_relations(person)
         return p_rel
+    
+class RepetitiveReport:
+    def __init__(self,request):
+        self.request=request
+
+    def get_object_list(self, m_name):
+        mq = ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
+        
+    def get_repetitive(self,r_code):
+        if type(r_code)==str:
+            repetitive_list=Repetitive.objects.filter(code=r_code)
+            if len(repetitive_list)==1:
+                return repetitive_list[0]
+        return None
+        
+    def gather_info(self,repetitive):
+        if type(repetitive)==str:
+            repetitive=self.get_repetitive(repetitive)
+        if type(repetitive)==Repetitive:
+            repetitive_record_list=RepetitiveRecord.objects.filter(repetitive=repetitive)
+            item_list=[]
+            for item in repetitive_record_list:
+                if item.transaction!=None:
+                    item_list.append((item.id,str(item),item.transaction.date,item.transaction.amount))
+            item_list=sorted(item_list,key=lambda tup:tup[2])[-12:]
+            id_list=[]
+            name_list=[]
+            data_list=[]
+            for item in item_list:
+                id_list.append(item[0])
+                name_list.append(str(item[2]))
+                data_list.append(float(item[3]))
+            return id_list,name_list,data_list
+        return [],[],[]
+
+
+class TransactionCategoryReport:
+    def __init__(self, request):
+        self.request = request
+    
+    def get_object_list(self, m_name):
+        mq = ModelQueryset(self.request)
+        return mq.get_queryset(m_name)
+    
+    def get_category(self, c_id):
+        if type(c_id) == str:
+            category_list = TransactionCategoryLM.objects.filter(id=c_id)
+            if len(category_list) == 1:
+                return category_list[0]
+        return None
+    
+    def get_keys(self):
+        today=dt.datetime.today()
+        key_list=[]
+        for i in range(12):
+            month=today.month
+            year=today.year
+            new_month=month-i
+            if new_month<=0:
+                new_month+=12
+                year-=1
+            key="%d-%d" % (year,new_month)
+            key_list.append(key)
+        return key_list
+    
+    def gather_info(self, category):
+        if type(category) == str:
+            category = self.get_category(category)
+        if type(category) == TransactionCategoryLM:
+            transaction_list = Transaction.objects.filter(category=category)
+            item_dict = {}
+            for key in self.get_keys():
+                item_dict[key]=0.0
+            for transaction in transaction_list:
+                ym = "%d-%d" % (transaction.date.year,transaction.date.month)
+                if ym in item_dict:
+                    item_dict[ym] += float(transaction.amount)
+            name_list=[]
+            data_list=[]
+            item_list=sorted(list(item_dict.items())[:12],key=lambda tup:tup[0])
+            for key,value in item_list:
+                name_list.append(key)
+                data_list.append(value)
+            return name_list,data_list
+        return [],[]

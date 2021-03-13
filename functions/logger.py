@@ -2,14 +2,14 @@
 from django.shortcuts import redirect
 import datetime,logging
 from django.utils.deprecation import MiddlewareMixin
-import functions.auth_func as af
+from functions.auth_func import ModelFunc
 import datetime as dt
 from authentication.models import ModelPermission
 from main.models import PathLM
 
 request_logger = logging.getLogger('django')
 
-class RequestMessageMiddleware(MiddlewareMixin):
+class RequestMessageMiddleware(MiddlewareMixin,ModelFunc):
     def process_request(self, request):
         if "sessionid" in request.COOKIES:
             session = request.COOKIES["sessionid"]
@@ -28,7 +28,7 @@ class RequestMessageMiddleware(MiddlewareMixin):
         method = request.method
         date=dt.datetime.now()
         time=dt.datetime.now()
-        model_obj,model=af.get_model("HistoryLog")
+        model=self.get_model("HistoryLog")
         last_record=model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_name_id=user_id,session=session,csrftoken=csrftoken)
         message = last_record.logger_str()
         auth=self.ip_check(ip,request.user)
@@ -50,7 +50,7 @@ class RequestMessageMiddleware(MiddlewareMixin):
             request_logger.info(message+" ://denied_permission")
         
     def ip_check(self,ip,user):
-        model_obj,model=af.get_model("UserIp")
+        model=self.get_model("UserIp")
         obj_ip_list=model.objects.filter(ip=ip)
         if user.is_anonymous:
             obj_user_list=[]
@@ -64,7 +64,7 @@ class RequestMessageMiddleware(MiddlewareMixin):
             error_types.append("NoUser")
         if len(obj_ip_list)==0:
             error_types.append("NoIP")
-        if len(obj_list)==0:
+        if len(obj_list)==0 and len(obj_ip_list)==0:
             error_types.append("NoIPNoUser")
 
         if "NoIPNoUser" in error_types:
@@ -88,7 +88,7 @@ class RequestMessageMiddleware(MiddlewareMixin):
         ip = request.META["REMOTE_ADDR"]
         path = request.META["PATH_INFO"].split("?")[0]
         auth=self.ip_check(ip,request.user)
-        valid_pages=["/404", "/500", "/400", "/300", "/", "/register/", "/login/","/register_validation/"]
+        valid_pages=["/404", "/500", "/400", "/300", "/", "/register/", "/login/","/register_validation/","/password_reset/","/password_reset/done/","/password_change/","/password_change/done/","/reset/done/","/logout/"]
         if path in valid_pages:
             if not request.user.is_anonymous:
                 if path=="/register/" or path=="/login/":
@@ -102,7 +102,6 @@ class RequestMessageMiddleware(MiddlewareMixin):
             return response
         else:
             return redirect("/?warning=denied_permission")
-
 
     def parse_path(self,path):
         path_list=path.split("/")
@@ -188,3 +187,7 @@ class RequestMessageMiddleware(MiddlewareMixin):
                 return True
             else:
                 return False
+            
+            
+            
+            

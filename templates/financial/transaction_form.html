@@ -18,11 +18,18 @@
     <script>
         $(function () {
             $('.date').datetimepicker({
+                locales:'tr',
                 format:  "YYYY-MM-DD",
                 todayHighlight:true,
                 pickTime:false,
                 pickDate: true,
                 todayBtn: true,
+                buttons: {
+                    showToday: true,
+                },
+                tooltips: {
+                    today:"Bugün",
+                }
             });
             $('.time').datetimepicker({
                 format:  "HH:mm",

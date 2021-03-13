@@ -1,0 +1,347 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-03-01 14:31:43 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET / HTTP/1.1" 200 3443
+INFO [GET] method: 2021-03-01 14:31:47 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-01 14:31:49 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [GET] method: 2021-03-01 14:31:53 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/ HTTP/1.1" 200 6323
+INFO [GET] method: 2021-03-01 14:31:54 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-01 14:31:56 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [POST] method: 2021-03-01 14:32:00 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "POST /login/ HTTP/1.1" 302 0
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-03-01 14:32:05 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /home/ HTTP/1.1" 200 193906
+INFO [GET] method: 2021-03-01 14:32:08 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO [GET] method: 2021-03-01 14:32:09 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 482
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-03-01 14:32:11 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5372
+INFO [GET] method: 2021-03-01 14:33:04 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40175
+INFO [GET] method: 2021-03-01 14:33:09 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 232
+INFO [GET] method: 2021-03-01 14:33:11 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET / HTTP/1.1" 200 4058
+INFO [GET] method: 2021-03-01 14:33:14 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /home/ HTTP/1.1" 200 193906
+INFO [GET] method: 2021-03-01 14:33:17 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 482
+INFO [GET] method: 2021-03-01 14:33:25 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/163/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/RepetitiveRecord/163/ HTTP/1.1" 200 38923
+INFO [GET] method: 2021-03-01 14:33:44 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 194182
+INFO [GET] method: 2021-03-01 14:34:02 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Eriþ'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Eriþ'.
+ERROR "GET /list/Transaction/?corporation=Eri%C5%9F HTTP/1.1" 500 156443
+INFO [GET] method: 2021-03-01 14:34:08 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Eri'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\related_lookups.py", line 117, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Eri'.
+ERROR "GET /list/Transaction/?corporation=Eri HTTP/1.1" 500 156337
+INFO [GET] method: 2021-03-01 14:34:20 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search Eriþ' into field. Choices are: account, account_amount, account_id, amount, category, category_id, changetransaction, corporation, corporation_id, date, desc, id, repetitiverecord, time, type, type_id, user, user_id
+ERROR "GET /list/Transaction/?search%20Eri%C5%9F HTTP/1.1" 500 142145
+INFO [GET] method: 2021-03-01 14:34:24 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search%' into field. Choices are: account, account_amount, account_id, amount, category, category_id, changetransaction, corporation, corporation_id, date, desc, id, repetitiverecord, time, type, type_id, user, user_id
+ERROR "GET /list/Transaction/?search%=Eri%C5%9F HTTP/1.1" 500 142092
+INFO [GET] method: 2021-03-01 14:34:30 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search' into field. Choices are: account, account_amount, account_id, amount, category, category_id, changetransaction, corporation, corporation_id, date, desc, id, repetitiverecord, time, type, type_id, user, user_id
+ERROR "GET /list/Transaction/?search=Eri%C5%9F HTTP/1.1" 500 143430
+INFO [GET] method: 2021-03-01 14:34:36 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+ERROR Internal Server Error: /list/Transaction/
+Traceback (most recent call last):
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "E:\myERP\myERP\views.py", line 203, in get_queryset
+    object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
+  File "E:\myERP\functions\auth_func.py", line 296, in get_queryset
+    object_list=object_list.filter(fdand)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\ERIS_SONY\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'search' into field. Choices are: account, account_amount, account_id, amount, category, category_id, changetransaction, corporation, corporation_id, date, desc, id, repetitiverecord, time, type, type_id, user, user_id
+ERROR "GET /list/Transaction/?search=Eri HTTP/1.1" 500 143310
+INFO E:\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO E:\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-03-01 14:47:36 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /list/Transaction/?search=Eri HTTP/1.1" 200 194361
+INFO [GET] method: 2021-03-01 14:47:54 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /list/Transaction/?corporation=eri%C5%9F HTTP/1.1" 200 193761
+INFO [GET] method: 2021-03-01 14:48:24 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /list/Transaction/?corporation=eri%C5%9F&amount__gte=1000 HTTP/1.1" 200 159670
+INFO "GET /detail/Transaction/2803 HTTP/1.1" 301 0
+INFO [GET] method: 2021-03-01 14:48:38 ,ip: 127.0.0.1,	path: /detail/Transaction/2803/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/Transaction/2803/ HTTP/1.1" 200 40644
+INFO [GET] method: 2021-03-01 14:48:59 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/98/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/ChangeTransaction/98/ HTTP/1.1" 200 36945
+INFO "GET /detail/Change/39 HTTP/1.1" 301 0
+INFO [GET] method: 2021-03-01 14:49:04 ,ip: 127.0.0.1,	path: /detail/Change/39/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/Change/39/ HTTP/1.1" 200 40942
+INFO [GET] method: 2021-03-01 14:49:17 ,ip: 127.0.0.1,	path: /detail/ChangeTransaction/93/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/ChangeTransaction/93/ HTTP/1.1" 200 36929
+INFO "GET /detail/Transaction/2740 HTTP/1.1" 301 0
+INFO [GET] method: 2021-03-01 14:49:22 ,ip: 127.0.0.1,	path: /detail/Transaction/2740/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/Transaction/2740/ HTTP/1.1" 200 40435
+INFO [GET] method: 2021-03-01 14:50:58 ,ip: 127.0.0.1,	path: /detail/Transaction/2740/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /detail/Transaction/2740/ HTTP/1.1" 200 40619
+INFO [GET] method: 2021-03-01 14:50:59 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40175
+INFO [GET] method: 2021-03-01 14:51:06 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 232
+INFO E:\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO E:\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO E:\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO E:\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-03-01 15:11:48 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40224
+INFO [GET] method: 2021-03-01 15:11:57 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 232
+INFO [GET] method: 2021-03-01 15:13:43 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40289
+INFO [GET] method: 2021-03-01 15:13:49 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 232
+INFO [GET] method: 2021-03-01 15:16:15 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40307
+INFO [GET] method: 2021-03-01 15:16:18 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: ws2dk1thukyeoxm1ki4axwh6w0mk2gdi	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 232
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310

@@ -1,19 +1,21 @@
 # -*- coding: utf-8 -*-
-from .form_after import *
-import functions.auth_func as af
+from django.apps import apps
+from functions.auth_func import ModelFunc,ModelQueryset
 from django.shortcuts import redirect
 from operator import attrgetter as atg
 
 
-class AttrDict:
+class AttrDict(ModelFunc):
     def __init__(self,object):
+        super(AttrDict, self).__init__()
         self.m_name=object.__class__.__name__
-        self.model_obj,self.model=af.get_model(self.m_name)
+        self.model_obj=self.get_model_obj(self.m_name)
+        self.model=self.get_model(self.model_obj)
         self.object=object
 
     def get_attr_dict(self,type):
         attr_dict={}
-        for field in af.get_fields(self.model_obj,type):
+        for field in self.get_model_fields(self.model_obj,type):
             attr_dict[field.name]=getattr(self.object,field.name)
         return attr_dict
 
@@ -22,27 +24,27 @@ class AttrDict:
         field_model=apps.get_model("main","FieldLM")
         remote_model_list=[field for field in field_model.objects.filter(to=self.model_obj.name)]
         for field in remote_model_list:
-            remote_attr_dict[field]=[value for value in getattr(self.object,"%s_set" % field.model.name.lower()).all()][-10:]
+            remote_attr_dict[field]=[value for value in getattr(self.object,"%s_set" % field.model.name.lower()).all()][:10]
         return remote_attr_dict
 
-class PageManagement:
+class PageManagement(ModelFunc):
     current_href=""
     base_href=""
     
     def __init__(self,request):
+        super(PageManagement, self).__init__()
         self.request=request
         self.current_href=self.request.META["PATH_INFO"]
-        self.m_name=self.current_href.split("/")[2]
+        self.m_name=request.resolver_match.kwargs["m_name"]
         self.ability=self.get_ability()
-        self.model_obj,self.model=self.get_model_info()
+        self.model=self.get_model(self.m_name)
         self.parameter_dict=self.get_parameter_dict()
         self.current_id=self.get_current_id()
         self.object_list=self.get_object_list()
         
     def get_object_list(self):
-        return af.get_queryset(self.request.user, self.m_name,self.parameter_dict)
-    def get_model_info(self):
-        return af.get_model(self.m_name)
+        mq=ModelQueryset(self.request)
+        return mq.get_queryset(self.m_name)
     
     def get_ability(self):
         if "list" in self.current_href:
@@ -86,17 +88,19 @@ class PageManagement:
     
     def get_detail_index_stats(self):
         obj_list=sorted(self.object_list,key=atg("id"))
-        last=obj_list[-1].id
-        first=obj_list[0].id
-        if last==self.current_id:
-            next=last
-        else:
-            next=self.go_up(self.model,self.current_id+1,last)
-        if first==self.current_id:
-            prev=self.current_id
-        else:
-            prev=self.go_down(self.model,self.current_id-1,last)
-        return first,prev,next,last
+        if len(obj_list)!=0:
+            last=obj_list[-1].id
+            first=obj_list[0].id
+            if last==self.current_id:
+                next=last
+            else:
+                next=self.go_up(self.model,self.current_id+1,last)
+            if first==self.current_id:
+                prev=self.current_id
+            else:
+                prev=self.go_down(self.model,self.current_id-1,last)
+            return first,prev,next,last
+        return 0,0,0,0
             
     def go_up(self,model,pk,last):
         if self.object_list.filter(id=pk).exists() or pk==last:

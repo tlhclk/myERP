@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from functions.general import HomeData
 from django.views.generic import *
-from functions.form_after import *
-import functions.auth_func as af
 from functions.report import CalendarrReport,PeopleReport
 from constant.models import SeriesStateLM
 from django.contrib.auth.views import LoginView,LogoutView
 from authentication.forms import RegisterForm
 from authentication.models import UserIp
+from functions.auth_func import ModelQueryset,PermissionControl,ModelFunc
 
 
 class Index(View):
@@ -42,16 +41,19 @@ class Home(View):
     def get(self, request):
         return render(request, self.template_name, context=self.get_context_data())
 
-class GlobalAddView(CreateView):
+class GlobalAddView(ModelFunc,CreateView):
     template_name = "global_form.html"
     ability = "Add"
     model_obj=None
     fields = []
     field_list=None
+    def __init__(self):
+        super(GlobalAddView, self).__init__()
     
     def get_queryset(self):
-        self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
-        self.field_list= af.get_fields(self.model_obj, self.ability)
+        self.model_obj = self.get_model_obj(self.kwargs["m_name"])
+        self.model = self.get_model(self.model_obj)
+        self.field_list=self.get_model_fields(self.model_obj,self.ability)
         self.fields = [field.name for field in self.field_list]
         object_list = self.model.objects.all()
         return object_list
@@ -101,21 +103,19 @@ class GlobalAddView(CreateView):
                 form_field.widget.attrs["class"]+=" datetimepicker time"
         return form
 
-class GlobalUpdateView(UpdateView):
+class GlobalUpdateView(ModelFunc,UpdateView):
     template_name = "global_form.html"
     ability = "Update"
-    model_obj=None
     fields = []
-    field_list=None
+    def __init__(self):
+        super(GlobalUpdateView, self).__init__()
     
     def get_queryset(self):
-        self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
-        self.field_list= af.get_fields(self.model_obj, self.ability)
+        self.model_obj = self.get_model_obj(self.kwargs["m_name"])
+        self.model = self.get_model(self.model_obj)
+        self.field_list=self.get_model_fields(self.model_obj,self.ability)
         self.fields = [field.name for field in self.field_list]
-        if "user" in self.fields:
-            object_list = self.model.objects.filter(user=self.request.user)
-        else:
-            object_list = self.model.objects.all()
+        object_list=self.model.objects.all()
         return object_list
     
     def get_context_data(self, **kwargs):
@@ -155,13 +155,16 @@ class GlobalUpdateView(UpdateView):
                 form_field.widget.attrs["class"]+=" datetimepicker time"
         return form
 
-class GlobalDeleteView(DeleteView):
+class GlobalDeleteView(ModelFunc,DeleteView):
     template_name = "global_delete.html"
     ability = "Delete"
-    model_obj=None
+    def __init__(self):
+        super(GlobalDeleteView, self).__init__()
     
     def get_queryset(self):
-        self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
+        self.model_obj = self.get_model_obj(self.kwargs["m_name"])
+        self.model = self.get_model(self.model_obj)
+        #self.field_list=self.get_model_fields(self.model_obj,self.ability)
         object_list = self.model.objects.all()
         return object_list
     
@@ -175,12 +178,13 @@ class GlobalDeleteView(DeleteView):
     def get_success_url(self):
         return redirect("global_list",m_name=self.model_obj.name).url
 
-class GlobalListView(ListView):
+class GlobalListView(ModelFunc,ListView):
     template_name = "global_list.html"
     paginate_by = 50
     ability = "List"
-    model_obj=None
     fields = []
+    def __init__(self):
+        super(GlobalListView, self).__init__()
     
     def get_extras(self):
         extra_dict={}
@@ -192,36 +196,41 @@ class GlobalListView(ListView):
         extra_dict=self.get_extras()
         if "page" in extra_dict:
             del extra_dict["page"]
+        if "search" in extra_dict:
+            del extra_dict["search"]
         return extra_dict
     
     def get_queryset(self):
-        self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
-        object_list = af.get_queryset(self.request.user, self.model_obj.name,filter_dict=self.get_filter())
+        mq=ModelQueryset(self.request)
+        object_list=mq.get_queryset(self.kwargs["m_name"],fd=self.get_filter())
         return object_list
     
     def get_fields(self):
-        return af.get_fields(self.model_obj, self.ability)
+        return self.get_model_fields(self.kwargs["m_name"],self.ability)
     
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(GlobalListView, self).get_context_data()
+        self.model_obj=self.get_model_obj(self.kwargs["m_name"])
         context["m_name"] = self.model_obj.name
         context["title"] = self.model_obj.list_title
         context["fields"] = self.get_fields()
         return context
 
-class GlobalDetailView(DetailView):
+class GlobalDetailView(ModelFunc,DetailView):
     template_name = "global_detail.html"
     ability = "Detail"
-    model_obj = None
     fields = []
+    def __init__(self):
+        super(GlobalDetailView, self).__init__()
     
     def get_queryset(self):
-        self.model_obj, self.model = af.get_model(self.kwargs["m_name"])
+        self.model_obj = self.get_model_obj(self.kwargs["m_name"])
+        self.model = self.get_model(self.model_obj)
         object_list = self.model.objects.all()
         return object_list
     
     def get_fields(self):
-        return af.get_fields(self.model_obj, self.ability)
+        return self.get_model_fields(self.kwargs["m_name"],self.ability)
     
     def get_context_data(self, **kwargs):
         context = super(GlobalDetailView, self).get_context_data()
@@ -230,13 +239,24 @@ class GlobalDetailView(DetailView):
         context["list_title"] = self.model_obj.list_title
         context["fields"] = self.get_fields()
         return context
+
     
 class MyLoginView(LoginView):
+    def get_perm(self,user_name,ip):
+        perm_list=UserIp.objects.filter(user_name__username=user_name,ip=ip)
+        if len(perm_list)==1:
+            if perm_list[0].permission==True:
+                return True
+        return False
+    
     def form_valid(self, form):
         ip=self.request.META["REMOTE_ADDR"]
         self.request.session.set_expiry(14400)
         if self.request.method== "POST":
             login_form = self.request.POST
+            user_name=login_form["username"]
+            if not self.get_perm(user_name,ip):
+                return redirect("/login/?warning=NoPermission")
             if "remember_me" in login_form:
                 if login_form["remember_me"]=="on":
                     self.request.session.set_expiry(3600*24*30)
@@ -271,7 +291,7 @@ class RegisterValidationView(View):
         
     def get(self,request):
         if "validation_code" in request.GET:
-            auth_key=request.GET["validation_code"]
+            auth_key=request.GET["validation_code"].replace(" ","+")
             user_ip_list=UserIp.objects.filter(permission=False)
             for user_ip in user_ip_list:
                 if user_ip.auth_key==auth_key:

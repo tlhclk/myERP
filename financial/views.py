@@ -111,5 +111,25 @@ class MultiTransactionAdd(FormView):
 			new_kwargs["repetitive_record"]=repetitive_record.id
 		redirect_url=redirect("financial:multi_transaction_add_function").url+"?"+"&".join(["%s=%s" % (key,value) for key,value in new_kwargs.items()])
 		return redirect(redirect_url)
+
+
+class CategoryReport(View):
+	template_name = "financial/transaction_category_report.html"
 	
+	def get_context_data(self):
+		context_data = HomeData(self.request).get_context_data()
+		context_data["title"] = "Kategori Bazlı İşlem Hacmi Raporu"
+		mq = ModelQueryset(self.request)
+		category_list = mq.get_queryset("TransactionCategoryLM")
+		context_data["category_list"] = category_list
+		return context_data
+	
+	def get(self, request):
+		return render(request, self.template_name, context=self.get_context_data())
+
+def get_category_report_data(request):
+	cat_id = request.GET["cat_id"]
+	rr = TransactionCategoryReport(request)
+	name_list, data_list = rr.gather_info(cat_id)
+	return JsonResponse({"name_list": name_list, "data_list": data_list})
 	

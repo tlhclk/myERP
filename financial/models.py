@@ -109,7 +109,10 @@ class Change(models.Model):
 		ordering=["-is_active","-date"]
 	## def 1
 	def __str__(self):
-		return str(self.person)+" - "+str(self.purpose)
+		if self.name==None:
+			return str(self.person) + " - " + str(self.purpose)
+		else:
+			return str(self.name) + " - " + str(self.purpose)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)

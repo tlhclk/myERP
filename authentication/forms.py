@@ -2,7 +2,6 @@
 from django import forms
 from .models import UserIp
 import datetime as dt
-import functions.auth_func as af
 from django.core.exceptions import ValidationError
 from django.contrib.auth import get_user_model
 from django.contrib.auth.hashers import make_password
@@ -23,7 +22,6 @@ class RegisterForm(forms.Form):
 	def clean_email(self):
 		email = self.cleaned_data['email']
 		email_list = UserModel.objects.filter(email=email)
-		print(email_list)
 		if len(email_list)>0:
 			raise ValidationError("Girdiğiniz Mail Adresi Kayıtlı!")
 		return email

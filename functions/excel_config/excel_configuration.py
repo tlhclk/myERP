@@ -128,7 +128,7 @@ class ExcelToDatabase:
 				print("%s model is not in sheet list" % model["name"])
 
 	def transfer_data(self,model):
-		model_obj,model_cls=get_model(model["name"])
+		model_obj,model_cls=self.get_model(model["name"])
 		cls_sht=self.wb0.sheet_by_name(model["sheet_name"])
 		var_list,data_list=self.get_sheet_data(cls_sht)
 		field_list=self.filter_field_list(self.field_data_list,model["name"])

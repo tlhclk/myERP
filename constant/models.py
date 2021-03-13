@@ -80,7 +80,7 @@ class TownLM(models.Model):
 		ordering=["city","name"]
 	## def 1
 	def __str__(self):
-		return str(self.name)
+		return str(self.city)+" - "+str(self.name)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)

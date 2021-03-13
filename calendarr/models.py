@@ -68,6 +68,7 @@ class RepetitiveRecord(models.Model):
 	start_date = models.DateField(null=True,blank=True,verbose_name='Başlama Tarihi')
 	end_date = models.DateField(null=True,blank=True,verbose_name='Bitiş Tarihi')
 	last_date = models.DateField(null=True,blank=True,verbose_name='Son Ödeme Tarihi')
+	amount = models.CharField(null=True,blank=True,max_length=10,verbose_name='Miktar')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	transaction = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Transaction,verbose_name='İşlem')
 	is_active = models.BooleanField(default=True,verbose_name='Aktif Mi?')
@@ -75,10 +76,10 @@ class RepetitiveRecord(models.Model):
 	## class
 	class Meta:
 		db_table='repetitive_record'
-		ordering=["-is_active","last_date"]
+		ordering=["-is_active","-last_date"]
 	## def 1
 	def __str__(self):
-		return str(self.repetitive)+" - "+str(self.end_date)
+		return str(self.repetitive)+" - "+str(self.last_date)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)

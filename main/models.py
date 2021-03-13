@@ -106,7 +106,7 @@ class PathLM(models.Model):
 		ordering=["panel","name"]
 	## def 1
 	def __str__(self):
-		return str(self.path)+"-"+str(self.name)
+		return str(self.panel)+":"+str(self.name)
 	## def 2
 	def attr_dict(self,data_type):
 		return AttrDict(self).get_attr_dict(data_type)

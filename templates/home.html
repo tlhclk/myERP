@@ -28,6 +28,7 @@
                 data:{"period":period,"m_name":m_name,"field":field},
                 dataType:'json',
                 success:function(result) {
+					var id_list = result["id_list"];
                     var name_list=result["name_list"];
                     var data_list=result["data_list"];
                     var donutChartCanvas = $('#'+chart_id).get(0).getContext('2d');
@@ -44,8 +45,8 @@
                         legend:{
                             position:'right',
                             onClick:function (e,legendItem) {
-                                var record_id=name_list[legendItem.index];
-                                window.open("/list/"+m_name+"/?"+field+"="+record_id)
+                                var record_id=id_list[legendItem.index];
+                                window.open("/detail/"+m_name+"/"+record_id)
                             },
                             labels:{
                                 generateLabels: function(chart) {

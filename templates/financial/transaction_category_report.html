@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+{% block header %}
+    <div class="page-header">
+        <select name="category" id="id_category" onchange="report_data(this)" data-target-input="1">
+            {% for category in category_list %}
+                <option value="{{ category.id }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="chart-body" id = "id_chart_body">
+        <div class="card card-success" id="id_chart_card"  style="display: none">
+            <div class="card-header">
+                <h3 class="card-title" id="id_chart_title"></h3>
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+          <div class="card-body">
+            <canvas id="id_chart" style="min-height: 275px"></canvas>
+          </div>
+          <!-- /.card-body -->
+        </div>
+    </div>
+{% endblock %}
+{% block more_css %}
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="{% static "/plugins/daterangepicker/daterangepicker.css" %}">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="{% static "/plugins/select2/css/select2.min.css" %}">
+  <link rel="stylesheet" href="{% static "/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css" %}">
+{% endblock %}
+{% block more_script %}
+<!-- ChartJS -->
+<script src="{% static "/plugins/chart.js/Chart.min.js" %}"></script>
+<!-- Select2 -->
+<script src="{% static "/plugins/select2/js/select2.full.min.js" %}"></script>
+<!-- InputMask -->
+<script src="{% static "/plugins/moment/moment.min.js" %}"></script>
+<script src="{% static "/plugins/inputmask/min/jquery.inputmask.bundle.min.js" %}"></script>
+<!-- date-range-picker -->
+<script src="{% static "/plugins/daterangepicker/daterangepicker.js" %}"></script>
+    <script>
+        $('select').select2({
+            theme: 'bootstrap4'
+        });
+        function report_data(cat_id) {
+            var chart_no=cat_id.dataset.targetInput;
+            var chart_body = document.getElementById("id_chart_body");
+            var chart_card = document.getElementById("id_chart_card");
+            var new_chart_card = chart_card.cloneNode(true);
+            new_chart_card.id = new_chart_card.id+"_"+chart_no
+            new_chart_card.style.display = "inline";
+            var new_title_id = new_chart_card.getElementsByTagName("h3")[0];
+            new_title_id.id = new_title_id.id+"_"+chart_no
+            new_title_id.dataset.targetInput = cat_id.value
+            var new_chart_id = new_chart_card.getElementsByTagName("canvas")[0];
+            new_chart_id.id = new_chart_id.id+"_"+chart_no
+            chart_body.appendChild(new_chart_card);
+
+            $.ajax({
+                url:"{% url 'financial:get_category_report_data_ajax' %}",
+                data:{"cat_id":cat_id.value},
+                dataType:'json',
+                success:function(result) {
+                    var chart_id = cat_id.dataset.targetInput;
+                    var name_list=result["name_list"];
+                    var data_list=result["data_list"];
+                    var barChartCanvas = $('#id_chart_'+chart_id).get(0).getContext('2d');
+                    var barChartData        = {
+                        labels: name_list,
+                        datasets: [{
+                            data: data_list,
+                            backgroundColor : ['#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745','#28a745'],
+                            chartTarget:cat_id.value,
+                        }]
+                    };
+                    var barChartOptions     = {
+                        maintainAspectRatio : false,
+                        responsive : true,
+                        datasetFill : false,
+                        legend:{
+                            display:false,
+                        },
+                        onClick: function(c,i) {
+                                    var e = i[0];
+                                    var index=e._index;
+                                    var label = this.data.labels[e._index];
+                                    var data = this.data.datasets[0].data[e._index];
+                                    var target_cat_id = this.data.datasets[0].chartTarget;
+                                    var year = label.split("-")[0]
+                                    var month = label.split("-")[1]
+                                    window.open("/list/Transaction/?category_id="+target_cat_id+"&date__year="+year+"&date__month="+month)
+                                }
+                    };
+                    var barChart = new Chart(barChartCanvas, {
+                        type: 'bar',
+                        data: barChartData,
+                        options: barChartOptions
+                    });
+                    var title_elem = document.getElementById("id_chart_title_"+chart_id);
+                    title_elem.innerText = cat_id.options[cat_id.selectedIndex].text;
+                    cat_id.dataset.targetInput = parseInt(cat_id.dataset.targetInput)+1
+                }
+            });
+        }
+    </script>
+{% endblock %}

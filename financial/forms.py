@@ -5,7 +5,7 @@ from constant.models import TransactionCategoryLM,TransactionTypeLM
 from people.models import Person
 from calendarr.models import RepetitiveRecord
 import datetime as dt
-import functions.auth_func as af
+from functions.auth_func import ModelQueryset
 
 class MultiTransactionAddForm(forms.Form):
 	def __init__(self, *args, **kwargs):
@@ -18,10 +18,11 @@ class MultiTransactionAddForm(forms.Form):
 		field_dict={"account":"Account","category":"TransactionCategoryLM","corporation":"CorporationLM","tr_type":"TransactionTypeLM","person":"Person","change":"Change","repetitive_record":"RepetitiveRecord",}
 		filter_dict={"change":{"is_active":True},"repetitive_record":{"is_active":True}}
 		for field in field_dict:
+			mq= ModelQueryset(self.request)
 			if field in filter_dict:
-				qs = af.get_queryset(self.request.user,field_dict[field]).filter(is_active=True)
+				qs = mq.get_queryset(field_dict[field]).filter(is_active=True)
 			else:
-				qs = af.get_queryset(self.request.user,field_dict[field])
+				qs = mq.get_queryset(field_dict[field])
 			self.fields[field].queryset=qs
 	
 	account=forms.ModelChoiceField(queryset=Account.objects.all(),empty_label="Hesap",label="Hesap",widget=forms.Select(attrs={"class":"form-control select2"}))
@@ -78,3 +79,36 @@ class MultiTransactionAddForm(forms.Form):
 			repetitive_record.save()
 			return repetitive_record
 		return None
+	
+	def create_new_repetitive_record(self,record):
+		new_record=RepetitiveRecord()
+		new_record.repetitive=record.repetitive
+		new_record.start_date=self.get_record_new_date(record.start_date,record.repetitive.period_rate,int(record.repetitive.period_amount))
+		new_record.end_date=self.get_record_new_date(record.end_date,record.repetitive.period_rate,int(record.repetitive.period_amount))
+		new_record.last_date=self.get_record_new_date(record.last_date,record.repetitive.period_rate,int(record.repetitive.period_amount))
+		new_record.amount=self.get_record_new_amount(int(record.amount),record.repetitive.period_rate,int(record.repetitive.period_amount))
+		new_record.is_active=True
+		new_record.user=record.user
+	
+	def get_record_new_date(self,date,rep_type,rep_count):
+		if rep_type.id==1:#yıllık
+			return dt.datetime(year=date.year+rep_count,month=date.month,day=date.day)
+		elif rep_type.id==2:#aylik
+			if date.month+rep_count>12:
+				year_sum=(rep_count+12)//12
+				month_sum=(rep_count+12)%12
+				return dt.datetime(year=date.year + year_sum, month=month_sum, day=date.day)
+			else:
+				return dt.datetime(year=date.year,month=date.month+rep_count,day=date.day)
+		elif rep_type.id==3:#hafta
+			return date+dt.timedelta(days=7*rep_count)
+		elif rep_type.id==4:#gün
+			return date+dt.timedelta(days=rep_count)
+		else:
+			return None
+	
+	def get_record_new_amount(self,amount,rep_type,rep_count):
+		if rep_type.id==6:#km
+			return amount+rep_count
+		else:
+			return None

@@ -19,10 +19,10 @@ class HomeData:
     
     def get_filter_q(self):
         filter_q=Q()
-        filter_q|=Q(("user_id",self.user.id))
-        group_list=UserGroup.objects.filter(user=self.user)
-        for group in group_list:
-            filter_q|=Q(("group_id",group.id))
+        filter_q|=Q(("user_name_id",self.user.id))
+        group_list=UserGroup.objects.filter(user_name=self.user)
+        for ug in group_list:
+            filter_q|=Q(("group_id",ug.group.id))
         return filter_q
         
     def get_model_list_path(self):
@@ -53,3 +53,14 @@ class HomeData:
             rep_list.append(path_perm.path)
         return rep_list
     
+    def get_sidebar_data(self):
+        panel_list_by_user=PanelPermission.objects.filter(panel__type="panel").filter(user_name=self.user)
+        group_list=UserGroup.objects.filter(user_name=self.user)
+        panel_list_by_group=[]
+        for ug in group_list:
+            panel_list_by_group+=list(PanelPermission.objects.filter(panel__type="panel").filter(group=ug.group))
+        model_list_by_user=ModelPermission.objects.filter()
+        modell_list_by_group=ModelPermission
+        func_list_by_user=PathPermission.objects.filter(path__type="function")
+        report_list_by_user=PathPermission.objects.filter(path__type="report")
+        path_list_by_group=PathPermission

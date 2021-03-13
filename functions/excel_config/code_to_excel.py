@@ -4,12 +4,14 @@ import functions.excel_config.class_database as cd
 from main.models import PanelLM,FieldLM,ModelLM,PathLM
 from django.apps import apps
 import functions.auth_func as af
+from functions.auth_func import ModelFunc
 from django import urls
 
 
 
-class CodeToDb:
+class CodeToDb(ModelFunc):
 	def __init__(self):
+		super(CodeToDb, self).__init__()
 		self.db=cd.Database()
 		self.excel_path = "\\ExcelConfigFile.xls"
 		self.models_data = {}
@@ -54,10 +56,11 @@ class CodeToDb:
 	def get_database_info(self):
 		for model in apps.get_models():
 			panel_name=model.__module__.split(".")[-2]
-			panel=self.get_panel_obj(panel_name)
+			panel=self.get_panel(panel_name)
 			if panel!=None:
 				field_list=model._meta.get_fields()
-				model_obj,model_other = af.get_model(model.__name__)
+				model_obj = self.get_model_obj(model.__name__)
+				model = self.get_model(model_obj)
 				if model_obj==None:
 					model_obj,model_other=self.new_model(model)
 					field_obj_list=[]
@@ -67,7 +70,7 @@ class CodeToDb:
 							field_obj=self.field_edit(field,FieldLM(),len(field_obj_list)+1,model_obj)
 							field_obj_list.append(field_obj)
 				else:
-					field_obj_list=af.get_fields(model_obj,"All")
+					field_obj_list=self.get_model_fields(model_obj,"All")
 					for field in field_list:
 						field_type=field.__class__.__name__
 						if field_type!="AutoField" and field_type!="ManyToOneRel" and field_type!="ManyToManyField":
@@ -111,17 +114,11 @@ class CodeToDb:
 	def new_model(self,model):
 		new_mlm = ModelLM.objects.create(name = model._meta.model_name,
 		                                 db_table = model._meta.db_table,
-		                                 panel = self.get_panel_obj(model._meta.apps),
+		                                 panel = self.get_panel(model._meta.apps),
 		                                 ordering = model._meta.ordering,
 		                                 verbose_name = model._meta.verbose_name,
 		                                 verbose_name_plural = model._meta.verbose_name_plural)
 		return new_mlm,model
-	
-	def get_panel_obj(self,panel_name):
-		for panel in PanelLM.objects.all():
-			if panel.name==panel_name:
-				return panel
-		return None
 		
 	def get_field_obj(self,field,field_obj_list):
 		model_name=field.model.__name__
@@ -129,7 +126,7 @@ class CodeToDb:
 		for field_obj in field_obj_list:
 			if field_obj.name==field_name and field_obj.model.name==model_name:
 				return self.field_edit(field,field_obj,field_obj.order,field_obj.model)
-		return self.field_edit(field,FieldLM(),len(field_obj_list)+1,af.get_model(model_name)[0])
+		return self.field_edit(field,FieldLM(),len(field_obj_list)+1,self.get_model_obj(model_name))
 	
 	
 	def get_urls(self):

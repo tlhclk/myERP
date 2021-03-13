@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import functions.auth_func as af
+from functions.auth_func import ModelFunc
 from django.shortcuts import redirect
 
 
@@ -20,7 +20,7 @@ def revise_transaction(transaction_list,account_amount):
     return account_amount
 
 def build_transaction_history(account_list):
-    tra_obj,transaction_model=af.get_model("Transaction")
+    transaction_model=ModelFunc().get_model("Transaction")
     cur_account={}
     for account in account_list:
         if account not in cur_account:

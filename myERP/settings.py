@@ -152,7 +152,7 @@ LOGIN_URL = 'login'
 
 LOGOUT_REDIRECT_URL = 'home'
 LOGOUT_URL = 'logout'
-
+#TEMPUS_DOMINUS_LOCALIZE = True
 
 import datetime
 LOGGING = {

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from functions.general import HomeData
-from functions.form_after import *
 from django import template
 from series.models import Series
-from functions.report import SeriesReport
+from functions.report import SeriesReport,RepetitiveReport
+import functions.model as mdl
 
 register = template.Library()
 
