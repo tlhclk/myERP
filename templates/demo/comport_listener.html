@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+<script>
+	function create_item(data){
+		let p_item = document.createElement('p');
+			p_item.textContent = data;
+		return p_item;
+	};
+
+    function report_data(p_name) {
+        $.ajax({
+            url:"{% url 'demo:port_listener_ajax' %}",
+            data:{"p_name":p_name},
+            dataType:'json',
+            success:function(result) {
+				var elem = document.getElementById("id_comport_data");
+				elem.value = result["data"]
+				<!-- elem.appendChild(create_item(result["data"])); -->
+				var header = document.getElementById("com_header");
+				header.innerText = p_name;
+            }
+        });
+    };
+	function run_flow(){
+		
+		setInterval(		
+		function(){
+		var value1 = document.getElementById("id_port_select").value;
+		report_data(value1); }, 
+		7000);
+	}
+	window.onload = run_flow()
+</script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+			<div class="card card-success" style="max-height: 500px">
+				<div class="card-header">
+					<div class="card-tools float-left" style="max-width: 250px;">
+						<h2 class="card-title"><span id="com_header"></span></h2>
+					</div>
+					<div class="card-tools" style="max-width: 250px;">
+						<div class="input-group input-group-sm">
+								<select class="form-control" name="port_select" id="id_port_select">
+									{% for port in comport_list %}
+										<option value="{{ port.name }}">{{ port.name }}</option>
+									{% endfor %}
+								</select>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="data-viewer">
+						<input type="text" name="comport_data" class="form-control float-right" id="id_comport_data" disabled>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

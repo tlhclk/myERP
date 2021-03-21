@@ -158,7 +158,7 @@ class CorporationLM(models.Model):
 	name = models.CharField(null=True,blank=True,max_length=50,verbose_name='Firma Adı')
 	market = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=MarketLM,verbose_name='Market Tipi')
 	start_date = models.DateField(null=True,blank=True,default=datetime.today,verbose_name='Eklenme Tarihi')
-	type = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=CorporationTypeLM,verbose_name='Firma Tipi')
+	category = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=TransactionCategoryLM,verbose_name='Firma Kategorisi')
 	city = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=CityLM,verbose_name='İli')
 	town = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=TownLM,verbose_name='İlçesi')
 	web_address = models.CharField(null=True,blank=True,max_length=100,verbose_name='Web Adresi')

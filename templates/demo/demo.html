@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static template_funcs %}
+{% block more_script %}
+
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+			<div class="card card-success" style="max-height: 500px">
+				<div class="card-header">
+					<div class="card-tools float-left" style="max-width: 250px;">
+						<h2 class="card-title"><span id="com_header"></span></h2>
+					</div>
+					<div class="card-tools" style="max-width: 250px;">
+						<div class="input-group input-group-sm">
+								<select class="form-control" name="port_select" id="id_port_select">
+									{% for port in comport_list %}
+										<option value="{{ port.name }}">{{ port.name }}</option>
+									{% endfor %}
+								</select>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="data-viewer">
+						<input type="text" name="comport_data" class="form-control float-right" id="id_comport_data" disabled>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+{% endblock %}

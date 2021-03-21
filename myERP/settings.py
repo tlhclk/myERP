@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'people.apps.PeopleConfig',
     'series.apps.SeriesConfig',
     'constant.apps.ConstantConfig',
+    'demo.apps.DemoConfig',
     'tempus_dominus',
     'user_visit',
     # 'django_request_logging-0.7.2.dist-info',

@@ -1,0 +1,113 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-03-17 13:37:08 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET / HTTP/1.1" 200 3443
+INFO [GET] method: 2021-03-17 13:37:09 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:37:10 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [GET] method: 2021-03-17 13:37:13 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:37:14 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [GET] method: 2021-03-17 13:37:14 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:37:14 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [POST] method: 2021-03-17 13:37:21 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "POST /login/ HTTP/1.1" 302 0
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-03-17 13:37:24 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /home/ HTTP/1.1" 200 192417
+INFO [GET] method: 2021-03-17 13:37:26 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:37:27 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 504
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-03-17 13:37:29 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5372
+INFO [GET] method: 2021-03-17 13:37:50 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-03-17 13:37:50 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:37:50 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:37:50 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:37:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:37:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 317
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 504
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 114
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 189
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 378
+INFO [GET] method: 2021-03-17 13:37:53 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 84207
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [GET] method: 2021-03-17 13:37:59 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 210101
+INFO [POST] method: 2021-03-17 13:39:14 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:39:16 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-03-17&time=10:50:00&category=40&corporation=154&desc=MUSTAFA%20ERG%C4%B0N%20-%20FAT%C4%B0H%20UYSAL&tr_type=1&amount=330 HTTP/1.1" 200 84279
+INFO [POST] method: 2021-03-17 13:40:17 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-03-17&time=10:50:00&category=40&corporation=154&desc=MUSTAFA%20ERG%C4%B0N%20-%20FAT%C4%B0H%20UYSAL&tr_type=1&amount=330 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:40:18 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-12&time=20:40:00&category=5&corporation=102&desc=&tr_type=1&amount=17 HTTP/1.1" 200 84240
+INFO [POST] method: 2021-03-17 13:40:32 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-12&time=20:40:00&category=5&corporation=102&desc=&tr_type=1&amount=17 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:40:33 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-12&time=20:40:00&category=5&corporation=102&desc=&tr_type=1&amount=4.5 HTTP/1.1" 200 84241
+INFO [POST] method: 2021-03-17 13:41:06 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-12&time=20:40:00&category=5&corporation=102&desc=&tr_type=1&amount=4.5 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:41:07 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-16&time=13:00:00&category=35&corporation=183&desc=&tr_type=1&amount=66 HTTP/1.1" 200 84240
+INFO [POST] method: 2021-03-17 13:41:35 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-16&time=13:00:00&category=35&corporation=183&desc=&tr_type=1&amount=66 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:41:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-16&time=18:00:00&category=29&corporation=164&desc=&tr_type=1&amount=50.35 HTTP/1.1" 200 84243
+INFO [POST] method: 2021-03-17 13:42:04 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-16&time=18:00:00&category=29&corporation=164&desc=&tr_type=1&amount=50.35 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:42:05 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-17&time=13:00:00&category=5&corporation=121&desc=&tr_type=1&amount=17 HTTP/1.1" 200 84214
+INFO [POST] method: 2021-03-17 13:42:17 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-17&time=13:00:00&category=5&corporation=121&desc=&tr_type=1&amount=17 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:42:18 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-03-17&time=13:00:00&category=29&corporation=121&desc=&tr_type=1&amount=35.15 HTTP/1.1" 200 84217
+INFO [GET] method: 2021-03-17 13:42:40 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-03-17 13:42:41 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:42:41 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:42:41 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:42:41 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:42:41 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 114
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 318
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 504
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 406
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 189
+INFO [GET] method: 2021-03-17 13:46:10 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-03-17 13:46:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 114
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 504
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 318
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 189
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 406
+INFO [POST] method: 2021-03-17 13:46:26 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-03-17&time=13:00:00&category=29&corporation=121&desc=&tr_type=1&amount=35.15 HTTP/1.1" 302 0
+INFO [GET] method: 2021-03-17 13:46:27 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2021-03-13&time=13:00:00&category=12&corporation=30&desc=D%C3%BCzeltme&tr_type=1&amount=57 HTTP/1.1" 200 84232
+INFO [GET] method: 2021-03-17 13:46:35 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-03-17 13:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO [GET] method: 2021-03-17 13:46:36 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 9c9nzl2jhrgh7kinh4k8kn6u51b6fa1j	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 114
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 504
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 396
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 310
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 190

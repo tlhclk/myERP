@@ -40,6 +40,7 @@ urlpatterns = [
 	path('note/',include('note.urls')),
 	path('people/',include('people.urls')),
 	path('series/',include('series.urls')),
+	path('demo/',include('demo.urls')),
 	#path('temptry',temptry,name='temptry'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
