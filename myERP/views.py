@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render,redirect
-from functions.general import HomeData
+from django.shortcuts import render,redirect,HttpResponseRedirect
 from django.views.generic import *
 from functions.report import CalendarrReport,PeopleReport
 from constant.models import SeriesStateLM
 from django.contrib.auth.views import LoginView,LogoutView
 from authentication.forms import RegisterForm
 from authentication.models import UserIp
-from functions.auth_func import ModelQueryset,PermissionControl,ModelFunc
+from functions.auth_func import ModelQueryset,ModelFunc
 
 
 class Index(View):
@@ -25,17 +24,16 @@ class Home(View):
     template_name = "home.html"
 
     def get_context_data(self):
-        context_data = HomeData(self.request).get_context_data()
-        if self.request.user.is_authenticated:
-            report_data=[]
-            report_data.append((1,1,1,"name","Account"))
-            context_data["report_data"]=report_data
-            cr = CalendarrReport(self.request)
-            context_data["rr_object_list"] = cr.get_repetitiverecord_data()
-            pr = PeopleReport(self.request)
-            context_data["f_object_list"] = pr.get_favorites_data()
-            context_data["series_title"] = "Takip Edilen Seriler"
-            context_data["state"] = SeriesStateLM.objects.get(pk=2)
+        context_data = {}
+        report_data=[]
+        report_data.append((1,1,1,"name","Account"))
+        context_data["report_data"]=report_data
+        cr = CalendarrReport(self.request)
+        context_data["rr_object_list"] = cr.get_repetitiverecord_data()
+        pr = PeopleReport(self.request)
+        context_data["f_object_list"] = pr.get_favorites_data()
+        context_data["series_title"] = "Takip Edilen Seriler"
+        context_data["state"] = SeriesStateLM.objects.get(pk=2)
         return context_data
 
     def get(self, request):
@@ -69,15 +67,7 @@ class GlobalAddView(ModelFunc,CreateView):
     
     def form_valid(self, form):
         self.object = form.save()
-        if hasattr(self.object,"user"):
-            if "user" in form.cleaned_data:
-                if form.cleaned_data["user"]==None:
-                    self.object.user = self.request.user
-            else:
-                self.object.user=self.request.user
-            self.object.save()
-        else:
-            self.object.save()
+        self.object.save()
         return super().form_valid(form)
 
     def get_success_url(self):
@@ -128,15 +118,8 @@ class GlobalUpdateView(ModelFunc,UpdateView):
         return context
     
     def form_valid(self, form):
-        if hasattr(self.object,"user"):
-            if self.request.user==self.object.user:
-                self.object = form.save()
-                return super().form_valid(form)
-            else:
-                return redirect("global_update",m_name=self.model_obj.name,pk=self.object.id)
-        else:
-            self.object = form.save()
-            return super().form_valid(form)
+        self.object = form.save()
+        return super().form_valid(form)
 
     def get_success_url(self):
         return redirect("global_detail",m_name=self.model_obj.name,pk=self.object.id).url
@@ -271,14 +254,17 @@ class MyLogOutView(LogoutView):
 
 class MyRegisterView(FormView):
     template_name = "registration/register.html"
-    success_url = "/"
     form_class = RegisterForm
 
     def form_valid(self, form):
         ip=self.request.META["REMOTE_ADDR"]
         if self.request.method == "POST":
             form.save(ip)
-        return super(MyRegisterView, self).form_valid(form)
+        return HttpResponseRedirect(self.get_success_url())
+    
+    def get_success_url(self):
+        user_ip=UserIp.objects.last()
+        return "/register_validation/?validation_code=%s" % (user_ip.auth_key)
         
 class RegisterValidationView(View):
     def grant_permission(self,user_ip):

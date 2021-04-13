@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 ### import_part
 from django.db import models
-from django.contrib.auth.models import User, AbstractUser
+from django.contrib.auth.models import User
 from main.models import ModelLM, CorporationLM,PanelLM,FieldLM,PathLM
 from datetime import datetime
 from functions.model import AttrDict
-from django.contrib.sessions.models import Session
-from django.contrib.auth.hashers import make_password,check_password
-
+from django.contrib.auth.hashers import make_password
 
 ### models_part
 
@@ -232,6 +230,6 @@ class UserIp(models.Model):
 		ip_list=self.ip.split(".")
 		auth_key_text="%s_%s-%s-%s-%s" % (self.user_name.username,ip_list[0],ip_list[1],ip_list[2],ip_list[3])
 		auth_key=make_password(auth_key_text)
-		self.auth_key=auth_key
+		#self.auth_key=auth_key
 		return auth_key
 	

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="162d5069-4907-4c19-bfe8-e9ab745f4328" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendarr/migrations/0007_auto_20210413_1521.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendarr/migrations/0008_remove_event_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant/migrations/0005_auto_20210413_1521.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financial/migrations/0009_auto_20210413_1521.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-03-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-03-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-03-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_2021-04-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0018_auto_20210413_1521.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/migrations/0004_remove_mypassword_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/people/migrations/0008_remove_person_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/people/migrations/0009_auto_20210413_1816.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/migrations/0004_auto_20210413_1521.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendarr/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendarr/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendarr/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendarr/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/constant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/auth_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/auth_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/template_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/template_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/0017_auto_20210318_1113.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myERP/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myERP/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myERP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myERP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/people/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/people/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/series/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/series/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/series/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/series/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/series/series_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/series/series_report.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="829502ce-2869-4a03-8529-0487dc8a9322" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="2db25411-7c58-4566-8293-453de903ad29" />
+  <component name="ProjectId" id="1iF7TRxuWZLVfhiIqvJ8B1en8V1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\myERP\templates\financial" />
+      <recent name="D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\templates" />
+      <recent name="D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\static\dist\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\excel_config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.myERP">
+    <configuration name="excel_configuration" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="myERP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Talha\Masaüstü\Masaüstü\Kodlama\myERP\functions\excel_config\excel_configuration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="myERP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manga_download" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="myERP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/manga_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myERP" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myERP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myERP.settings" />
+      </envs>
+      <option name="SDK_HOME" value="G:\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.myERP" />
+      <item itemvalue="Python.excel_configuration" />
+      <item itemvalue="Python.manga_download" />
+      <item itemvalue="Python.manage" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\tlhcl\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="162d5069-4907-4c19-bfe8-e9ab745f4328" name="Default Changelist" comment="" />
+      <created>1601491493984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601491493984</updated>
+      <workItem from="1601491499456" duration="743000" />
+      <workItem from="1601492297690" duration="1929000" />
+      <workItem from="1601725178783" duration="23193000" />
+      <workItem from="1601970362740" duration="81119000" />
+      <workItem from="1602266256832" duration="14135000" />
+      <workItem from="1602609830085" duration="886000" />
+      <workItem from="1602611355686" duration="1733000" />
+      <workItem from="1602614606596" duration="4784000" />
+      <workItem from="1602779238608" duration="12849000" />
+      <workItem from="1602874804796" duration="7466000" />
+      <workItem from="1603018101203" duration="37053000" />
+      <workItem from="1603216831878" duration="8640000" />
+      <workItem from="1603312182448" duration="55540000" />
+      <workItem from="1603827391909" duration="9524000" />
+      <workItem from="1604085092297" duration="6507000" />
+      <workItem from="1604149846494" duration="13137000" />
+      <workItem from="1604228072266" duration="31877000" />
+      <workItem from="1604435634653" duration="11209000" />
+      <workItem from="1604603210651" duration="834000" />
+      <workItem from="1604683397009" duration="901000" />
+      <workItem from="1604700893793" duration="36809000" />
+      <workItem from="1605029621012" duration="29000" />
+      <workItem from="1605040144334" duration="3534000" />
+      <workItem from="1605116615636" duration="8386000" />
+      <workItem from="1605296060330" duration="641000" />
+      <workItem from="1605359474622" duration="4311000" />
+      <workItem from="1605431512865" duration="4410000" />
+      <workItem from="1605448569203" duration="2936000" />
+      <workItem from="1605557538367" duration="3437000" />
+      <workItem from="1605705059135" duration="6897000" />
+      <workItem from="1605950405922" duration="1799000" />
+      <workItem from="1605991844339" duration="9410000" />
+      <workItem from="1606319080046" duration="8301000" />
+      <workItem from="1606552452033" duration="12148000" />
+      <workItem from="1606750628744" duration="5174000" />
+      <workItem from="1606930618874" duration="739000" />
+      <workItem from="1607009592635" duration="595000" />
+      <workItem from="1607101200847" duration="33000" />
+      <workItem from="1607115267009" duration="3714000" />
+      <workItem from="1607444406827" duration="3153000" />
+      <workItem from="1607533216132" duration="568000" />
+      <workItem from="1607704131530" duration="813000" />
+      <workItem from="1607751905469" duration="10310000" />
+      <workItem from="1608033294673" duration="5129000" />
+      <workItem from="1608046530563" duration="137000" />
+      <workItem from="1608048424037" duration="6182000" />
+      <workItem from="1608109308830" duration="2030000" />
+      <workItem from="1608363656354" duration="2848000" />
+      <workItem from="1608382718203" duration="191000" />
+      <workItem from="1608382951944" duration="1361000" />
+      <workItem from="1608413659701" duration="473000" />
+      <workItem from="1608465734625" duration="1380000" />
+      <workItem from="1608568335112" duration="2952000" />
+      <workItem from="1608652935087" duration="401000" />
+      <workItem from="1608740621081" duration="2473000" />
+      <workItem from="1608840669566" duration="183000" />
+      <workItem from="1608913001972" duration="625000" />
+      <workItem from="1608919745599" duration="1459000" />
+      <workItem from="1608996850704" duration="727000" />
+      <workItem from="1609059085562" duration="5222000" />
+      <workItem from="1609432018240" duration="1869000" />
+      <workItem from="1609530027790" duration="4369000" />
+      <workItem from="1609666134880" duration="18525000" />
+      <workItem from="1609776943354" duration="595000" />
+      <workItem from="1609865310953" duration="623000" />
+      <workItem from="1609954963686" duration="2540000" />
+      <workItem from="1610274218061" duration="23243000" />
+      <workItem from="1610378103560" duration="10930000" />
+      <workItem from="1610470534238" duration="6199000" />
+      <workItem from="1610644026200" duration="3595000" />
+      <workItem from="1610725701449" duration="3302000" />
+      <workItem from="1610790975924" duration="22792000" />
+      <workItem from="1610871350834" duration="6270000" />
+      <workItem from="1611249443386" duration="1033000" />
+      <workItem from="1611339039903" duration="6000" />
+      <workItem from="1611395548816" duration="38000" />
+      <workItem from="1611483232649" duration="1226000" />
+      <workItem from="1611861563634" duration="1962000" />
+      <workItem from="1611993792757" duration="1083000" />
+      <workItem from="1612095331412" duration="611000" />
+      <workItem from="1612097086739" duration="27000" />
+      <workItem from="1612542592352" duration="2915000" />
+      <workItem from="1612893954072" duration="595000" />
+      <workItem from="1613061885788" duration="891000" />
+      <workItem from="1613159632943" duration="1188000" />
+      <workItem from="1613540768373" duration="596000" />
+      <workItem from="1613583637819" duration="1514000" />
+      <workItem from="1613670450283" duration="1292000" />
+      <workItem from="1613915283442" duration="1934000" />
+      <workItem from="1613937408091" duration="600000" />
+      <workItem from="1614011431136" duration="4070000" />
+      <workItem from="1614102273884" duration="601000" />
+      <workItem from="1614183489514" duration="1269000" />
+      <workItem from="1614366050314" duration="8948000" />
+      <workItem from="1614417054087" duration="32212000" />
+      <workItem from="1615109158036" duration="1916000" />
+      <workItem from="1615113733641" duration="385000" />
+      <workItem from="1615132265465" duration="199000" />
+      <workItem from="1615477104106" duration="7810000" />
+      <workItem from="1615620476529" duration="7274000" />
+      <workItem from="1616274021984" duration="4541000" />
+      <workItem from="1616779137675" duration="881000" />
+      <workItem from="1617728987321" duration="3589000" />
+      <workItem from="1617768303574" duration="5229000" />
+      <workItem from="1617816680227" duration="9485000" />
+      <workItem from="1617918758038" duration="8468000" />
+      <workItem from="1618140999879" duration="1515000" />
+      <workItem from="1618314752863" duration="4934000" />
+      <workItem from="1618323983418" duration="5039000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1608044031366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044031366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1608048667977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608048667977</updated>
+    </task>
+    <task id="LOCAL-00003" summary="check commit">
+      <created>1608049442011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608049442011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="check commit">
+      <created>1608145431234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608145431234</updated>
+    </task>
+    <task id="LOCAL-00005" summary="full commit">
+      <created>1608383042409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608383042409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Shared Commit">
+      <created>1609097075012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609097075012</updated>
+    </task>
+    <task id="LOCAL-00007" summary="After Many Changes (Ready to Deploy)">
+      <created>1610887779586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610887779586</updated>
+    </task>
+    <task id="LOCAL-00008" summary="After Many Changes (Ready to Deploy)">
+      <created>1615620967896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615620967896</updated>
+    </task>
+    <task id="LOCAL-00009" summary="with demo">
+      <created>1616350445516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616350445517</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="First commit" />
+    <MESSAGE value="check commit" />
+    <MESSAGE value="full commit" />
+    <MESSAGE value="Shared Commit" />
+    <MESSAGE value="After Many Changes (Ready to Deploy)" />
+    <MESSAGE value="with demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="with demo" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myERP$manga_download.coverage" NAME="manga_download Coverage Results" MODIFIED="1604837640435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functions" />
+    <SUITE FILE_PATH="coverage/myERP$excel_configuration.coverage" NAME="excel_configuration Coverage Results" MODIFIED="1601834528816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functions" />
+  </component>
+</project>

@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 ### import_part
 from datetime import datetime
-
-from django.contrib.auth.models import User
-
 from constant.models import *
 
 
@@ -118,7 +115,6 @@ class PersonGroupLM(models.Model):
 	## fields
 	name = models.CharField(null=True,blank=True,max_length=50,verbose_name='Adı')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='persongroup_lm' 
@@ -138,7 +134,6 @@ class SchoolLM(models.Model):
 	type = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=SchoolTypeLM,verbose_name='Okul Tipi')
 	city = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=CityLM,verbose_name='İli')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='school_lm'
@@ -165,7 +160,6 @@ class CorporationLM(models.Model):
 	address = models.CharField(null=True,blank=True,max_length=100,verbose_name='Adresi')
 	phone_number = models.CharField(null=True,blank=True,max_length=20,verbose_name='Telefon Numarası')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='corporation_lm'
@@ -184,7 +178,6 @@ class DepartmentLM(models.Model):
 	## fields
 	name = models.CharField(null=True,blank=True,max_length=50,verbose_name='Adı')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='department_lm'

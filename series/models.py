@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 ### import_part
-from django.db import models
-from datetime import datetime
-from django.contrib.auth.models import User
-from constant.models import *
 from main.models import *
 from functions.model import AttrDict
 
@@ -26,7 +22,6 @@ class Series(models.Model):
 	country = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=CountryLM,verbose_name='Ülkesi')
 	director = models.CharField(null=True,blank=True,max_length=50,verbose_name='Yönetmeni')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='series_m'
@@ -52,7 +47,6 @@ class SeriesGenre(models.Model):
 	## fields
 	series = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Series,verbose_name='Seri')
 	genre = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=SeriesGenreLM,verbose_name='Seri Türü')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='seriesgenre_m'
@@ -72,7 +66,6 @@ class RelatedSeries(models.Model):
 	series1 = models.CharField(null=True,blank=True,max_length=50,verbose_name='Seri 1')
 	series2 = models.CharField(null=True,blank=True,max_length=50,verbose_name='Seri 2')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='relatedseries_m'

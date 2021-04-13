@@ -11,7 +11,6 @@ class ModelFunc:
         self.model_model=apps.get_model("main","ModelLM")
         self.field_model=apps.get_model("main","FieldLM")
         self.path_model=apps.get_model("main","PathLM")
-        self.user_perm_model = apps.get_model("authentication", "UserPermission")
         
     def get_model_fields(self,model_obj,ability):
         field_list = []
@@ -133,7 +132,8 @@ class PermissionControl(ModelFunc):
             if len(perm_list)>0:
                 return True
             else:
-                print("Group Yetki Yok %s" % group_obj)
+                if group_obj.id!=3:
+                    print("Group Yetki Yok %s" % group_obj)
         else:
             print("Grup Bulunamadı(GroupCheck) %s" % group_obj)
         return False
@@ -178,20 +178,6 @@ class ModelQueryset(ModelFunc):
     def get_kwargs(self,kwargs_dict):
         for key,value in kwargs_dict.items():
             setattr(self,key,value)
-            
-    def get_user_perm_filter_list(self):
-        user_perm_list = self.user_perm_model.objects.filter(model_permission__model=self.model_obj).filter(user_name=self.user)
-        user_list = [self.user]
-        if len(user_perm_list)> 0:
-            for user_perm in user_perm_list:
-                if user_perm.permission==True:
-                    if user_perm.model_permission.user_name not in user_list:
-                        user_list.append(user_perm.model_permission.user_name)
-                    else:
-                        print("%s yetki mevcut" % user_perm)
-                else:
-                    print("%s yetkisi iptal" % user_perm)
-        return user_list
     
     def get_search_filter_dict(self):
         filter_dict = {}
@@ -204,13 +190,12 @@ class ModelQueryset(ModelFunc):
                 elif field.field == "EmailField":
                     filter_dict["%s__icontains" % field.name] = search_text
                 elif field.field == "ForeignKey":
-                    if field.to != "User":
-                        field_list2 = self.get_model_fields(field.to,"All")
-                        for field2 in field_list2:
-                            if field2.field == "CharField":
-                                filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
-                            elif field2.field == "EmailField":
-                                filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
+                    field_list2 = self.get_model_fields(field.to,"All")
+                    for field2 in field_list2:
+                        if field2.field == "CharField":
+                            filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
+                        elif field2.field == "EmailField":
+                            filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
         return filter_dict
     
     def get_field_filter_dict(self):
@@ -247,26 +232,21 @@ class ModelQueryset(ModelFunc):
                 time=dt.time(int(hour),int(minutes))
                 return (field.name,time)
         elif field.field=="ForeignKey":
-            if field.to!="User":
-                field_list2=self.get_model_fields(self.get_model_obj(field.to),"Detail")
-                filter_list=[]
-                for field2 in field_list2:
-                    if field2.field == "CharField":
-                        filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
-                    elif field2.field == "EmailField":
-                        filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
-                return "%s__list"%field.name,filter_list
+            field_list2=self.get_model_fields(self.get_model_obj(field.to),"Detail")
+            filter_list=[]
+            for field2 in field_list2:
+                if field2.field == "CharField":
+                    filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
+                elif field2.field == "EmailField":
+                    filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
+            return "%s__list"%field.name,filter_list
         return None
     
     def get_filter(self,filter_dict,exclude_dict):
-        ufor=Q()
         fdand=Q()
         edor=Q()
         sfor=Q()
         ffand=Q()
-        if hasattr(self.model,"user"):
-            for user in self.get_user_perm_filter_list():
-                ufor|=Q(("user",user))
         if self.url_name=="global_list":
             for key,value in filter_dict.items():
                 fdand&=Q((key,value))
@@ -282,7 +262,7 @@ class ModelQueryset(ModelFunc):
                     ffand&=temp_q
                 else:
                     ffand&=Q((key,value))
-        return fdand,edor,ufor,sfor,ffand
+        return fdand,edor,sfor,ffand
     
     def get_queryset(self,m_name,fd={},ed={}):
         self.get_model_info(m_name)
@@ -291,12 +271,10 @@ class ModelQueryset(ModelFunc):
         for key in fd:
             if key not in fl:
                 filter_dict[key]=fd[key]
-        fdand,edor,ufor,sfor,ffand=self.get_filter(filter_dict=filter_dict,exclude_dict=ed)
+        fdand,edor,sfor,ffand=self.get_filter(filter_dict=filter_dict,exclude_dict=ed)
         object_list=self.model.objects.all()
-        if self.user.is_superuser == True or PermissionControl().GroupCheck(self.user,"Admin"):
+        if self.user.is_superuser == True:
             return object_list
-        if len(ufor)!=0:
-            object_list=object_list.filter(ufor)
         if len(fdand)!=0:
             object_list=object_list.filter(fdand)
         if len(sfor)!=0:

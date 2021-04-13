@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import redirect,render
 from functions.report import RepetitiveReport as RepReport,CalendarrReport
-from functions.general import HomeData
 from django.views import View
 from django.http import JsonResponse
 from functions.auth_func import ModelQueryset
@@ -10,7 +9,7 @@ class CalendarrHome(View):
 	template_name = "calendarr/calendarr_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		cr = CalendarrReport(self.request)
 		context_data["title"] = "Takvim Raporu"
 		context_data["rr_title"] = "İşleme Alınacak Tekrarlı Olaylar"
@@ -27,7 +26,7 @@ class RepetitiveReport(View):
 	template_name = "calendarr/repetitive_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		context_data["title"] = "Tekrarlı İşlemler Raporu"
 		mq=ModelQueryset(self.request)
 		repetitive_list=mq.get_queryset("Repetitive")

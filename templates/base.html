@@ -38,29 +38,27 @@
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
                 <!-- User Dropdown Menu -->
-                <li class="nav-item d-none d-sm-inline-block">
-                    <div class="row">
-                        {% if request.user.is_authenticated  %}
-                            <a href="#" class="nav-link" data-toggle="dropdown">{{ request.user.first_name }} {{ request.user.last_name }}
-                                <img src="http://127.0.0.1:8000/media/profile_pic/DSC_0487.JPG" alt="" height="30px">
+                <li class="nav-item">
+                    {% if request.user.is_authenticated  %}
+                        <a href="#" class="nav-link" data-toggle="dropdown">{{ request.user.first_name }} {{ request.user.last_name }}
+                            <img src="http://127.0.0.1:8000/media/profile_pic/DSC_0487.JPG" alt="" height="30px">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <a href="{% url "global_detail" "User" request.user.id %}" class="dropdown-item">
+                                <i class="far fa-user"></i>
+                                Profil
                             </a>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                                <a href="{% url "global_detail" "User" request.user.id %}" class="dropdown-item">
-                                    <i class="far fa-user"></i>
-                                    Profil
-                                </a>
-                                <a href="{% url "logout" %}" class="dropdown-item">
-                                    <i class="far fa-sign-out"></i>
-                                    Çıkış
-                                </a>
-                            </div>
-                        {% else %}
-                            <a href="{% url "login" %}" class="nav-link">
-                                <i class="far fa-sign-in-alt"></i>
-                                Giriş Yap
+                            <a href="{% url "logout" %}" class="dropdown-item">
+                                <i class="far fa-sign-out"></i>
+                                Çıkış
                             </a>
-                        {% endif %}
-                    </div>
+                        </div>
+                    {% else %}
+                        <a href="{% url "login" %}" class="nav-link">
+                            <i class="far fa-sign-in-alt"></i>
+                            Giriş Yap
+                        </a>
+                    {% endif %}
                 </li>
             </ul>
         </nav>
@@ -75,7 +73,7 @@
             </a>
             {% if request.user.is_authenticated  %}
                 <!-- Sidebar Menu -->
-                {% get_sidebar request %}
+                {% get_sidebar %}
                 <!-- /.sidebar-menu -->
             {% endif %}
         <!-- /.sidebar -->

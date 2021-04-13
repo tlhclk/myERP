@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 ### import_part
-from django.contrib.auth.models import User
-
-from functions.model import AttrDict
-from main.models import *
 from people.models import *
 
 
@@ -21,7 +17,6 @@ class MyPassword(models.Model):
 	secret_phrase = models.CharField(null=True,blank=True,max_length=50,verbose_name='Gizli Kelime')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	update_date = models.DateField(null=True,blank=True,default=datetime.today,verbose_name='Güncelleme Tarihi')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='mypassword_m'

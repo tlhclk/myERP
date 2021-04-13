@@ -40,7 +40,7 @@ class MultiTransactionAddForm(forms.Form):
 	class Meta:
 		fields=["account","date","time","category","corporation","desc","type","amount","person","change","repetitive_record",]
 	
-	def transaction_save(self,user):
+	def transaction_save(self):
 		account=self.cleaned_data["account"]
 		date=self.cleaned_data["date"]
 		time=self.cleaned_data["time"]
@@ -61,13 +61,13 @@ class MultiTransactionAddForm(forms.Form):
 			account_amount = account.amount + amount
 		account.amount=account_amount
 		account.save()
-		new_transaction=Transaction.objects.create(account=account,date=date,time=time,category=category,corporation=corporation,desc=desc,type=tr_type,amount=amount,account_amount=account_amount,user=user)
+		new_transaction=Transaction.objects.create(account=account,date=date,time=time,category=category,corporation=corporation,desc=desc,type=tr_type,amount=amount,account_amount=account_amount)
 		return new_transaction
 	
 	def change_save(self,transaction):
 		change=self.cleaned_data["change"]
 		if change!=None and transaction!=None:
-			new_change=ChangeTransaction.objects.create(change=change,transaction=transaction,user=transaction.user)
+			new_change=ChangeTransaction.objects.create(change=change,transaction=transaction)
 			return new_change
 		return None
 	
@@ -77,6 +77,7 @@ class MultiTransactionAddForm(forms.Form):
 			repetitive_record.transaction=transaction
 			repetitive_record.is_active=False
 			repetitive_record.save()
+			self.create_new_repetitive_record(repetitive_record)
 			return repetitive_record
 		return None
 	
@@ -88,7 +89,6 @@ class MultiTransactionAddForm(forms.Form):
 		new_record.last_date=self.get_record_new_date(record.last_date,record.repetitive.period_rate,int(record.repetitive.period_amount))
 		new_record.amount=self.get_record_new_amount(int(record.amount),record.repetitive.period_rate,int(record.repetitive.period_amount))
 		new_record.is_active=True
-		new_record.user=record.user
 	
 	def get_record_new_date(self,date,rep_type,rep_count):
 		if rep_type.id==1:#yıllık

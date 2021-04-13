@@ -65,6 +65,7 @@ class RegisterForm(forms.Form):
 		user=UserModel.objects.create(username=username,email=email,password=make_password(password),first_name=first_name,last_name=last_name,is_superuser=False,is_active=False,is_staff=False)
 		new_user_ip=UserIp.objects.create(user_name=user,ip=ip,permission=False)
 		auth_key=new_user_ip.create_auth_key()
+		new_user_ip.auth_key=auth_key
 		new_user_ip.save()
 		#send_ip_validation_mail(user,auth_key,ip)
 		

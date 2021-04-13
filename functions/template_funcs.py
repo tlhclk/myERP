@@ -2,7 +2,6 @@
 from functions.general import HomeData
 from django import template
 from series.models import Series
-from functions.report import SeriesReport,RepetitiveReport
 import functions.model as mdl
 
 register = template.Library()
@@ -24,8 +23,8 @@ def get_attr_value2(obj,field,ability,key=""):
     return attr_dict[field.name]
 
 @register.inclusion_tag("sidebar.html")
-def get_sidebar(request):
-    hd=HomeData(request)
+def get_sidebar():
+    hd=HomeData()
     sidebar_dict=hd.get_model_list_path()
     func_list=hd.get_func_list_path()
     rep_list=hd.get_report_list_path()
@@ -41,6 +40,6 @@ def dict_value(dict,key):
     return dict[key]
 
 @register.inclusion_tag("series/series_box.html")
-def get_series_list(request,state):
-    series_list=Series.objects.filter(user=request.user).filter(state=state)
+def get_series_list(state):
+    series_list=Series.objects.filter(state=state)
     return {"state":state,"s_object_list":series_list}

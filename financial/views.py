@@ -32,7 +32,7 @@ class FinancialHome(View):
 	template_name = "financial/financial_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		context_data["title"] = "Finans Raporu"
 		report_data=[]
 		report_data.append((False,"chart1","Mevcut Hesap Durumu","name","Account"))
@@ -47,7 +47,7 @@ class FinancialHome(View):
 		return render(request, self.template_name, context=self.get_context_data())
 
 def build_transaction_history(request):
-	account_list=Account.objects.filter(user=request.user).filter(is_active=True)
+	account_list=Account.objects.filter(is_active=True)
 	return organizer.build_transaction_history(account_list)
 
 class MultiTransactionAdd(FormView):
@@ -78,7 +78,7 @@ class MultiTransactionAdd(FormView):
 		return kwargs
 	
 	def form_valid(self, form):
-		new_transaction=form.transaction_save(self.request.user)
+		new_transaction=form.transaction_save()
 		form.change_save(new_transaction)
 		form.repetitive_record_save(new_transaction)
 		return self.get_success_url(form=form)
@@ -117,7 +117,7 @@ class CategoryReport(View):
 	template_name = "financial/transaction_category_report.html"
 	
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		context_data["title"] = "Kategori Bazlı İşlem Hacmi Raporu"
 		mq = ModelQueryset(self.request)
 		category_list = mq.get_queryset("TransactionCategoryLM")

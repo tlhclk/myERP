@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.views import View
-from .models import *
 from functions.report import *
 from functions.general import *
 
@@ -27,7 +26,7 @@ class SeriesHome(View):
 	template_name = "series/series_report.html"
 
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		context_data["title"] = "Seri Raporu"
 		context_data["state_list"] = SeriesStateLM.objects.all().order_by("desc")
 		return context_data

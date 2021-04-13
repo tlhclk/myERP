@@ -1,0 +1,357 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-06 15:14:03 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET / HTTP/1.1" 200 4058
+INFO [GET] method: 2021-04-06 15:14:06 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:08 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /home/ HTTP/1.1" 200 192396
+INFO [GET] method: 2021-04-06 15:14:11 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 484
+INFO [GET] method: 2021-04-06 15:14:31 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-06 15:14:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:34 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:14:34 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 79
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 87
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 73
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 484
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 84210
+INFO [GET] method: 2021-04-06 15:14:37 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 210126
+INFO [POST] method: 2021-04-06 15:15:22 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:15:23 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-06&time=12:14:00&category=40&corporation=77&desc=&tr_type=1&amount=506.88 HTTP/1.1" 200 84221
+INFO [POST] method: 2021-04-06 15:15:38 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-06&time=12:14:00&category=40&corporation=77&desc=&tr_type=1&amount=506.88 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:15:39 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-04-06&time=12:15:00&category=40&corporation=77&desc=&tr_type=2&amount=506.88 HTTP/1.1" 200 84229
+INFO "GET /detail/Account/19 HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-06 15:15:53 ,ip: 127.0.0.1,	path: /detail/Account/19/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Account/19/ HTTP/1.1" 200 44546
+INFO [GET] method: 2021-04-06 15:16:01 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-06 15:16:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:16:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:16:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:16:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:16:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 79
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 87
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 504
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 73
+INFO [GET] method: 2021-04-06 15:17:02 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Transaction/?account_id=19 HTTP/1.1" 200 209582
+INFO [POST] method: 2021-04-06 15:18:43 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-04-06&time=12:15:00&category=40&corporation=77&desc=&tr_type=2&amount=506.88 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:18:44 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-04-02&time=16:15:00&category=48&corporation=30&desc=Microsoft%20-%20Xbox%20GamePass&tr_type=1&amount=30.14 HTTP/1.1" 200 84262
+INFO [GET] method: 2021-04-06 15:18:58 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 210157
+INFO [GET] method: 2021-04-06 15:19:19 ,ip: 127.0.0.1,	path: /list/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:19:20 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Repetitive/ HTTP/1.1" 200 116406
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 180070
+INFO [GET] method: 2021-04-06 15:19:26 ,ip: 127.0.0.1,	path: /detail/Repetitive/19/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/19/ HTTP/1.1" 200 41231
+INFO [GET] method: 2021-04-06 15:19:38 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/201/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/201/ HTTP/1.1" 200 38579
+INFO [GET] method: 2021-04-06 15:19:55 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/RepetitiveRecord/?repetitive=19 HTTP/1.1" 200 250852
+INFO [POST] method: 2021-04-06 15:20:22 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /add/RepetitiveRecord/?repetitive=19 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:20:23 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/219/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/219/ HTTP/1.1" 200 38537
+INFO "GET /detail/Repetitive/19 HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-06 15:20:29 ,ip: 127.0.0.1,	path: /detail/Repetitive/19/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/19/ HTTP/1.1" 200 41352
+INFO [GET] method: 2021-04-06 15:20:31 ,ip: 127.0.0.1,	path: /add/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/Repetitive/ HTTP/1.1" 200 79102
+INFO [GET] method: 2021-04-06 15:21:12 ,ip: 127.0.0.1,	path: /list/CorporationLM/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/CorporationLM/ HTTP/1.1" 200 227531
+INFO [GET] method: 2021-04-06 15:21:17 ,ip: 127.0.0.1,	path: /add/CorporationLM/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/CorporationLM/ HTTP/1.1" 200 92549
+INFO [POST] method: 2021-04-06 15:22:00 ,ip: 127.0.0.1,	path: /add/CorporationLM/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /add/CorporationLM/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:22:02 ,ip: 127.0.0.1,	path: /detail/CorporationLM/212/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/CorporationLM/212/ HTTP/1.1" 200 41277
+INFO [GET] method: 2021-04-06 15:22:10 ,ip: 127.0.0.1,	path: /add/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/Repetitive/ HTTP/1.1" 200 79144
+INFO [POST] method: 2021-04-06 15:23:09 ,ip: 127.0.0.1,	path: /add/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /add/Repetitive/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:23:11 ,ip: 127.0.0.1,	path: /detail/Repetitive/22/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/22/ HTTP/1.1" 200 40261
+INFO [GET] method: 2021-04-06 15:23:13 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/RepetitiveRecord/?repetitive=22 HTTP/1.1" 200 250912
+INFO [POST] method: 2021-04-06 15:23:42 ,ip: 127.0.0.1,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /add/RepetitiveRecord/?repetitive=22 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:23:43 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/220/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/220/ HTTP/1.1" 200 38569
+INFO [GET] method: 2021-04-06 15:23:48 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/220/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /update/RepetitiveRecord/220/ HTTP/1.1" 200 251080
+INFO [POST] method: 2021-04-06 15:24:14 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/220/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /update/RepetitiveRecord/220/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:24:15 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/220/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/220/ HTTP/1.1" 200 38570
+INFO [GET] method: 2021-04-06 15:24:19 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 180031
+INFO [GET] method: 2021-04-06 15:24:31 ,ip: 127.0.0.1,	path: /detail/Transaction/3040/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Transaction/3040/ HTTP/1.1" 200 40163
+INFO [GET] method: 2021-04-06 15:24:34 ,ip: 127.0.0.1,	path: /update/Transaction/3040/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /update/Transaction/3040/ HTTP/1.1" 200 48770
+INFO [POST] method: 2021-04-06 15:24:47 ,ip: 127.0.0.1,	path: /update/Transaction/3040/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [POST] method: 2021-04-06 15:24:48 ,ip: 127.0.0.1,	path: /update/Transaction/3040/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /update/Transaction/3040/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:24:48 ,ip: 127.0.0.1,	path: /detail/Transaction/3040/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Transaction/3040/ HTTP/1.1" 200 40155
+INFO [POST] method: 2021-04-06 15:27:20 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-04-02&time=16:15:00&category=48&corporation=30&desc=Microsoft%20-%20Xbox%20GamePass&tr_type=1&amount=30.14 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:27:22 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-02&time=16:30:00&category=40&corporation=77&desc=&tr_type=1&amount=300 HTTP/1.1" 200 84344
+INFO [POST] method: 2021-04-06 15:27:41 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-02&time=16:30:00&category=40&corporation=77&desc=&tr_type=1&amount=300 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:27:43 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-04-02&time=16:31:00&category=40&corporation=77&desc=&tr_type=2&amount=300 HTTP/1.1" 200 84344
+INFO [GET] method: 2021-04-06 15:27:49 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-06 15:27:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:27:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:27:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:27:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 79
+INFO [GET] method: 2021-04-06 15:27:51 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 503
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 87
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 73
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO [GET] method: 2021-04-06 15:30:14 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-06 15:30:15 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:15 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:15 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:15 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:16 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 503
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 79
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 73
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 87
+INFO [POST] method: 2021-04-06 15:30:24 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /financial/multi_transaction_add/?account=19&date=2021-04-02&time=16:31:00&category=40&corporation=77&desc=&tr_type=2&amount=300 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:30:25 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-04-04&time=16:31:00&category=48&corporation=190&desc=&tr_type=1&amount=26.48 HTTP/1.1" 200 84346
+INFO [GET] method: 2021-04-06 15:30:31 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/219/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 15:30:33 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 87
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 79
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 73
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 503
+INFO "GET /detail/RepetitiveRecord/219/ HTTP/1.1" 200 38537
+INFO [GET] method: 2021-04-06 15:30:37 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 180034
+INFO [GET] method: 2021-04-06 15:30:50 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/219/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /update/RepetitiveRecord/219/ HTTP/1.1" 200 251328
+INFO [POST] method: 2021-04-06 15:31:16 ,ip: 127.0.0.1,	path: /update/RepetitiveRecord/219/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "POST /update/RepetitiveRecord/219/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-06 15:31:17 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/219/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/219/ HTTP/1.1" 200 38578
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-06 21:04:44 ,ip: 127.0.0.1,	path: /,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET / HTTP/1.1" 200 4058
+INFO [GET] method: 2021-04-06 21:04:47 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /home/ HTTP/1.1" 200 192396
+INFO [GET] method: 2021-04-06 21:04:49 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 503
+ERROR Internal Server Error: /list/Repetitive/
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\myERP\functions\logger.py", line 32, in process_request
+    last_record=model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_name_id=user_id,session=session,csrftoken=csrftoken)
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /list/Repetitive/ HTTP/1.1" 500 166474
+ERROR Internal Server Error: /list/RepetitiveRecord/
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\myERP\functions\logger.py", line 32, in process_request
+    last_record=model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_name_id=user_id,session=session,csrftoken=csrftoken)
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /list/RepetitiveRecord/ HTTP/1.1" 500 166600
+INFO [GET] method: 2021-04-06 21:08:30 ,ip: 127.0.0.1,	path: /list/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO [GET] method: 2021-04-06 21:08:30 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Repetitive/ HTTP/1.1" 200 120170
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 180074
+INFO [GET] method: 2021-04-06 21:08:51 ,ip: 127.0.0.1,	path: /add/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/Repetitive/ HTTP/1.1" 200 79144
+INFO [GET] method: 2021-04-06 21:09:01 ,ip: 127.0.0.1,	path: /detail/Repetitive/20/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/20/ HTTP/1.1" 200 40785
+INFO [GET] method: 2021-04-06 21:14:10 ,ip: 127.0.0.1,	path: /detail/Repetitive/16/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/16/ HTTP/1.1" 200 41388
+INFO [GET] method: 2021-04-06 21:14:26 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40205
+INFO [GET] method: 2021-04-06 21:14:32 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /calendarr/get_report_data/?rep_code=borc_araba HTTP/1.1" 200 259
+ERROR Internal Server Error: /detail/RepetitiveRecord/216/
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\myERP\functions\logger.py", line 32, in process_request
+    last_record=model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_name_id=user_id,session=session,csrftoken=csrftoken)
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "D:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /detail/RepetitiveRecord/216/ HTTP/1.1" 500 166758
+INFO [GET] method: 2021-04-06 21:19:54 ,ip: 127.0.0.1,	path: /detail/RepetitiveRecord/216/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/RepetitiveRecord/216/ HTTP/1.1" 200 38545
+INFO [GET] method: 2021-04-06 21:20:15 ,ip: 127.0.0.1,	path: /list/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Repetitive/ HTTP/1.1" 200 120170
+INFO [GET] method: 2021-04-06 21:20:23 ,ip: 127.0.0.1,	path: /detail/Repetitive/8/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/8/ HTTP/1.1" 200 41637
+INFO [GET] method: 2021-04-06 21:23:38 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /calendarr/get_report_data/?rep_code=telefon_ben HTTP/1.1" 200 347
+INFO [GET] method: 2021-04-06 21:25:53 ,ip: 127.0.0.1,	path: /detail/Repetitive/19/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /detail/Repetitive/19/ HTTP/1.1" 200 41352
+INFO [GET] method: 2021-04-06 21:28:30 ,ip: 127.0.0.1,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/RepetitiveRecord/ HTTP/1.1" 200 178924
+INFO [GET] method: 2021-04-06 21:28:53 ,ip: 127.0.0.1,	path: /list/Repetitive/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/Repetitive/ HTTP/1.1" 200 120170

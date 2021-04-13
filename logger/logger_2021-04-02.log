@@ -1,0 +1,43 @@
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-02 11:19:47 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET / HTTP/1.1" 200 3443
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2021-04-02 11:19:49 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-02 11:19:49 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-02 11:20:35 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-02 11:20:36 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-02 11:20:36 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-02 11:20:37 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "GET /login/?warning=NoUser HTTP/1.1" 200 6323
+INFO [POST] method: 2021-04-02 11:20:39 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	 ://NoUser
+INFO "POST /login/ HTTP/1.1" 302 0
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-02 11:20:40 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /home/ HTTP/1.1" 200 192988
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO [GET] method: 2021-04-02 11:20:42 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO [GET] method: 2021-04-02 11:20:42 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 501
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-02 11:20:43 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO [GET] method: 2021-04-02 11:20:50 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/MyPassword/ HTTP/1.1" 200 245313
+INFO [GET] method: 2021-04-02 11:20:58 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/MyPassword/?search=%C5%9Fok HTTP/1.1" 200 37510
+INFO [GET] method: 2021-04-02 11:22:15 ,ip: 127.0.0.1,	path: /add/MyPassword/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /add/MyPassword/ HTTP/1.1" 200 75534
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [GET] method: 2021-04-02 11:22:43 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/MyPassword/ HTTP/1.1" 200 245313
+INFO [GET] method: 2021-04-02 11:22:49 ,ip: 127.0.0.1,	path: /list/MyPassword/,	user_id: 2,	sesion_id: 4gh2fwmu2cfs31kmi1pwunc23r6zllwt	
+INFO "GET /list/MyPassword/?search=%C5%9Eok HTTP/1.1" 200 41679

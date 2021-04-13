@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'constant.apps.ConstantConfig',
     'demo.apps.DemoConfig',
     'tempus_dominus',
-    'user_visit',
     # 'django_request_logging-0.7.2.dist-info',
 ]
 

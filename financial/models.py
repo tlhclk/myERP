@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 ### import_part
-from django.db import models
-from datetime import datetime
-from django.contrib.auth.models import User
 from people.models import *
 from main.models import *
-from functions.model import AttrDict
 from constant.models import *
 
 
@@ -16,7 +12,6 @@ class Currency(models.Model):
 	symbol = models.CharField(null=True,blank=True,max_length=10,verbose_name='Sembolü')
 	rate = models.CharField(null=True,blank=True,max_length=10,verbose_name='Endeksi')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='currency_m'
@@ -47,7 +42,6 @@ class Account(models.Model):
 	secret_phrase = models.CharField(null=True,blank=True,max_length=50,verbose_name='Gizli Kelime')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	update_date = models.DateField(null=True,blank=True,default=datetime.today,verbose_name='Güncelleme Tarihi')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	amount = models.DecimalField(null=True,blank=True,verbose_name='Miktar',max_digits=20,decimal_places=3)
 	is_active = models.BooleanField(default=True,verbose_name='Aktif Mi?')
 	## class
@@ -75,7 +69,6 @@ class Transaction(models.Model):
 	type = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=TransactionTypeLM,verbose_name='İşlem Tipi')
 	amount = models.DecimalField(null=True,blank=True,verbose_name='Miktar',max_digits=10,decimal_places=3)
 	account_amount = models.DecimalField(null=True,blank=True,verbose_name='Hesap Miktarı',max_digits=20,decimal_places=3)
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='transaction_m'
@@ -101,7 +94,6 @@ class Change(models.Model):
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	is_active = models.BooleanField(default=True,verbose_name='Aktif Mi?')
 	date = models.DateField(null=True,blank=True,default=datetime.today,verbose_name='Ekleme Tarihi')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	
 	## class
 	class Meta:
@@ -125,7 +117,6 @@ class ChangeTransaction(models.Model):
 	change=models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Change,verbose_name="Aldım - Verdim")
 	transaction=models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Transaction,verbose_name="İşlem")
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='change_transaction_m'
@@ -149,7 +140,6 @@ class CurrencyHistory(models.Model):
 	max_rate = models.CharField(null=True,blank=True,max_length=10,verbose_name='En Fazla Oran')
 	min_rate = models.CharField(null=True,blank=True,max_length=10,verbose_name='En Az Oran')
 	avg_rate = models.CharField(null=True,blank=True,max_length=10,verbose_name='Ortalama Oran')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='currencyhistory_m'

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.views import View
-from django.contrib.auth.mixins import LoginRequiredMixin
 from functions.general import *
 from functions.report import *
 
@@ -23,10 +22,10 @@ class PeopleHome(View):
 			return pr.get_relation_data(person)
 	
 	def get_context_data(self):
-		context_data = HomeData(self.request).get_context_data()
+		context_data = {}
 		pr = PeopleReport(self.request)
 		context_data["title"] = "Rehber Raporu"
-		context_data["people_list"] = Person.objects.filter(user=self.request.user)
+		context_data["people_list"] = Person.objects.all()
 		context_data["rt_title"] = "İlişki Ağacı"
 		context_data["rt_object_dict"] = self.get_relation_data()
 		context_data["f_title"] = "Sık Görüşülenler"

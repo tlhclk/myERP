@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 ### import_part
-from django.db import models
-from datetime import datetime
-from django.contrib.auth.models import User
-from main.models import *
-from people.models import *
 from financial.models import *
 from functions.model import AttrDict
 
@@ -19,7 +14,6 @@ class Event(models.Model):
 	duration = models.CharField(null=True,blank=True,max_length=5,verbose_name='Süre')
 	loc = models.CharField(null=True,blank=True,max_length=200,verbose_name='Konum')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='event_m'
@@ -47,7 +41,6 @@ class Repetitive(models.Model):
 	code = models.CharField(null=True,blank=True,max_length=100,verbose_name='Kısa Kod')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	is_active = models.BooleanField(default=True,verbose_name='Aktif Mi?')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='repetitive'
@@ -72,7 +65,6 @@ class RepetitiveRecord(models.Model):
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	transaction = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Transaction,verbose_name='İşlem')
 	is_active = models.BooleanField(default=True,verbose_name='Aktif Mi?')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='repetitive_record'

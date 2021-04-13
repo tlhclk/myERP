@@ -1,0 +1,992 @@
+INFO Watching for file changes with StatReloader
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-13 14:57:08 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /home/ HTTP/1.1" 200 220327
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO [GET] method: 2021-04-13 14:57:09 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-13 14:57:10 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 14:57:10 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 503
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO [GET] method: 2021-04-13 14:57:50 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/ HTTP/1.1" 200 87429
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 9063
+INFO "GET /static/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js HTTP/1.1" 200 56879
+INFO [GET] method: 2021-04-13 14:57:52 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-13 14:57:53 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 14:57:53 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 503
+INFO [GET] method: 2021-04-13 14:57:53 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 14:57:54 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 14:57:54 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 168
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 162
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 166
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO [GET] method: 2021-04-13 14:57:55 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 210195
+INFO [POST] method: 2021-04-13 14:58:48 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 14:58:49 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2021-04-12&time=10:56:00&category=34&corporation=172&desc=&tr_type=1&amount=10 HTTP/1.1" 200 87424
+INFO [POST] method: 2021-04-13 15:00:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2021-04-12&time=10:56:00&category=34&corporation=172&desc=&tr_type=1&amount=10 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:00:36 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=8&date=2021-04-12&time=13:56:00&category=40&corporation=154&desc=&tr_type=1&amount=400&person=208 HTTP/1.1" 200 87430
+INFO [POST] method: 2021-04-13 15:01:23 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=8&date=2021-04-12&time=13:56:00&category=40&corporation=154&desc=&tr_type=1&amount=400&person=208 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:01:24 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-12&time=13:57:00&category=40&corporation=154&desc=&tr_type=2&amount=1637&person=208 HTTP/1.1" 200 87441
+INFO [POST] method: 2021-04-13 15:02:15 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-12&time=13:57:00&category=40&corporation=154&desc=&tr_type=2&amount=1637&person=208 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:02:16 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-12&time=12:57:00&category=29&corporation=47&desc=&tr_type=1&amount=157.38 HTTP/1.1" 200 87443
+INFO [GET] method: 2021-04-13 15:02:28 ,ip: 127.0.0.1,	path: /list/Transaction/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /list/Transaction/ HTTP/1.1" 200 210158
+INFO [POST] method: 2021-04-13 15:03:01 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-12&time=12:57:00&category=29&corporation=47&desc=&tr_type=1&amount=157.38 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:03:02 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-08&time=12:57:00&category=40&corporation=154&desc=%C5%9Ei%C5%9Fman%20B%C3%B6rek&tr_type=1&amount=70 HTTP/1.1" 200 87463
+INFO [POST] method: 2021-04-13 15:03:41 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-08&time=12:57:00&category=40&corporation=154&desc=%C5%9Ei%C5%9Fman%20B%C3%B6rek&tr_type=1&amount=70 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:03:41 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=2&date=2021-04-13&time=15:00:00&category=40&corporation=77&desc=&tr_type=1&amount=500 HTTP/1.1" 200 87431
+INFO [POST] method: 2021-04-13 15:03:55 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "POST /financial/multi_transaction_add/?account=2&date=2021-04-13&time=15:00:00&category=40&corporation=77&desc=&tr_type=1&amount=500 HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 15:03:56 ,ip: 127.0.0.1,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/multi_transaction_add/?account=19&date=2021-04-13&time=15:01:00&category=40&corporation=77&desc=&tr_type=2&amount=500 HTTP/1.1" 200 87439
+INFO [GET] method: 2021-04-13 15:04:16 ,ip: 127.0.0.1,	path: /financial/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/ HTTP/1.1" 200 42124
+INFO [GET] method: 2021-04-13 15:04:17 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 15:04:17 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=account&type_id=1 HTTP/1.1" 200 201
+INFO [GET] method: 2021-04-13 15:04:17 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 15:04:18 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO [GET] method: 2021-04-13 15:04:18 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=2 HTTP/1.1" 200 103
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=category&type_id=1 HTTP/1.1" 200 205
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name&type_id= HTTP/1.1" 200 502
+INFO "GET /financial/get_report_data/?period=30&m_name=Transaction&field=corporation&type_id=1 HTTP/1.1" 200 232
+INFO G:\myERP\functions\auth_func.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\calendarr\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\calendarr\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-13 15:23:14 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\myERP\myERP\views.py", line 42, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "G:\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "G:\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "G:\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "G:\venv\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "G:\venv\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "G:\myERP\functions\template_funcs.py", line 45, in get_series_list
+    series_list=Series.objects.filter(user=request.user).filter(state=state)
+  File "G:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "G:\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "G:\venv\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "G:\venv\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "G:\venv\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "G:\venv\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: country, country_id, current_eps, desc, director, download, download_id, id, main_name, name, rate, season, second_name, series_type, series_type_id, seriesgenre, start_date, state, state_id, total_eps, web_address
+ERROR "GET /home/ HTTP/1.1" 500 303007
+INFO [GET] method: 2021-04-13 15:23:22 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO G:\myERP\financial\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\general.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\general.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\general.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\general.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\financial\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 15:51:10 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\template\library.py", line 294, in parse_bits
+    unhandled_params.pop(0)
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\myERP\myERP\views.py", line 41, in get
+    return render(request, self.template_name, context=self.get_context_data())
+  File "G:\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "G:\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "G:\venv\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "G:\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\venv\lib\site-packages\django\template\defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "G:\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\venv\lib\site-packages\django\template\library.py", line 152, in compile_func
+    args, kwargs = parse_bits(
+  File "G:\venv\lib\site-packages\django\template\library.py", line 297, in parse_bits
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'get_sidebar' received too many positional arguments
+ERROR "GET /home/ HTTP/1.1" 500 246471
+INFO [GET] method: 2021-04-13 15:52:55 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /home/ HTTP/1.1" 200 220595
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2021-04-13 15:52:56 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-13 15:52:57 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 15:55:05 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /home/ HTTP/1.1" 200 220905
+INFO [GET] method: 2021-04-13 15:55:07 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO G:\myERP\note\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\people\models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "G:\myERP\functions\logger.py", line 34, in process_request
+    last_record=model.objects.create(date=date,time=time,ip=ip,action=method,web_address=path,user_name_id=user_id,session=session,csrftoken=csrftoken)
+  File "G:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\venv\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "G:\venv\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "G:\venv\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "G:\venv\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "G:\venv\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "G:\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\venv\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "G:\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+ERROR "GET /home/ HTTP/1.1" 500 165978
+INFO [GET] method: 2021-04-13 16:00:18 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /home/ HTTP/1.1" 200 220905
+INFO [GET] method: 2021-04-13 16:00:20 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 16:00:20 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 3443
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2021-04-13 16:00:21 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO [GET] method: 2021-04-13 16:00:22 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 200 8687
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO [GET] method: 2021-04-13 16:00:29 ,ip: 127.0.0.1,	path: /series/,	user_id: None,	sesion_id: None	
+INFO "GET /series/ HTTP/1.1" 200 822904
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 16:02:01 ,ip: 127.0.0.1,	path: /series/,	user_id: None,	sesion_id: None	
+INFO "GET /series/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 16:02:02 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=NoUser HTTP/1.1" 200 3443
+INFO G:\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 16:02:40 ,ip: 127.0.0.1,	path: /calendarr/repetitive_report/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /calendarr/repetitive_report/ HTTP/1.1" 200 40801
+INFO [GET] method: 2021-04-13 16:02:43 ,ip: 127.0.0.1,	path: /calendarr/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /calendarr/get_report_data/?rep_code=dogalgaz_ev HTTP/1.1" 200 339
+INFO Watching for file changes with StatReloader
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-13 18:16:47 ,ip: 127.0.0.1,	path: /home/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /home/ HTTP/1.1" 200 220905
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2021-04-13 18:16:50 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-13 18:16:50 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 18:16:50 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO G:\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO G:\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2021-04-13 18:28:58 ,ip: 127.0.0.1,	path: /logout/,	user_id: 2,	sesion_id: s6kga92wz56ohbdhwodd51p5nl2xiwrm	
+INFO "GET /logout/ HTTP/1.1" 302 0
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "G:\myERP\functions\logger.py", line 35, in process_request
+    auth=self.ip_check(ip,request.user)
+  File "G:\myERP\functions\logger.py", line 46, in ip_check
+    if obj.user.is_superuser:
+AttributeError: 'UserIp' object has no attribute 'user'
+ERROR "GET /home/ HTTP/1.1" 500 72576
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 18:29:24 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-04-13 18:29:24 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:29:25 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:29:28 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/ HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 18:29:30 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+INFO "GET /register/ HTTP/1.1" 200 5590
+INFO [POST] method: 2021-04-13 18:29:51 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+INFO "POST /register/ HTTP/1.1" 200 5905
+INFO [POST] method: 2021-04-13 18:30:10 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 263, in form_valid
+    return super(MyRegisterView, self).form_valid(form)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 102937
+INFO [POST] method: 2021-04-13 18:33:30 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 263, in form_valid
+    return super(MyRegisterView, self).form_valid(form)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 102937
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:35:10 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 263, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98636
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:36:12 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 266, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98613
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "G:\myERP\functions\logger.py", line 39, in process_request
+    request_logger.info(message+" ://"+auth)
+TypeError: can only concatenate str (not "bool") to str
+ERROR "GET / HTTP/1.1" 500 66686
+ERROR Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "G:\myERP\functions\logger.py", line 39, in process_request
+    request_logger.info(message+" ://"+auth)
+TypeError: can only concatenate str (not "bool") to str
+ERROR "GET /favicon.ico HTTP/1.1" 500 66753
+INFO G:\myERP\functions\logger.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 18:38:59 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 3443
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO [GET] method: 2021-04-13 18:39:08 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:39:09 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:39:16 ,ip: 192.168.1.33,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:39:17 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:39:17 ,ip: 192.168.1.33,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:39:17 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:39:18 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:39:20 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:40:25 ,ip: 192.168.1.33,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:40:26 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:40:26 ,ip: 192.168.1.33,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:40:27 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO [GET] method: 2021-04-13 18:40:27 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:40:29 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET /?warning=unauthorized_ip HTTP/1.1" 200 3443
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 18:40:52 ,ip: 192.168.1.33,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:40:53 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 18:40:54 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:40:55 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:42:54 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 266, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98613
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:44:16 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 266, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98613
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:44:56 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 266, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 101168
+INFO G:\myERP\myERP\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:47:36 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 267, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 864, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:49:23 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 267, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 840, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 865, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98598
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:49:52 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 264, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 840, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 865, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98594
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:52:38 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 264, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 865, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98628
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:53:12 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\venv\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\venv\lib\site-packages\django\views\generic\edit.py", line 142, in post
+    return self.form_valid(form)
+  File "G:\myERP\myERP\views.py", line 264, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "G:\venv\lib\site-packages\django\http\response.py", line 465, in __init__
+    self['Location'] = iri_to_uri(redirect_to)
+  File "G:\venv\lib\site-packages\django\utils\encoding.py", line 147, in iri_to_uri
+    return quote(iri, safe="/#%[]=:;$&()+,!?*@'~")
+  File "C:\Python\lib\urllib\parse.py", line 839, in quote
+    return quote_from_bytes(string, safe)
+  File "C:\Python\lib\urllib\parse.py", line 865, in quote_from_bytes
+    raise TypeError("quote_from_bytes() expected bytes")
+TypeError: quote_from_bytes() expected bytes
+ERROR "POST /register/ HTTP/1.1" 500 98841
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:53:44 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:53:45 ,ip: 127.0.0.1,	path: /register_validation/,	user_id: None,	sesion_id: None	
+INFO "GET /register_validation/?validation_code=pbkdf2_sha256$216000$YiSfWBRNwaPB$u/QC/SVPyol+V01pHifP+fy30U3KPGFnEuwJx0s9Upc= HTTP/1.1" 302 0
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-13 18:53:45 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:53:46 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO Watching for file changes with StatReloader
+INFO [POST] method: 2021-04-13 18:54:31 ,ip: 127.0.0.1,	path: /register/,	user_id: None,	sesion_id: None	
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:54:31 ,ip: 127.0.0.1,	path: /register_validation/,	user_id: None,	sesion_id: None	
+INFO "GET /register_validation/?validation_code=pbkdf2_sha256$216000$GDpttK9dToqD$UOPwtz9QbgC5Nrht/6drTifeYQhjipigd/sXFDQh0kE= HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 18:54:32 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/ HTTP/1.1" 200 6323
+INFO [POST] method: 2021-04-13 18:56:15 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "POST /login/ HTTP/1.1" 302 0
+INFO "GET /home HTTP/1.1" 301 0
+INFO [GET] method: 2021-04-13 18:56:16 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO [GET] method: 2021-04-13 18:56:18 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-13 18:56:18 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO Watching for file changes with StatReloader
+INFO [GET] method: 2021-04-13 19:22:30 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:22:31 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:22:32 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:22:37 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:22:37 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:22:38 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:24:01 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO [GET] method: 2021-04-13 19:24:03 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:24:09 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:24:09 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:24:11 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:26:00 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO [GET] method: 2021-04-13 19:26:02 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:28:03 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:28:03 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:28:04 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:30:11 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:30:13 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:35:40 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:35:43 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:35:48 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:35:49 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:35:55 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO "GET /static/dist/css/ionicons.css HTTP/1.1" 200 51283
+INFO "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 7649
+INFO "GET /static/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css HTTP/1.1" 200 5158
+INFO "GET /static/plugins/select2/css/select2.min.css HTTP/1.1" 200 14966
+INFO "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO "GET /static/dist/img/AdminLTELogo.png HTTP/1.1" 200 10380
+INFO "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 689621
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO "GET /static/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 79172
+INFO "GET /static/plugins/inputmask/min/jquery.inputmask.bundle.min.js HTTP/1.1" 200 118400
+INFO "GET /static/plugins/moment/moment.min.js HTTP/1.1" 200 53324
+INFO "GET /static/plugins/daterangepicker/daterangepicker.js HTTP/1.1" 200 65703
+INFO "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 25193
+INFO "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172812
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:35:57 ,ip: 127.0.0.1,	path: /media/profile_pic/DSC_0487.JPG,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /media/profile_pic/DSC_0487.JPG HTTP/1.1" 200 4672255
+INFO [GET] method: 2021-04-13 19:35:57 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:35:58 ,ip: 127.0.0.1,	path: /favicon.ico,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5477
+INFO [GET] method: 2021-04-13 19:37:58 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220906
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:38:00 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:39:14 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220881
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO [GET] method: 2021-04-13 19:39:15 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:40:42 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:40:43 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:40:43 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:41:19 ,ip: 127.0.0.1,	path: /home/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /home/ HTTP/1.1" 200 220756
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:41:20 ,ip: 127.0.0.1,	path: /financial/get_report_data/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /financial/get_report_data/?period=30&m_name=Account&field=name HTTP/1.1" 200 502
+INFO [GET] method: 2021-04-13 19:41:22 ,ip: 127.0.0.1,	path: /logout/,	user_id: 17,	sesion_id: satbbjuzm29atfs4d1mlvujo4w6mdr7a	
+INFO "GET /logout/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:41:22 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:41:23 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:41:27 ,ip: 127.0.0.1,	path: /home/,	user_id: None,	sesion_id: None	
+INFO "GET /home/ HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:41:28 ,ip: 127.0.0.1,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO [GET] method: 2021-04-13 19:41:30 ,ip: 127.0.0.1,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 3274
+INFO "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 82896
+INFO "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 1483310
+INFO "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO [GET] method: 2021-04-13 19:41:43 ,ip: 192.168.1.33,	path: /,	user_id: None,	sesion_id: None	
+INFO "GET / HTTP/1.1" 200 3274
+INFO "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO [GET] method: 2021-04-13 19:41:44 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:41:45 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:42:03 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/ HTTP/1.1" 200 6323
+INFO [GET] method: 2021-04-13 19:42:04 ,ip: 192.168.1.33,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO "GET /favicon.ico HTTP/1.1" 302 0
+INFO [GET] method: 2021-04-13 19:42:04 ,ip: 192.168.1.33,	path: /login/,	user_id: None,	sesion_id: None	
+INFO "GET /login/?warning=unauthorized_ip HTTP/1.1" 200 6323

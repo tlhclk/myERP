@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 ### import_part
-from django.db import models
-from datetime import datetime
-from django.contrib.auth.models import User
 from main.models import *
-from functions.model import AttrDict
 from constant.models import *
 
 
@@ -30,7 +26,6 @@ class Person(models.Model):
 	dateofdeath = models.DateField(null=True,blank=True,verbose_name='Ölüm Tarihi')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	favorite = models.BooleanField(default=False,verbose_name='Favori')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='person_m'
@@ -52,7 +47,6 @@ class Education(models.Model):
 	school = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=SchoolLM,verbose_name='Okul')
 	department = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=DepartmentLM,verbose_name='Bölümü')
 	graduation_year = models.CharField(null=True,blank=True,max_length=4,verbose_name='Mezuniyet Yılı')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='education_m'
@@ -73,7 +67,6 @@ class PersonEmail(models.Model):
 	email_type = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=EmailTypeLM,verbose_name='E-Mail Tipi')
 	email = models.EmailField(null=True,blank=True,max_length=50,verbose_name='E-Mail Adresi')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='personemail_m'
@@ -94,7 +87,6 @@ class PersonPhone(models.Model):
 	phone_type = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=PhoneTypeLM,verbose_name='Telefon Tipi')
 	phone_number = models.CharField(null=True,blank=True,max_length=20,verbose_name='Telefon Numarası')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='personphone_m'
@@ -115,7 +107,6 @@ class PersonPhoto(models.Model):
 	name = models.CharField(null=True,blank=True,max_length=50,verbose_name='Adı')
 	web_address = models.CharField(null=True,blank=True,max_length=200,verbose_name='Fotoğraf Adresi')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='personphoto_m'
@@ -137,7 +128,6 @@ class PersonSocial(models.Model):
 	username = models.CharField(null=True,blank=True,max_length=50,verbose_name='Kullanıcı Adı')
 	web_address = models.CharField(null=True,blank=True,max_length=100,verbose_name='Adresi')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='personsocial_m'
@@ -157,7 +147,6 @@ class RelationTree(models.Model):
 	person = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Person,verbose_name='Kişi')
 	relation = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=RelationshipLM,verbose_name='İlişki')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='relationtree_m'
@@ -177,7 +166,6 @@ class RelationTreePerson(models.Model):
 	person = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Person,verbose_name='Kişi')
 	relation_tree = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=RelationTree,verbose_name='İlişki Ağacı')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
-	user = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=User,verbose_name='Kullanıcı')
 	## class
 	class Meta:
 		db_table='relationtree_person'

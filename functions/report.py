@@ -46,7 +46,7 @@ class SeriesReport:
         return series_list
         
     def get_related_series(self,series):
-        series_list=Series.objects.filter(user=self.request.user).filter(main_name=series.main_name)
+        series_list=Series.objects.filter(main_name=series.main_name)
         return series_list
 
 class CalendarrReport:
@@ -72,7 +72,6 @@ class TransactionReport:
     data="amount"
     def __init__(self,request,**kwargs):
         self.request=request
-        self.user=request.user
         self.exclude_dict={"corporation_id__in":[],"category_id__in":[40]}
         self.filter_dict = {}
         self.kwargs=kwargs
