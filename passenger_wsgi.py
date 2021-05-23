@@ -1,0 +1,1 @@
+from myERP.wsgi import application
