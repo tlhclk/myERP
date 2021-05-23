@@ -67,6 +67,12 @@ class RegisterForm(forms.Form):
 		auth_key=new_user_ip.create_auth_key()
 		new_user_ip.auth_key=auth_key
 		new_user_ip.save()
-		#send_ip_validation_mail(user,auth_key,ip)
+		ms = MailService("admin@myerp.talhacelik.com")
+		ms.set_recipient_list(["talhacelk@gmail.com"])
+		ms.set_subject("Yeni Kullanıcı Kaydı")
+		ms.set_headers("Yeni Kullanıcı KAydı")
+		message = "Yeni Kullanıcı Bilgileri:\n\nIp:%s\nKullanıcı Adı:%s\nKullanıcı Mail Adresi:%s\nKullanıcı Adı Soyadı:%s\nYetkilendirme Anahtarı:%s\n\nAdresinde yapılan kullanıcı girisi engellendi\nYetkilendirmek İcin <a href='https://myerp.talhacelik.com/register_validation/?validation_code=%s'>Buraya Tıklayınız!</a>\n" % (ip, user.username, user.email, user.get_full_name(), new_auth_key, new_auth_key)
+		ms.set_body(message)
+		ms.send_email()
 		
 		

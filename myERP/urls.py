@@ -42,7 +42,7 @@ urlpatterns = [
 	path('series/',include('series.urls')),
 	path('demo/',include('demo.urls')),
 	#path('temptry',temptry,name='temptry'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static (settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 def handler404(request,exeption):
     return render(request,"error_page.html")

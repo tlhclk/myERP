@@ -38,7 +38,7 @@
                     <div class="row">
                         {% if request.user.is_authenticated  %}
                             <a href="#" class="nav-link" data-toggle="dropdown">{{ request.user.first_name }} {{ request.user.last_name }}
-                                <img src="http://127.0.0.1:8000/media/profile_pic/DSC_0487.JPG" alt="" height="30px">
+                                <img src="{{ profile_pic_path }}" alt="" height="30px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                                 <a href="{% url "global_detail" "User" request.user.id %}" class="dropdown-item">

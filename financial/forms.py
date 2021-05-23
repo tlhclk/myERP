@@ -8,22 +8,6 @@ import datetime as dt
 from functions.auth_func import ModelQueryset
 
 class MultiTransactionAddForm(forms.Form):
-	def __init__(self, *args, **kwargs):
-		self.request = kwargs.pop('request', None)
-		super(MultiTransactionAddForm, self).__init__(*args, **kwargs)
-		if self.request!=None:
-			self.set_new_queryset()
-		
-	def set_new_queryset(self):
-		field_dict={"account":"Account","category":"TransactionCategoryLM","corporation":"CorporationLM","tr_type":"TransactionTypeLM","person":"Person","change":"Change","repetitive_record":"RepetitiveRecord",}
-		filter_dict={"change":{"is_active":True},"repetitive_record":{"is_active":True}}
-		for field in field_dict:
-			mq= ModelQueryset(self.request)
-			if field in filter_dict:
-				qs = mq.get_queryset(field_dict[field]).filter(is_active=True)
-			else:
-				qs = mq.get_queryset(field_dict[field])
-			self.fields[field].queryset=qs
 	
 	account=forms.ModelChoiceField(queryset=Account.objects.all(),empty_label="Hesap",label="Hesap",widget=forms.Select(attrs={"class":"form-control select2"}))
 	date=forms.DateField(input_formats=["%Y-%m-%d"],initial=dt.datetime.today(),label="Tarih",widget=forms.DateInput(attrs={"class":"form-control datetimepicker date","data-toggle":"datetimepicker","data-target":"#id_date"},format="%Y-%m-%d"))

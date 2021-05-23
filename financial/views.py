@@ -32,7 +32,7 @@ class FinancialHome(View):
 	template_name = "financial/financial_report.html"
 	
 	def get_context_data(self):
-		context_data = {}
+		context_data = HomeData(self.request).get_context_data()
 		context_data["title"] = "Finans Raporu"
 		report_data=[]
 		report_data.append((False,"chart1","Mevcut Hesap Durumu","name","Account"))
@@ -52,30 +52,18 @@ def build_transaction_history(request):
 
 class MultiTransactionAdd(FormView):
 	template_name = "financial/transaction_form.html"
-	tra_obj = None
 	form_class=MultiTransactionAddForm
-
-	def get_fields(self):
-		self.tra_obj=ModelLM.objects.get(pk=10)
-		self.field_list = FieldLM.objects.filter(model=self.tra_obj)
-		self.fields = [field.name for field in self.field_list]
 	
 	def get_context_data(self, **kwargs):
 		context ={}
-		self.get_fields()
 		context["form_title"] = "Çoklu İşlem Kaydı"
 		context["title"] = "Çoklu İşlem Kaydı"
-		context["m_name"] = self.tra_obj.name
+		context["m_name"] = "Transaction"
 		context["list_title"] = "İşlem Listesi"
 		context["last_object"]=Transaction.objects.first()
 		context["detail_title"]="Son İşlem Kaydı"
 		context["form"]=self.get_form(self.get_form_class())
 		return context
-	
-	def get_form_kwargs(self):
-		kwargs = super(MultiTransactionAdd, self).get_form_kwargs()
-		kwargs["request"] = self.request
-		return kwargs
 	
 	def form_valid(self, form):
 		new_transaction=form.transaction_save()
@@ -117,7 +105,7 @@ class CategoryReport(View):
 	template_name = "financial/transaction_category_report.html"
 	
 	def get_context_data(self):
-		context_data = {}
+		context_data = HomeData(self.request).get_context_data()
 		context_data["title"] = "Kategori Bazlı İşlem Hacmi Raporu"
 		mq = ModelQueryset(self.request)
 		category_list = mq.get_queryset("TransactionCategoryLM")

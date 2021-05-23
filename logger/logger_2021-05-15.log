@@ -1,0 +1,14 @@
+INFO [GET] method: 2021-05-15 10:43:41 ,ip: 88.243.130.56,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:41 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:43 ,ip: 88.243.130.56,	path: /home/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:45 ,ip: 88.243.130.56,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:45 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:47 ,ip: 88.243.130.56,	path: /list/Person/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:51 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:54 ,ip: 88.243.130.56,	path: /list/Person/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:55 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:58 ,ip: 88.243.130.56,	path: /detail/Person/599/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:43:59 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:44:01 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:44:02 ,ip: 88.243.130.56,	path: /detail/Person/600/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	
+INFO [GET] method: 2021-05-15 10:44:03 ,ip: 88.243.130.56,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	

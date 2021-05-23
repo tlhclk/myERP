@@ -63,224 +63,142 @@ class ModelFunc:
         print("Güzergah Bulunamadı %s" % p_name)
         return None
 
-class PermissionControl(ModelFunc):
-    def __init__(self):
-        super(PermissionControl, self).__init__()
-        self.panel_perm_model = apps.get_model("authentication", "PanelPermission")
-        self.model_perm_model = apps.get_model("authentication", "ModelPermission")
-        self.path_perm_model = apps.get_model("authentication", "PathPermission")
-        self.group_model = apps.get_model("authentication", "MyGroup")
-        self.user_group_model = apps.get_model("authentication", "UserGroup")
-        self.user_profile_model = apps.get_model("authentication", "MyUserProfile")
-    
-    def PanelCheck(self,user,panel_obj):
-        if type(panel_obj)==str:
-            panel_obj=self.get_panel(panel_obj)
-        if type(panel_obj)==self.panel_model:
-            perm_list=self.panel_perm_model.objects.filter(user_name=user).filter(panel=panel_obj)
-            if len(perm_list)==1:
-                perm=perm_list[0]
-                if perm.permission==True:
-                    return True
-                else:
-                    print("Panel Yetki Yok %s" % perm)
-            else:
-                print("Panel Yetkisi Bulunamadı %s" % panel_obj )
-        else:
-            print("Panel Bulunamadı(PanelCheck) %s" % panel_obj)
-        return False
-    
-    def ModelCheck(self,user,model_obj):
-        if type(model_obj)==str:
-            model_obj=self.get_model(model_obj)
-        if type(model_obj)==self.model_model:
-            perm_list=self.model_perm_model.objects.filter(user_name=user).filter(model=model_obj)
-            if len(perm_list)==1:
-                perm=perm_list[0]
-                if perm.permission==True:
-                    return True
-                else:
-                    print("Model Yetki Yok %s" % perm)
-            else:
-                print("Model Yetkisi Bulunamadı %s" % model_obj)
-        else:
-            print("Model Bulunamadı %s" % model_obj)
-        return False
-    
-    def PathCheck(self,user,path_obj):
-        if type(path_obj)==str:
-            path_obj=self.get_path(path_obj)
-        if type(path_obj)==self.path_model:
-            perm_list=self.path_perm_model.objects.filter(user_name=user).filter(path=path_obj)
-            if len(perm_list)==1:
-                perm=perm_list[0]
-                if perm.permission==True:
-                    return True
-                else:
-                    print("Güzergah Yetki Yok %s" % perm)
-            else:
-                print("Güzergah Yetkisi Bulunamadı %s" % path_obj)
-        else:
-            print("Güzergah Bulunamadı %s" % path_obj)
-        return False
-    
-    def GroupCheck(self,user,group_obj):
-        if type(group_obj)==str:
-            group_obj=self.get_group_obj(group_obj,self.get_user_corporation(user))
-        if type(group_obj)==self.group_model:
-            perm_list=self.user_group_model.objects.filter(user_name=user).filter(group=group_obj)
-            if len(perm_list)>0:
-                return True
-            else:
-                if group_obj.id!=3:
-                    print("Group Yetki Yok %s" % group_obj)
-        else:
-            print("Grup Bulunamadı(GroupCheck) %s" % group_obj)
-        return False
-    
-    def get_group_obj(self,g_name,corporation):
-        if type(g_name)==str:
-            group_list=self.group_model.objects.filter(name=g_name).filter(corporation=corporation)
-            if len(group_list)==1:
-                return group_list[0]
-        print("Grup Bulunamadı(Group Obj) %s" % g_name)
-        return None
-    
-    def get_user_corporation(self,user):
-        profile_list=self.user_profile_model.objects.filter(user_name=user)
-        if len(profile_list)==1:
-            profile=profile_list[0]
-            return profile.corporation
-        print("Profil Bulunamadı %s" % user)
-        return None
-    
+  
 class ModelQueryset(ModelFunc):
-    def __init__(self,request):
+    def __init__(self, request):
         super(ModelQueryset, self).__init__()
-        self.request=request
-        self.user=request.user
-        self.url_name=request.resolver_match.url_name
+        self.request = request
+        self.user = request.user
+        self.url_name = request.resolver_match.url_name
+        self.search_text = ""
         self.get_kwargs(request.resolver_match.kwargs)
-        self.extra_dict=self.get_extra_dict()
-    
-    def get_model_info(self,m_name):
-        self.model_obj=self.get_model_obj(m_name)
-        self.model=self.get_model(self.model_obj)
+        self.extra_dict = self.get_extra_dict()
+
+    def get_model_info(self, m_name):
+        self.model_obj = self.get_model_obj(m_name)
+        self.model = self.get_model(self.model_obj)
         self.field_list = self.get_model_fields(self.model_obj, "All")
-        
+
     def get_extra_dict(self):
-        extra_dict={}
+        extra_dict = {}
         for key in self.request.GET:
-            if key!="page":
-                extra_dict[key]=self.request.GET[key]
-        return extra_dict
-    
-    def get_kwargs(self,kwargs_dict):
-        for key,value in kwargs_dict.items():
-            setattr(self,key,value)
-    
-    def get_search_filter_dict(self):
-        filter_dict = {}
-        if "search" in self.extra_dict:
-            search_text=self.extra_dict["search"]
-            field_list = self.get_model_fields(self.model_obj, "Detail")
-            for field in field_list:
-                if field.field == "CharField":
-                    filter_dict["%s__icontains" % field.name] = search_text
-                elif field.field == "EmailField":
-                    filter_dict["%s__icontains" % field.name] = search_text
-                elif field.field == "ForeignKey":
-                    field_list2 = self.get_model_fields(field.to,"All")
-                    for field2 in field_list2:
-                        if field2.field == "CharField":
-                            filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
-                        elif field2.field == "EmailField":
-                            filter_dict["%s__%s__icontains" % (field.name, field2.name)] = search_text
-        return filter_dict
-    
-    def get_field_filter_dict(self):
-        filter_dict={}
-        for field in self.field_list:
-            if field.name in self.extra_dict:
-                key,value= self.get_field_filter_data(field,self.extra_dict[field.name])
-                filter_dict[key]=value
-        for key in self.extra_dict:
-            if key[-3:]=="_id":
-                filter_dict[key]=int(self.extra_dict[key])
-        return filter_dict
-    
-    def get_field_filter_data(self,field,value):
-        if field.field=="CharField":
-            return ("%s__icontains" % field.name,value)
-        elif field.field=="EmailField":
-            return ("%s__icontains" % field.name,value)
-        elif field.field=="BooleanField":
-            if value.lower()=="true" or value=="1":
-                return (field.name,True)
-            elif value.lower()=="false" or value=="0":
-                return (field.name,False)
-        elif field.field=="DateField":
-            ymd_list=value.split("-")
-            if len(ymd_list)==3:
-                year,month,day=ymd_list
-                date=dt.date(int(year),int(month),int(day))
-                return (field.name,date)
-        elif field.field=="TimeField":
-            hm_list=value.split(":")
-            if len(hm_list)==2:
-                hour,minutes=hm_list
-                time=dt.time(int(hour),int(minutes))
-                return (field.name,time)
-        elif field.field=="ForeignKey":
-            field_list2=self.get_model_fields(self.get_model_obj(field.to),"Detail")
-            filter_list=[]
-            for field2 in field_list2:
-                if field2.field == "CharField":
-                    filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
-                elif field2.field == "EmailField":
-                    filter_list.append(("%s__%s__icontains" % (field.name,field2.name),value))
-            return "%s__list"%field.name,filter_list
-        return None
-    
-    def get_filter(self,filter_dict,exclude_dict):
-        fdand=Q()
-        edor=Q()
-        sfor=Q()
-        ffand=Q()
-        if self.url_name=="global_list":
-            for key,value in filter_dict.items():
-                fdand&=Q((key,value))
-            for key,value in exclude_dict.items():
-                edor|=Q((key,value))
-            for key,value in self.get_search_filter_dict().items():
-                sfor|=Q((key,value))
-            for key,value in self.get_field_filter_dict().items():
-                if "__list" == key[-6:]:
-                    temp_q=Q()
-                    for key2,value2 in value:
-                        temp_q|=Q((key2,value2))
-                    ffand&=temp_q
+            if key != "page":
+                if key == "search":
+                    self.search_text = self.request.GET[key]
                 else:
-                    ffand&=Q((key,value))
-        return fdand,edor,sfor,ffand
-    
-    def get_queryset(self,m_name,fd={},ed={}):
+                    extra_dict[key] = self.request.GET[key]
+        return extra_dict
+
+    def get_kwargs(self, kwargs_dict):
+        for key, value in kwargs_dict.items():
+            setattr(self, key, value)
+
+    def get_field_data(self, ftype, f1, value, f2=None):
+        key_str = None
+        value_str = None
+        if f2:
+            f1 = "%s__%s" % (f1, f2)
+        if ftype == "CharField" or ftype == "EmailField":
+            key_str = "%s__%s" % (f1, "icontains")
+            value_str = value
+        elif ftype == "BooleanField":
+            key_str = "%s" % f1
+            if value.lower() == "true" or value == "1":
+                value_str = True
+            elif value.lower() == "false" or value == "0":
+                value_str = False
+        elif ftype == "DateField":
+            key_str = "%s" % f1
+            ymd_list = value.split("-")
+            try:
+                year, month, day = ymd_list
+                date = dt.date(int(year), int(month), int(day))
+                value_str = date
+            except ValueError:
+                pass
+        elif ftype == "TimeField":
+            key_str = "%s" % f1
+            hm_list = value.split(":")
+            try:
+                hour, minutes = hm_list
+                time = dt.time(int(hour), int(minutes))
+                value_str = time
+            except ValueError:
+                pass
+        elif ftype == "id":
+            key_str = "%s_id" % f1
+            value_str = int(value)
+        return (key_str, value_str)
+
+    def get_search_filter_data(self):
+        sfor = Q()
+        for field in self.field_list:
+            if field.field == "ForeignKey":
+                field_list2 = self.get_model_fields(field.to, "All")
+                for field2 in field_list2:
+                    key, value = self.get_field_data(field2.field, field.name, self.search_text, field2.name)
+                    if key != None and value != None:
+                        sfor |= Q((key, value))
+            else:
+                key, value = self.get_field_data(field.field, field.name, self.search_text)
+                if key != None and value != None:
+                    sfor |= Q((key, value))
+        return sfor
+
+    def get_field_filter_data(self):
+        ffand = Q()
+        for field in self.field_list:
+            if field.name in self.extra_dict or "%s_id" % field.name in self.extra_dict:
+                if "%s_id" % field.name in self.extra_dict:
+                    key, value = self.get_field_data("id", field.name, self.extra_dict["%s_id" % field.name])
+                    if key != None and value != None:
+                        ffand &= Q((key, value))
+                else:
+                    if field.field == "ForeignKey":
+                        field_list2 = self.get_model_fields(field.to, "All")
+                        for field2 in field_list2:
+                            key, value = self.get_field_data(field2.field, field.name, self.extra_dict[field.name],
+                                                             field2.name)
+                            if key != None and value != None:
+                                ffand |= Q((key, value))
+                    else:
+                        key, value = self.get_field_data(field.field, field.name, self.extra_dict[field.name])
+                        if key != None and value != None:
+                            ffand |= Q((key, value))
+        return ffand
+
+    def get_filter_data(self, filter_dict):
+        fdand = Q()
+        for key, value in filter_dict.items():
+            fdand &= Q((key, value))
+        return fdand
+
+    def get_exclude_data(self, exclude_dict):
+        edor = Q()
+        for key, value in exclude_dict.items():
+            edor |= Q((key, value))
+
+    def get_queryset(self, m_name, fd={}, ed={}):
         self.get_model_info(m_name)
-        fl=[field.name for field in self.field_list]
-        filter_dict={}
-        for key in fd:
-            if key not in fl:
-                filter_dict[key]=fd[key]
-        fdand,edor,sfor,ffand=self.get_filter(filter_dict=filter_dict,exclude_dict=ed)
-        object_list=self.model.objects.all()
-        if self.user.is_superuser == True:
-            return object_list
-        if len(fdand)!=0:
-            object_list=object_list.filter(fdand)
-        if len(sfor)!=0:
-            object_list=object_list.filter(sfor)
-        if len(ffand)!=0:
-            object_list=object_list.filter(ffand)
-        if len(edor)!=0:
-            object_list=object_list.exclude(edor)
+        object_list = self.model.objects.all()
+        for key, value in fd:
+            self.extra_dict[key] = value
+        if len(self.extra_dict) > 0:
+            if self.search_text != "":
+                ffand = self.get_field_filter_data()
+                object_list = object_list.filter(ffand)
+
+                sfor = self.get_search_filter_data()
+                object_list = object_list.filter(sfor)
+            else:
+                ffand = self.get_field_filter_data()
+                object_list = object_list.filter(ffand)
+        else:
+            if self.search_text != "":
+                sfor = self.get_search_filter_data()
+                object_list = self.model.objects.filter(sfor)
+        if len(ed) > 0:
+            edor = self.get_exclude_data(ed)
+            object_list = object_list.exclude(edor)
+
         return object_list

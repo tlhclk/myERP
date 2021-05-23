@@ -2,6 +2,7 @@
 ### import_part
 from main.models import *
 from constant.models import *
+from functions.organizer import CodeGenerator
 
 
 ### models_part
@@ -39,6 +40,10 @@ class Person(models.Model):
 	## def 3
 	def remote_attr_dict(self):
 		return AttrDict(self).get_remote_attr_dict()
+	## def 4
+	def generate_code(self):
+		cg = CodeGenerator(self)
+		self.code=cg.generate_person_code()
 
 class Education(models.Model):
 	## fields

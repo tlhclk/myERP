@@ -2,12 +2,13 @@
 from django.shortcuts import render
 from functions.demo import SerialListener
 from django.http import JsonResponse
+from functions.general import *
 
 
 def listen_comport(request):
     template_name="demo/comport_listener.html"
     comport_list=SerialListener().get_comport_list()
-    context_data={}
+    context_data = HomeData(self.request).get_context_data()
     context_data["comport_list"]=comport_list
     context_data["title"]="Com Port Dinleme"
     return render(request, template_name, context=context_data)

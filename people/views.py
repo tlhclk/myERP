@@ -22,7 +22,7 @@ class PeopleHome(View):
 			return pr.get_relation_data(person)
 	
 	def get_context_data(self):
-		context_data = {}
+		context_data = HomeData(self.request).get_context_data()
 		pr = PeopleReport(self.request)
 		context_data["title"] = "Rehber Raporu"
 		context_data["people_list"] = Person.objects.all()

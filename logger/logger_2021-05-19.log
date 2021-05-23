@@ -1,0 +1,273 @@
+INFO [GET] method: 2021-05-19 09:14:49 ,ip: 92.45.69.102,	path: /,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:50 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:51 ,ip: 92.45.69.102,	path: /home/,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:52 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:54 ,ip: 176.235.75.4,	path: /home/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 09:14:54 ,ip: 92.45.69.102,	path: /home/,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:55 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:55 ,ip: 176.235.75.4,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 09:14:56 ,ip: 92.45.69.102,	path: /login/,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:57 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: None,	sesion_id: None	
+INFO [POST] method: 2021-05-19 09:14:58 ,ip: 92.45.69.102,	path: /login/,	user_id: None,	sesion_id: None	
+INFO [GET] method: 2021-05-19 09:14:59 ,ip: 92.45.69.102,	path: /home/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:14:59 ,ip: 176.235.75.196,	path: /login/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 09:15:00 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:00 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:03 ,ip: 92.45.69.102,	path: /financial/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:03 ,ip: 176.235.75.4,	path: /home/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 09:15:03 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:03 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:04 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:04 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:04 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:04 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:05 ,ip: 176.235.75.4,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 09:15:05 ,ip: 92.45.69.102,	path: /list/Transaction/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:06 ,ip: 92.45.69.102,	path: /list/Change/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:07 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:07 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:10 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:11 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:23 ,ip: 92.45.69.102,	path: /detail/Change/44/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:15:24 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:17:00 ,ip: 92.45.69.102,	path: /add/Change/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:17:01 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 09:17:25 ,ip: 92.45.69.102,	path: /add/Change/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:17:25 ,ip: 92.45.69.102,	path: /detail/Change/58/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:17:26 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:18:06 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:18:07 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 09:18:53 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:18:53 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:18:54 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 09:20:58 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:20:58 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:20:59 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 09:21:28 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:21:28 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:21:29 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 09:22:32 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO OK: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/views.py", line 71, in form_valid
+    form.repetitive_record_save(new_transaction)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 64, in repetitive_record_save
+    self.create_new_repetitive_record(repetitive_record)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 74, in create_new_repetitive_record
+    new_record.amount=self.get_record_new_amount(int(record.amount),record.repetitive.period_rate,int(record.repetitive.period_amount))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO [GET] method: 2021-05-19 09:22:33 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:37 ,ip: 92.45.69.102,	path: /list/Transaction/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:39 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:42 ,ip: 92.45.69.102,	path: /home/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:43 ,ip: 92.45.69.102,	path: /home/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:44 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 09:22:44 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:23:10 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:23:11 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:24:07 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:24:08 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:24:09 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:24:31 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:24:32 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:24:33 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:25:32 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:25:32 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:25:33 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:26:01 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO OK: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/views.py", line 71, in form_valid
+    form.repetitive_record_save(new_transaction)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 64, in repetitive_record_save
+    self.create_new_repetitive_record(repetitive_record)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 74, in create_new_repetitive_record
+    new_record.amount=self.get_record_new_amount(int(record.amount),record.repetitive.period_rate,int(record.repetitive.period_amount))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO [GET] method: 2021-05-19 10:26:01 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:10 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:11 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:26:31 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO OK: /financial/multi_transaction_add/
+Traceback (most recent call last):
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/talhqpxw/virtualenv/myerp.talhacelik.com/myERP/3.8/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/views.py", line 71, in form_valid
+    form.repetitive_record_save(new_transaction)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 64, in repetitive_record_save
+    self.create_new_repetitive_record(repetitive_record)
+  File "/home/talhqpxw/myerp.talhacelik.com/myERP/financial/forms.py", line 74, in create_new_repetitive_record
+    new_record.amount=self.get_record_new_amount(int(record.amount),record.repetitive.period_rate,int(record.repetitive.period_amount))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+INFO [GET] method: 2021-05-19 10:26:32 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:33 ,ip: 92.45.69.102,	path: /home/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:35 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:35 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:37 ,ip: 92.45.69.102,	path: /list/Transaction/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:37 ,ip: 92.45.69.102,	path: /financial/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:38 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:39 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:39 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:39 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:39 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:39 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:40 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:50 ,ip: 92.45.69.102,	path: /list/Change/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:52 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:53 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:26:55 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:27:42 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/211/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:27:43 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:27:46 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/211/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:27:54 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:28:27 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/211/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:27 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/211/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:27 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:30 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:32 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:44 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/217/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:45 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:47 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/217/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:28:54 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:29:05 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/217/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:06 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/217/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:06 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:08 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:10 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:39 ,ip: 92.45.69.102,	path: /list/Person/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:41 ,ip: 185.11.15.132,	path: /list/Person/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 10:29:42 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:29:46 ,ip: 185.11.15.132,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 10:30:01 ,ip: 92.45.69.102,	path: /list/Person/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:01 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:04 ,ip: 92.45.69.102,	path: /detail/Person/462/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:04 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:09 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:10 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:50 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:30:51 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:03 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/212/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:03 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:05 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/212/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:12 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:31:25 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/212/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:25 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/212/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:26 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:28 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:30 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:34 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:36 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:43 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/209/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:44 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:47 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/209/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:31:54 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:32:10 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/209/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:10 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/209/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:11 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:22 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:24 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:36 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:37 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:41 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/210/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:41 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:43 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/210/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:32:50 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:33:02 ,ip: 92.45.69.102,	path: /update/RepetitiveRecord/210/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:02 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/210/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:02 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:07 ,ip: 92.45.69.102,	path: /list/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:08 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:26 ,ip: 92.45.69.102,	path: /list/Transaction/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:28 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:36 ,ip: 92.45.69.102,	path: /home/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:37 ,ip: 92.45.69.102,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:37 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:41 ,ip: 92.45.69.102,	path: /detail/Account/8/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:42 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:45 ,ip: 92.45.69.102,	path: /detail/Transaction/3158/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:46 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:47 ,ip: 92.45.69.102,	path: /update/Transaction/3158/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:33:47 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:34:01 ,ip: 92.45.69.102,	path: /update/Transaction/3158/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:01 ,ip: 92.45.69.102,	path: /detail/Transaction/3158/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:02 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:05 ,ip: 92.45.69.102,	path: /list/Account/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:07 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:19 ,ip: 92.45.69.102,	path: /detail/Account/8/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:20 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:21 ,ip: 92.45.69.102,	path: /update/Account/8/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:22 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:24 ,ip: 185.11.15.132,	path: /update/Account/8/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 10:34:26 ,ip: 185.11.15.132,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [POST] method: 2021-05-19 10:34:29 ,ip: 92.45.69.102,	path: /update/Account/8/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:29 ,ip: 92.45.69.102,	path: /detail/Account/8/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:30 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:42 ,ip: 92.45.69.102,	path: /detail/Transaction/3163/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:43 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:47 ,ip: 92.45.69.102,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:34:53 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:35:08 ,ip: 92.45.69.102,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:09 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/263/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:09 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:12 ,ip: 92.45.69.102,	path: /detail/Transaction/3163/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:12 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:13 ,ip: 92.45.69.102,	path: /detail/Transaction/3162/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:14 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:14 ,ip: 92.45.69.102,	path: /detail/Transaction/3163/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:15 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:15 ,ip: 92.45.69.102,	path: /detail/Transaction/3164/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:16 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:18 ,ip: 92.45.69.102,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:26 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:35:37 ,ip: 92.45.69.102,	path: /add/RepetitiveRecord/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:37 ,ip: 92.45.69.102,	path: /detail/RepetitiveRecord/264/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:38 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:48 ,ip: 92.45.69.102,	path: /detail/Transaction/3164/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:50 ,ip: 92.45.69.102,	path: /detail/Transaction/3165/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:50 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:51 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:51 ,ip: 92.45.69.102,	path: /detail/Transaction/3166/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:52 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:54 ,ip: 92.45.69.102,	path: /list/Transaction/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:56 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:35:59 ,ip: 92.45.69.102,	path: /detail/Transaction/3161/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:00 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:07 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:08 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:36:23 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:23 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:24 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [POST] method: 2021-05-19 10:36:37 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:37 ,ip: 92.45.69.102,	path: /financial/multi_transaction_add/,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 10:36:38 ,ip: 92.45.69.102,	path: /favicon.ico,	user_id: 2,	sesion_id: 5lqhawkeojisj4gvua6rppmppmphj64l	
+INFO [GET] method: 2021-05-19 17:43:15 ,ip: 51.158.118.231,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-19 17:43:18 ,ip: 51.158.118.231,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [HEAD] method: 2021-05-19 22:52:33 ,ip: 3.8.87.115,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip

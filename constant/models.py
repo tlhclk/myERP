@@ -122,6 +122,7 @@ class ChangePurposeLM(models.Model):
 class RepetitiveTypeLM(models.Model):
 	## fields
 	name = models.CharField(null=True,blank=True,max_length=50,verbose_name='Adı')
+	code = models.CharField(null=True,blank=True,max_length=50,verbose_name='Kodu')
 	desc = models.CharField(null=True,blank=True,max_length=500,verbose_name='Açıklaması')
 	## class
 	class Meta:

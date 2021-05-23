@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p1ow&mf$l-$2l6o@#-&8vt7^gd%pqqv^-#9^z(!$n=)87fpnd%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "*","talhacelik.herokuapp.com"]
+ALLOWED_HOSTS = ["talhacelik.com","myerp.talhacelik.com","127.0.0.1"]
 
 # Application definition
 
@@ -135,12 +135,21 @@ USE_L10N = True
 
 USE_TZ = True
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "myerp.talhacelik.com"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "admin@myerp.talhacelik.com"
+EMAIL_HOST_PASSWORD = "Hobula.5357"
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+EMAIL_USER_SSL = True
+EMAIL_USER_TLS = True
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'templates/bootstrap')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'templates/bootstrap'), ]
+STATIC_ROOT = os.path.join(BASE_DIR, '../static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

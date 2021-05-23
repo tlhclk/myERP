@@ -2,6 +2,7 @@
 ### import_part
 from financial.models import *
 from functions.model import AttrDict
+from functions.organizer import CodeGenerator
 
 
 ### models_part
@@ -54,7 +55,11 @@ class Repetitive(models.Model):
 	## def 3
 	def remote_attr_dict(self):
 		return AttrDict(self).get_remote_attr_dict()
-
+	## def 4
+	def generate_code(self):
+		cg = CodeGenerator(self)
+		self.code=cg.generate_repetitive_code()
+		
 class RepetitiveRecord(models.Model):
 	## fields
 	repetitive = models.ForeignKey(null=True,blank=True,on_delete=models.SET_NULL,to=Repetitive,verbose_name='Tekrarlı Olay')
@@ -78,3 +83,7 @@ class RepetitiveRecord(models.Model):
 	## def 3
 	def remote_attr_dict(self):
 		return AttrDict(self).get_remote_attr_dict()
+	## def 4
+	def generate_code(self):
+		cg = CodeGenerator(self)
+		self.desc=cg.generate_repetitive_record_code()

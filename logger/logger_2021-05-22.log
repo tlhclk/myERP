@@ -1,0 +1,21 @@
+INFO [GET] method: 2021-05-22 12:56:53 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 12:56:53 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 12:56:55 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 12:56:56 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 12:56:57 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:11 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:12 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:12 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:16 ,ip: 88.246.193.211,	path: /list/Account/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:17 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:24 ,ip: 88.246.193.211,	path: /detail/Account/19/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:05:25 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-22 13:09:30 ,ip: 52.38.28.176,	path: /home/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:09:30 ,ip: 52.38.28.176,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:18:18 ,ip: 54.201.21.146,	path: /list/Account/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:18:20 ,ip: 54.201.21.146,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:19:29 ,ip: 54.187.73.163,	path: /financial/get_report_data/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:19:29 ,ip: 54.187.73.163,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:20:05 ,ip: 18.236.249.65,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:22:25 ,ip: 52.38.218.21,	path: /detail/Account/19/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-22 13:22:25 ,ip: 52.38.218.21,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip

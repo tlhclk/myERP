@@ -1,0 +1,62 @@
+INFO [GET] method: 2021-05-16 08:22:42 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 08:22:44 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 08:22:44 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 10:25:29 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 10:25:30 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 10:25:30 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:44:07 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:44:08 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:51 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:51 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:52 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:53 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:54 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:54 ,ip: 88.246.193.211,	path: /,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:57 ,ip: 88.246.193.211,	path: /logout/,	user_id: 2,	sesion_id: s850jpnesbziegiqv9r9lodhnsdczm04	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:57 ,ip: 88.246.193.211,	path: /home/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:57 ,ip: 88.246.193.211,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:57 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:58 ,ip: 88.246.193.211,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:58 ,ip: 88.246.193.211,	path: /login/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:58 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:49:59 ,ip: 88.246.193.211,	path: /,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [POST] method: 2021-05-16 12:50:00 ,ip: 88.246.193.211,	path: /login/,	user_id: None,	sesion_id: None	 ://unauthorized_ip
+INFO [GET] method: 2021-05-16 12:50:07 ,ip: 88.246.193.211,	path: /login/,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [GET] method: 2021-05-16 12:50:08 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [GET] method: 2021-05-16 12:50:41 ,ip: 88.246.193.211,	path: /register_validation/,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [GET] method: 2021-05-16 12:50:41 ,ip: 88.246.193.211,	path: /login/,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [GET] method: 2021-05-16 12:50:42 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [POST] method: 2021-05-16 12:50:43 ,ip: 88.246.193.211,	path: /login/,	user_id: None,	sesion_id: 44r965za58o5ulr6jarcqrtjwhmttxps	
+INFO [GET] method: 2021-05-16 12:50:44 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 12:50:46 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 12:50:47 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 12:58:25 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 12:58:27 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 12:58:27 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:01:58 ,ip: 88.246.193.211,	path: /list/MyGroup/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:01:58 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:09:07 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:09:07 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:09:09 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:09:09 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:13:19 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:13:22 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:13:22 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:14:15 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:14:17 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:14:17 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:15:21 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:15:23 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:15:23 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:16:43 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:16:44 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 13:16:44 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 18:21:26 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 18:21:26 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 18:21:27 ,ip: 88.246.193.211,	path: /list/UserGroup/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 18:21:28 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 20:40:16 ,ip: 88.246.193.211,	path: /home/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 20:40:18 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 20:40:18 ,ip: 88.246.193.211,	path: /financial/get_report_data/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 20:45:40 ,ip: 88.246.193.211,	path: /calendarr/,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
+INFO [GET] method: 2021-05-16 20:45:41 ,ip: 88.246.193.211,	path: /favicon.ico,	user_id: 2,	sesion_id: xgh2ettshwg6kgzj5i0arkxqm6hlhkvs	
